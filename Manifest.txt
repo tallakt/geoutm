@@ -1,0 +1,11 @@
+History.txt
+LICENCE
+Manifest.txt
+PostInstall.txt
+README
+README.rdoc
+Rakefile
+lib/geoutm.rb
+script/console
+script/destroy
+script/generate
