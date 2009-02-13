@@ -4,17 +4,18 @@ require 'geoutm/latlon'
 
 module GeoUtm
   class UTM
-    attr_reader :n, :e, :zone, :zone_number, :zone_char
+    attr_reader :n, :e, :zone, :zone_number, :zone_letter
 
-    def initialize(n, e, zone)
-      throw RuntimeError.new 'Invalid zone: ' + zone unless valid_zone(zone)
-      @n, @e, @z = n, e, zone
-      tmp, @zone_char = @zone.match(/(\d+)([CDEFGHJKLMNPQRSTUVWX])/)[1..2]
-      @zone_number = tmp.to_i
+    def initialize(zone, e, n)
+      @n, @e, @zone = n, e, zone
+      @zone_number, @zone_letter = UTM::split_zone @zone
+    end
+
+    def to_s
+      '%s %d %d' % [zone, e, n]
     end
 
     def to_lat_lon(ellipsoid = Ellipsoid::lookup(:wgs84))
-      # todo: implement
       k0 = 0.9996
       x  = @e - 500000 # Remove Longitude offset
       y  = @n
@@ -26,17 +27,18 @@ module GeoUtm
       eccentricity = ellipsoid.eccentricity
       eccPrimeSquared = (eccentricity)/(1-eccentricity)
       m  = y/k0
-      mu = m/(ellipsoid.radius*(1-eccentricity/4-3*eccentricity*eccentricity/64-5*eccentricity*eccentricity*eccentricity/256))
+      mu = m/(ellipsoid.radius*(1-eccentricity/4-3*eccentricity*eccentricity/64-
+                                5*eccentricity*eccentricity*eccentricity/256))
 
       e1 = (1-Math::sqrt(1-eccentricity))/(1+Math::sqrt(1-eccentricity))
       phi1rad = mu +
         (3*e1/2-27*e1*e1*e1/32)*Math::sin(2*mu) +
         (21*e1*e1/16-55*e1*e1*e1*e1/32)*Math::sin(4*mu) +
-        (151*e1*e1*e1/96)*sin(6*mu)
+        (151*e1*e1*e1/96)*Math::sin(6*mu)
       phi1 = phi1rad * Rad2Deg
       n1 = ellipsoid.radius/Math::sqrt(1-eccentricity*Math::sin(phi1rad)*Math::sin(phi1rad))
       t1 = Math::tan(phi1rad)*Math::tan(phi1rad)
-      c1 = eccentricity*Math::cos($phi1rad)*Math::cos($phi1rad)
+      c1 = eccentricity*Math::cos(phi1rad)*Math::cos(phi1rad)
       r1 = ellipsoid.radius * (1-eccentricity) / ((1-eccentricity*Math::sin(phi1rad)*Math::sin(phi1rad))**1.5)
       d = x/(n1*k0)
 
@@ -52,14 +54,21 @@ module GeoUtm
       LatLon.new latitude, longitude
     end
 
+    def UTM.split_zone(zone_in)      
+      m = zone_in.match /^(\d+)([CDEFGHJKLMNPQRSTUVWX])$/
+      throw RuntimeException.new('Illegal zone: ' + zone_in) unless m
+      return m[1].to_i, m[2]
+    end
+
+    def UTM.validate_zone(zone_in)
+      UTM::split_zone zone_in # throw exception
+      true
+    end
+
     private
 
     def northern_hemisphere?
-      @zone_str.match /[NPQRSTUVWX]/
-    end
-
-    def valid_zone(zone)
-      "CDEFGHJKLMNPQRSTUVWX".member? zone
+      @zone_letter.match /[NPQRSTUVWX]/
     end
   end
 end

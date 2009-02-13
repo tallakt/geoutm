@@ -4,31 +4,35 @@ require 'yaml'
 
 module GeoUtm
   # http://rspec.info/
-  describe "UTM to Lat/lon conversion library - test samples" do
+  describe GeoUtm do
     before :each do
       @testdata = nil
       File.open(File.join(File.dirname(__FILE__), 'testdata.yaml')) {|f| @testdata = YAML::load f }
     end
     
-    it "Should return an ellipsoid for every test sample" do
+    it "should return an ellipsoid for every test sample" do
       @testdata.each do |sample|
-        Ellipsoid::lookup(sample[:ellipsoid]).should be_a_kind_of Ellipsoid
+        Ellipsoid::lookup(sample[:ellipsoid]).should be_a_kind_of(Ellipsoid)
       end
     end
     
-    it "Should convert all test samples correctly from lat/lon to UTM" do
+    it "should convert from lat/lon to UTM" do
       @testdata.each do |sample|
-        lat, lon, n, e = sample.values_at([:latitude, :longitude, :northing, :easting]).map {|n| n.to_f}
         latlon = LatLon.new sample[:latitude].to_f, sample[:longitude].to_f
         utm = latlon.to_utm Ellipsoid::lookup(sample[:ellipsoid])
-        utm.n.should be_close(sample[:northing].to_f, 0.1)
-        utm.e.should be_close(sample[:easting].to_f, 0.1)
-        utm.zone.should be sample[:zone]
+        utm.n.should be_close(sample[:northing].to_f, 0.01)
+        utm.e.should be_close(sample[:easting].to_f, 0.01)
+        utm.zone.should == sample[:zone]
       end
     end
 
-    it "Should convert all test samples correctly from UTM to lat/lon" do
-      violated 'Not written'
+    it "should convert from UTM to lat/lon" do
+      @testdata.each do |sample|
+        utm = UTM.new sample[:zone], sample[:easting].to_f, sample[:northing].to_f
+        latlon = utm.to_lat_lon Ellipsoid::lookup(sample[:ellipsoid])
+        latlon.lat.should be_close(sample[:latitude].to_f, 0.01)
+        latlon.lon.should be_close(sample[:longitude].to_f, 0.01)
+      end
     end
   end
 end

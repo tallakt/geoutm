@@ -7,41 +7,31 @@ module GeoUtm
     attr_reader :lat, :lon
 
     def initialize(lat, lon)
-      throw RuntimeException.new "Invalid longitude #{lon}" if (lon < -180.0 || lon > 180.0)
+      throw RuntimeException.new("Invalid longitude #{lon}") unless (-180.0...180.0).member? lon
       @lat, @lon = lat, lon
     end
     
-    def to_utm(ellipsoid = Ellipsoid::lookup(:wgs84))
-      long2 = @lon - ((@lon + 180)/360).to_i * 360;
-      zone = ((long2 + 180)/6).to_i + 1;
+    def to_s
+      north_south = if @lat >= 0.0 then 'N' else 'S' end
+      east_west = if @lon >= 0.0 then 'E' else 'W' end
+      '%0.6f%s %0.6f%s' % [@lat, north_south, @lon, east_west]
+    end
 
+    def to_utm(ellipsoid = Ellipsoid::lookup(:wgs84), zone = nil)
       lat_radian = Deg2Rad * @lat
       long_radian = Deg2Rad * long2
 
       k0 = 0.9996 # scale
 
-      if (56.0..64.0).member?(@lat) && (3.0..12.0).member?(long2)
-        zone = 32
-      end
-
-      if (72.0..84.0).member? @lat
-        zone = 
-          case long2
-             when 0.0..9.0
-               31
-             when 9.0..21.0
-               33
-             when 21.0..33.0
-               35
-             when 33.0..42.0
-               37
-             else
-               zone
-           end
+      if zone
+        zn, zl = UTM::split_zone zone
+      else
+        zn = calc_utm_zone_number
+        zl = calc_utm_zone_letter
       end
 
       eccentricity = ellipsoid.eccentricity
-      longorigin = (zone - 1) * 6 - 180 + 3
+      longorigin = (zn - 1) * 6 - 180 + 3
       longoriginradian = Deg2Rad * longorigin
       eccentprime = ellipsoid.eccentricity/(1.0-eccentricity)
 
@@ -65,12 +55,12 @@ module GeoUtm
                                    (61-58*t+t*t+600*c-330*eccentprime) * a*a*a*a*a*a/720))
       utm_northing += 10000000.0 if @lat < 0
  
-      UTM.new utm_northing, utm_easting, calc_utm_zone
+      UTM.new '%d%s' % [zn, zl], utm_easting, utm_northing
     end
 
     private 
 
-    def calc_utm_zone
+    def calc_utm_zone_letter
       case @lat
         when 72.0..84.0
           'X'
@@ -113,8 +103,33 @@ module GeoUtm
         when -80.0..-72.0
           'C'
         else
-          throw RuntimeException.new "Latitude #{@lat} out of UTM range"
+          throw RuntimeException.new("Latitude #{@lat} out of UTM range")
         end
+    end
+
+    def long2
+      @lon - ((@lon + 180)/360).to_i * 360
+    end
+
+    def calc_utm_zone_number
+      zone = ((long2 + 180)/6).to_i + 1;
+      if (56.0..64.0).member?(@lat) && (3.0..12.0).member?(long2)
+        zone = 32
+      end
+
+      if (72.0..84.0).member? @lat
+        case long2
+           when 0.0..9.0
+             zone = 31
+           when 9.0..21.0
+             zone = 33
+           when 21.0..33.0
+             zone = 35
+           when 33.0..42.0
+             zone = 37
+         end
+      end
+      zone
     end
   end
 end

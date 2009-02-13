@@ -8,7 +8,7 @@ module GeoUtm
     end
 
     def Ellipsoid.lookup(name)
-      List[normalize_name name.to_s]
+      List[normalize_name(name.to_s)]
     end
 
     def Ellipsoid.list_names
@@ -64,7 +64,7 @@ module GeoUtm
       ]
       data.each do |item|
         el = Ellipsoid.new *item
-        result[normalize_name el.name] = el
+        result[normalize_name(el.name)] = el
       end
       result
     end
