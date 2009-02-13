@@ -1,8 +1,20 @@
 =NAME
 
-geoutm
+GeoUtm
 
 =SYNOPSIS
+
+  require 'geoutm'
+
+  coordinate = LatLon.new 100.0 100.0
+  utm_coord = coordinate.to_utm
+  reverse = utm_coord.to_lat_lon
+
+=INSTALL
+
+  sudo gem sources -a http://gems.github.com
+  sudo gem install tallakt-geoutm
+
 
 =DESCRIPTION
 
@@ -52,47 +64,54 @@ The Ellipsoids available are as follows:
 1. Airy
 2. Australian National
 3. Bessel 1841
-4. Bessel 1841 (Nambia)
+4. Bessel 1841 Nambia
 5. Clarke 1866
 6. Clarke 1880
-7. Everest
-8. Fischer 1960 (Mercury)
-9. Fischer 1968
-10. GRS 1967
-11. GRS 1980
-12. Helmert 1906
-13. Hough
-14. International
-15. Krassovsky
-16. Modified Airy
-17. Modified Everest
-18. Modified Fischer 1960
-19. South American 1969
-20. WGS 60
-21. WGS 66
-22. WGS-72
-23. WGS-84
-
-
+7. Everest 1830 India
+8. Everest 1830 Malaysia
+9. Everest 1956 India
+10. Everest 1964 Malaysia and Singapore
+11. Everest 1969 Malaysia
+12. Everest Pakistan
+13. Fischer 1960 Mercury
+14. Fischer 1968
+15. GRS 1967
+16. GRS 1980
+17. Helmert 1906
+18. Hough
+19. Indonesian 1974
+20. International
+21. Krassovsky
+22. Modified Airy
+23. Modified Everest
+24. Modified Fischer 1960
+25. South American 1969
+26. WGS 60
+27. WGS 66
+28. WGS-72
+29. WGS-84
 
 
 == ellipsoid_names
 
-The ellipsoids can be accessed using  ellipsoid_names. To store thes into an array you could use 
+The ellipsoids can be accessed using
 
-     my @names = ellipsoid_names;
+     GeoUtm::Ellipsoid::list_names
 
-== ellipsoid_info
+Alternatively
 
-Ellipsoids may be called either by name, or number. To return the ellipsoid information, ( "official" name, equator radius and square eccentricity) you can use ellipsoid_info and specify a name. The specified name can be numeric (for compatibility reasons) or a more-or-less exact name. Any text between parentheses will be ignored.
+  GeouUtm::Ellipsoid::each {|ellipsoid| ... }
 
-     my($name, $r, $sqecc) = ellipsoid_info 'wgs84';
-     my($name, $r, $sqecc) = ellipsoid_info 'WGS 84';
-     my($name, $r, $sqecc) = ellipsoid_info 'WGS-84';
-     my($name, $r, $sqecc) = ellipsoid_info 'WGS-84 (new specs)';
-     my($name, $r, $sqecc) = ellipsoid_info 23;
+When converting to and from UTM coordinates, the ellipsoid
+is specified as a parameter which defaults to WGS-84. To use another
+ellipsoid, use
 
-== latlon_to_utm
+  coord.to_utm Ellipsoid::lookup :wgs60
+
+The name is not case sensitive and symbols are allowed. Spaces and - 
+are ignored.
+
+== Latitude / longitude to UTM conversion
 
 Latitude values in the southern hemisphere should be supplied as negative values (e.g. 30 deg South will be -30). Similarly Longitude values West of the meridian should also be supplied as negative values. Both latitude and longitude should not be entered as deg,min,sec but as their decimal equivalent, e.g. 30 deg 12 min 22.432 sec should be entered as 30.2062311
 
@@ -103,47 +122,20 @@ For latitude  57deg 49min 59.000sec North
 
 using Clarke 1866 (Ellipsoid 5)
 
-     ($zone,$east,$north)=latlon_to_utm('clarke 1866',57.803055556,-2.788951667)
+  utm = LatLon.new(57.803055556, -2.788951667).to_utm(Ellipsoid::lookup('clarke 1866'))
 
 returns 
 
-     $zone  = 30V
-     $east  = 512533.364651484
-     $north = 6409932.13416127
+     utm.zone  = 30V
+     utm.e     = 512533.364651484
+     utm.n     = 6409932.13416127
 
-== utm_to_latlon
-
-Reversing the above example,
-
-     ($latitude,$longitude)=utm_to_latlon(5,30V,512533.364651484,6409932.13416127)
-
-returns
-
-     $latitude  = 57.8330555601433
-     $longitude = -2.788951666974
-
-     which equates to
-
-     latitude  57deg 49min 59.000sec North
-     longitude 02deg 47min 20.226sec West
 
 == AUTHOR
 
 Graham Crookham, grahamc@cpan.org
 
 Ruby port by Tallak Tveide 2009
-
-== THANKS
-
-Thanks go to the following:
-
-Felipe Mendonca Pimenta for helping out with the Southern hemisphere testing.
-
-Michael Slater for discovering the Escape \Q bug.
-
-Mark Overmeer for the ellipsoid_info routines and code review.
-
-Lok Yan for the >72deg. N bug.
 
 == COPYRIGHT
 
