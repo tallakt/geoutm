@@ -1,0 +1,5995 @@
+--- 
+- :zone: 60J
+  :latitude: "-25.9668774017417"
+  :easting: "484713.786930711"
+  :northing: "7128217.21692427"
+  :longitude: "176.847283481794"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 27E
+  :latitude: "-62.6643472980663"
+  :easting: "646897.012158895"
+  :northing: "3049077.01849759"
+  :longitude: "-18.1318011641218"
+  :ellipsoid: Airy
+- :zone: 9S
+  :latitude: "35.6355896701843"
+  :easting: "519972.615374218"
+  :northing: "3943564.81408124"
+  :longitude: "-128.779407270838"
+  :ellipsoid: Fischer 1968
+- :zone: 21K
+  :latitude: "-23.7249091815666"
+  :easting: "324128.165780259"
+  :northing: "7375382.16974803"
+  :longitude: "-58.725260492694"
+  :ellipsoid: Clarke 1880
+- :zone: 37S
+  :latitude: "32.1214082107167"
+  :easting: "539054.300206758"
+  :northing: "3553697.31179058"
+  :longitude: "39.4139996279968"
+  :ellipsoid: Clarke 1880
+- :zone: 3C
+  :latitude: "-77.8630147119741"
+  :easting: "437290.67927147"
+  :northing: "1356475.5866066"
+  :longitude: "-167.673126297052"
+  :ellipsoid: Everest 1830 India
+- :zone: 58Q
+  :latitude: "18.3773457007429"
+  :easting: "629566.39702383"
+  :northing: "2032235.17088274"
+  :longitude: "166.226582243424"
+  :ellipsoid: Airy
+- :zone: 3V
+  :latitude: "56.0384628238617"
+  :easting: "666204.74513802"
+  :northing: "6213592.60573265"
+  :longitude: "-162.332085699794"
+  :ellipsoid: Australian National
+- :zone: 45X
+  :latitude: "73.8433062387819"
+  :easting: "422233.129750653"
+  :northing: "8196218.48575924"
+  :longitude: "84.4955735592175"
+  :ellipsoid: GRS 1967
+- :zone: 37T
+  :latitude: "45.3359588450991"
+  :easting: "581477.812337138"
+  :northing: "5020289.06897684"
+  :longitude: "40.0400031298722"
+  :ellipsoid: Bessel 1841
+- :zone: 14V
+  :latitude: "59.9201815839611"
+  :easting: "484189.728077767"
+  :northing: "6642625.01984108"
+  :longitude: "-99.2827685844408"
+  :ellipsoid: Helmert 1906
+- :zone: 45L
+  :latitude: "-14.7469801908782"
+  :easting: "374882.74629932"
+  :northing: "8369470.82995574"
+  :longitude: "85.8375051526079"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 41X
+  :latitude: "76.7872465101191"
+  :easting: "553057.061015891"
+  :northing: "8523979.51532624"
+  :longitude: "65.0798587586657"
+  :ellipsoid: WGS 66
+- :zone: 55C
+  :latitude: "-77.955182771371"
+  :easting: "435521.950639508"
+  :northing: "1345300.73476931"
+  :longitude: "144.231341269374"
+  :ellipsoid: Clarke 1880
+- :zone: 44G
+  :latitude: "-46.0648299617229"
+  :easting: "383370.850926947"
+  :northing: "4897630.12315441"
+  :longitude: "79.4920266271394"
+  :ellipsoid: Fischer 1968
+- :zone: 8J
+  :latitude: "-29.748187686171"
+  :easting: "460765.866906721"
+  :northing: "6709275.23812834"
+  :longitude: "-135.405807319046"
+  :ellipsoid: Airy
+- :zone: 35N
+  :latitude: "7.02664660839798"
+  :easting: "298528.58347161"
+  :northing: "777035.572913441"
+  :longitude: "25.1759536336006"
+  :ellipsoid: Airy
+- :zone: 4K
+  :latitude: "-23.328081037079"
+  :easting: "611282.26616725"
+  :northing: "7419742.38608919"
+  :longitude: "-157.911520393938"
+  :ellipsoid: GRS 1980
+- :zone: 57P
+  :latitude: "11.2850029025532"
+  :easting: "622616.284394897"
+  :northing: "1247750.19696123"
+  :longitude: "160.123416303008"
+  :ellipsoid: Krassovsky
+- :zone: 20V
+  :latitude: "63.3429435572545"
+  :easting: "371108.78887873"
+  :northing: "7026412.7414732"
+  :longitude: "-65.5753780930164"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 18Q
+  :latitude: "18.8829467124758"
+  :easting: "748345.681250186"
+  :northing: "2089517.14788254"
+  :longitude: "-72.6426446845981"
+  :ellipsoid: Hough
+- :zone: 55H
+  :latitude: "-33.5599610482547"
+  :easting: "709740.807412104"
+  :northing: "6284663.16960231"
+  :longitude: "149.259628455931"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 43G
+  :latitude: "-42.9864757600699"
+  :easting: "360599.261179762"
+  :northing: "5239255.45090894"
+  :longitude: "73.2901330922691"
+  :ellipsoid: Fischer 1968
+- :zone: 44Q
+  :latitude: "19.5586150524789"
+  :easting: "257192.91521481"
+  :northing: "2164288.44689143"
+  :longitude: "78.6857081619374"
+  :ellipsoid: GRS 1967
+- :zone: 2L
+  :latitude: "-15.038207087342"
+  :easting: "646923.005840822"
+  :northing: "8336993.38390601"
+  :longitude: "-169.633239244409"
+  :ellipsoid: WGS-84
+- :zone: 5U
+  :latitude: "52.870630356142"
+  :easting: "654367.360576001"
+  :northing: "5860466.52005626"
+  :longitude: "-150.706593044311"
+  :ellipsoid: International
+- :zone: 27T
+  :latitude: "43.8281075242737"
+  :easting: "513051.867864041"
+  :northing: "4852811.12725856"
+  :longitude: "-20.83767446837"
+  :ellipsoid: South American 1969
+- :zone: 6J
+  :latitude: "-28.5721039983461"
+  :easting: "529707.632536775"
+  :northing: "6839556.76681453"
+  :longitude: "-146.696242503652"
+  :ellipsoid: Clarke 1866
+- :zone: 9D
+  :latitude: "-66.5351466743693"
+  :easting: "406672.67060956"
+  :northing: "2618850.77469032"
+  :longitude: "-131.100699832755"
+  :ellipsoid: Fischer 1968
+- :zone: 23L
+  :latitude: "-10.2204937285656"
+  :easting: "600591.91301086"
+  :northing: "8870073.83572614"
+  :longitude: "-44.0815836680508"
+  :ellipsoid: Hough
+- :zone: 21N
+  :latitude: "0.898212672075346"
+  :easting: "348173.89644761"
+  :northing: "99297.8933194118"
+  :longitude: "-58.3646301216307"
+  :ellipsoid: Modified Airy
+- :zone: 11P
+  :latitude: "12.8121044499734"
+  :easting: "487496.968220537"
+  :northing: "1416233.08300573"
+  :longitude: "-117.115209168146"
+  :ellipsoid: Clarke 1880
+- :zone: 27J
+  :latitude: "-28.3158449838178"
+  :easting: "485979.391986859"
+  :northing: "6867801.56555617"
+  :longitude: "-21.1430172657167"
+  :ellipsoid: WGS-72
+- :zone: 49C
+  :latitude: "-79.6912736020321"
+  :easting: "536566.508624811"
+  :northing: "1153141.93576399"
+  :longitude: "112.830861585599"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 37C
+  :latitude: "-78.8665004247374"
+  :easting: "520846.260662007"
+  :northing: "1244711.5272432"
+  :longitude: "39.967100365045"
+  :ellipsoid: WGS 60
+- :zone: 53X
+  :latitude: "74.9153423507582"
+  :easting: "501836.223148577"
+  :northing: "8314007.12896517"
+  :longitude: "135.063206941098"
+  :ellipsoid: Clarke 1866
+- :zone: 17T
+  :latitude: "41.5891103734802"
+  :easting: "447147.34666104"
+  :northing: "4604351.4001664"
+  :longitude: "-81.6341167095867"
+  :ellipsoid: WGS-84
+- :zone: 27R
+  :latitude: "25.4822842637392"
+  :easting: "374459.310920946"
+  :northing: "2818951.29091641"
+  :longitude: "-22.2489427610583"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 30D
+  :latitude: "-66.5839792744398"
+  :easting: "387791.471253292"
+  :northing: "2612712.21918927"
+  :longitude: "-5.53083678652641"
+  :ellipsoid: WGS 66
+- :zone: 24G
+  :latitude: "-44.8707187405112"
+  :easting: "334705.685616504"
+  :northing: "5029282.28503198"
+  :longitude: "-41.0925340273647"
+  :ellipsoid: WGS-72
+- :zone: 22J
+  :latitude: "-24.7353470675559"
+  :easting: "314039.036011629"
+  :northing: "7263093.13430589"
+  :longitude: "-52.8387111449346"
+  :ellipsoid: WGS 60
+- :zone: 7J
+  :latitude: "-26.8339414009232"
+  :easting: "401276.788144163"
+  :northing: "7031861.41595582"
+  :longitude: "-141.993673622831"
+  :ellipsoid: Bessel 1841
+- :zone: 23Q
+  :latitude: "17.9170061216219"
+  :easting: "382947.346574745"
+  :northing: "1981350.77504379"
+  :longitude: "-46.1051315533236"
+  :ellipsoid: GRS 1980
+- :zone: 44D
+  :latitude: "-69.910030919324"
+  :easting: "487052.492719956"
+  :northing: "2244096.69079924"
+  :longitude: "80.6622601498745"
+  :ellipsoid: Australian National
+- :zone: 5W
+  :latitude: "64.2107184266502"
+  :easting: "630628.557760497"
+  :northing: "7122705.87567602"
+  :longitude: "-150.308156994563"
+  :ellipsoid: Airy
+- :zone: 57X
+  :latitude: "81.0005265211464"
+  :easting: "449553.59199732"
+  :northing: "8993659.42672691"
+  :longitude: "156.109807830971"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 3G
+  :latitude: "-44.0402069211306"
+  :easting: "510628.725995342"
+  :northing: "5124106.23691839"
+  :longitude: "-164.867320105091"
+  :ellipsoid: Everest 1830 India
+- :zone: 35F
+  :latitude: "-54.5230601118632"
+  :easting: "536252.302400058"
+  :northing: "3958128.61163491"
+  :longitude: "27.5600989664397"
+  :ellipsoid: WGS 66
+- :zone: 46J
+  :latitude: "-24.4602191417681"
+  :easting: "318983.753466054"
+  :northing: "7293914.86908363"
+  :longitude: "91.2138615618262"
+  :ellipsoid: Bessel 1841
+- :zone: 29S
+  :latitude: "33.0259050093003"
+  :easting: "412956.344341581"
+  :northing: "3654564.255788"
+  :longitude: "-9.93203850642828"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 35M
+  :latitude: "-5.70111443119308"
+  :easting: "340648.901716452"
+  :northing: "9369633.73439646"
+  :longitude: "25.5610353055634"
+  :ellipsoid: Australian National
+- :zone: 58M
+  :latitude: "-3.50452292344862"
+  :easting: "781044.108772687"
+  :northing: "9612292.48902955"
+  :longitude: "167.529810174952"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 38E
+  :latitude: "-57.9061206776167"
+  :easting: "654550.967210381"
+  :northing: "3579384.87397302"
+  :longitude: "47.6086324677171"
+  :ellipsoid: Modified Everest
+- :zone: 38U
+  :latitude: "48.5641594911566"
+  :easting: "642023.973557101"
+  :northing: "5380810.85322907"
+  :longitude: "46.9250439431983"
+  :ellipsoid: Fischer 1968
+- :zone: 19P
+  :latitude: "11.8857960495429"
+  :easting: "432065.387622261"
+  :northing: "1314001.40617086"
+  :longitude: "-69.6237873633386"
+  :ellipsoid: GRS 1980
+- :zone: 28S
+  :latitude: "32.0382237301017"
+  :easting: "229821.22416974"
+  :northing: "3547882.97401606"
+  :longitude: "-17.8614173779133"
+  :ellipsoid: Modified Airy
+- :zone: 21T
+  :latitude: "45.4416429793514"
+  :easting: "316277.376858519"
+  :northing: "5034750.87757134"
+  :longitude: "-59.3491564433593"
+  :ellipsoid: Helmert 1906
+- :zone: 50R
+  :latitude: "27.7536629637847"
+  :easting: "788459.379020248"
+  :northing: "3073346.45219109"
+  :longitude: "119.926453251009"
+  :ellipsoid: WGS-72
+- :zone: 45F
+  :latitude: "-55.787428837664"
+  :easting: "526660.597095824"
+  :northing: "3817475.35726579"
+  :longitude: "87.425142939811"
+  :ellipsoid: GRS 1967
+- :zone: 13V
+  :latitude: "60.1716718625519"
+  :easting: "662339.584484367"
+  :northing: "6674125.86173384"
+  :longitude: "-102.07370998013"
+  :ellipsoid: WGS-72
+- :zone: 19U
+  :latitude: "55.417832675197"
+  :easting: "348265.063742001"
+  :northing: "6143350.46036408"
+  :longitude: "-71.3975083853801"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 22P
+  :latitude: "15.3056746944921"
+  :easting: "431888.308485876"
+  :northing: "1692243.97784434"
+  :longitude: "-51.6344494052987"
+  :ellipsoid: WGS 60
+- :zone: 8X
+  :latitude: "74.5035749101927"
+  :easting: "566754.922433039"
+  :northing: "8268697.04301107"
+  :longitude: "-132.760897779056"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 50P
+  :latitude: "8.34811284230717"
+  :easting: "439370.695202269"
+  :northing: "922835.199162216"
+  :longitude: "116.449373561545"
+  :ellipsoid: International
+- :zone: 21D
+  :latitude: "-71.0460379758696"
+  :easting: "411056.160432079"
+  :northing: "2115666.73559241"
+  :longitude: "-59.4540977299395"
+  :ellipsoid: WGS-84
+- :zone: 47J
+  :latitude: "-30.0147970685507"
+  :easting: "741735.132957834"
+  :northing: "6676942.3119651"
+  :longitude: "101.506294569531"
+  :ellipsoid: Hough
+- :zone: 46N
+  :latitude: "3.01754275388058"
+  :easting: "541868.939529967"
+  :northing: "333539.481681074"
+  :longitude: "93.3767818058026"
+  :ellipsoid: GRS 1980
+- :zone: 12S
+  :latitude: "32.6786136157925"
+  :easting: "405772.331172202"
+  :northing: "3616124.00750729"
+  :longitude: "-112.005036610064"
+  :ellipsoid: WGS 60
+- :zone: 46F
+  :latitude: "-52.1477679701243"
+  :easting: "340515.02674961"
+  :northing: "4219957.55407511"
+  :longitude: "90.6690202722451"
+  :ellipsoid: WGS 66
+- :zone: 9L
+  :latitude: "-8.50731004424314"
+  :easting: "269675.711564331"
+  :northing: "9058994.17064866"
+  :longitude: "-131.092290608796"
+  :ellipsoid: WGS 66
+- :zone: 40F
+  :latitude: "-52.5100287918179"
+  :easting: "416945.796319106"
+  :northing: "4182074.45877259"
+  :longitude: "55.776026532083"
+  :ellipsoid: Modified Everest
+- :zone: 3N
+  :latitude: "2.35421603292527"
+  :easting: "314032.55165339"
+  :northing: "260329.243641693"
+  :longitude: "-166.672378192892"
+  :ellipsoid: Krassovsky
+- :zone: 51N
+  :latitude: "6.12240529128917"
+  :easting: "197644.936494717"
+  :northing: "677460.011121505"
+  :longitude: "120.268101155136"
+  :ellipsoid: Airy
+- :zone: 54H
+  :latitude: "-36.6197210264493"
+  :easting: "598520.568544018"
+  :northing: "5946746.77361204"
+  :longitude: "142.101788019074"
+  :ellipsoid: WGS-84
+- :zone: 58M
+  :latitude: "-0.432086253200822"
+  :easting: "626550.17977436"
+  :northing: "9952231.95321937"
+  :longitude: "166.137230041298"
+  :ellipsoid: WGS 66
+- :zone: 49U
+  :latitude: "48.0700584095067"
+  :easting: "454521.485817479"
+  :northing: "5324371.30721701"
+  :longitude: "110.389532276226"
+  :ellipsoid: International
+- :zone: 24H
+  :latitude: "-33.4090477416402"
+  :easting: "467877.817501539"
+  :northing: "6303311.17152226"
+  :longitude: "-39.3454643750168"
+  :ellipsoid: WGS-84
+- :zone: 9W
+  :latitude: "70.9826595293591"
+  :easting: "394742.944428888"
+  :northing: "7877986.93165589"
+  :longitude: "-131.895156906671"
+  :ellipsoid: WGS 66
+- :zone: 29P
+  :latitude: "15.5550588780301"
+  :easting: "242344.279022172"
+  :northing: "1721174.52964556"
+  :longitude: "-11.4023259491394"
+  :ellipsoid: Australian National
+- :zone: 32V
+  :latitude: "58.8522081830389"
+  :easting: "564252.730916659"
+  :northing: "6524279.99360641"
+  :longitude: "10.1135752098733"
+  :ellipsoid: International
+- :zone: 48W
+  :latitude: "68.5749166287382"
+  :easting: "507579.568049395"
+  :northing: "7606164.50430552"
+  :longitude: "105.185954758293"
+  :ellipsoid: Bessel 1841
+- :zone: 59P
+  :latitude: "10.7456100701673"
+  :easting: "719731.21301151"
+  :northing: "1188472.20156892"
+  :longitude: "173.009499976332"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 44C
+  :latitude: "-73.2030861148231"
+  :easting: "497086.729780324"
+  :northing: "1876836.77661911"
+  :longitude: "80.9096812505457"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 21P
+  :latitude: "14.3338908807793"
+  :easting: "400353.97399461"
+  :northing: "1584857.89768469"
+  :longitude: "-57.924038236296"
+  :ellipsoid: South American 1969
+- :zone: 60N
+  :latitude: "0.173063552093197"
+  :easting: "238896.084654498"
+  :northing: "19144.9772340554"
+  :longitude: "174.654184750992"
+  :ellipsoid: WGS 60
+- :zone: 6V
+  :latitude: "61.5258317535112"
+  :easting: "413382.786255001"
+  :northing: "6822439.4668495"
+  :longitude: "-148.628585384002"
+  :ellipsoid: WGS-72
+- :zone: 27V
+  :latitude: "58.8088516856014"
+  :easting: "640713.868051983"
+  :northing: "6521356.64366606"
+  :longitude: "-18.5639931125748"
+  :ellipsoid: Hough
+- :zone: 56C
+  :latitude: "-72.8367776282282"
+  :easting: "545594.402894699"
+  :northing: "1917173.2722071"
+  :longitude: "154.38437786016"
+  :ellipsoid: GRS 1967
+- :zone: 30H
+  :latitude: "-32.3399134101337"
+  :easting: "240808.716533218"
+  :northing: "6418489.38898975"
+  :longitude: "-5.75376797980923"
+  :ellipsoid: Krassovsky
+- :zone: 15H
+  :latitude: "-33.7935346775831"
+  :easting: "764547.93250672"
+  :northing: "6257051.72192377"
+  :longitude: "-90.1426680918991"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 33R
+  :latitude: "30.3110423004335"
+  :easting: "651740.167029391"
+  :northing: "3354366.59423781"
+  :longitude: "16.5781096795273"
+  :ellipsoid: Krassovsky
+- :zone: 49T
+  :latitude: "47.2977172681515"
+  :easting: "716750.76632314"
+  :northing: "5241853.62752025"
+  :longitude: "113.86735995409"
+  :ellipsoid: Airy
+- :zone: 8S
+  :latitude: "37.8845511113926"
+  :easting: "488259.813017341"
+  :northing: "4192639.24977099"
+  :longitude: "-135.133529573281"
+  :ellipsoid: Everest 1830 India
+- :zone: 55S
+  :latitude: "38.1792716151171"
+  :easting: "357247.309392793"
+  :northing: "4227031.33905273"
+  :longitude: "145.370215224618"
+  :ellipsoid: International
+- :zone: 9J
+  :latitude: "-25.4762717068519"
+  :easting: "744958.173012669"
+  :northing: "7180064.22592105"
+  :longitude: "-126.563494069095"
+  :ellipsoid: Fischer 1968
+- :zone: 58C
+  :latitude: "-79.5365248748027"
+  :easting: "526847.415913854"
+  :northing: "1169807.88427186"
+  :longitude: "166.324319120481"
+  :ellipsoid: South American 1969
+- :zone: 28C
+  :latitude: "-78.4110632561182"
+  :easting: "500241.311608922"
+  :northing: "1295500.987858"
+  :longitude: "-14.989240240315"
+  :ellipsoid: International
+- :zone: 6D
+  :latitude: "-68.1951952117815"
+  :easting: "394272.096152166"
+  :northing: "2433160.52905247"
+  :longitude: "-149.551187703291"
+  :ellipsoid: GRS 1967
+- :zone: 40F
+  :latitude: "-51.4537410204381"
+  :easting: "421624.660166934"
+  :northing: "4299092.29734687"
+  :longitude: "55.8720091094686"
+  :ellipsoid: GRS 1967
+- :zone: 59V
+  :latitude: "63.6032565144119"
+  :easting: "423695.90923465"
+  :northing: "7053765.46831524"
+  :longitude: "169.461688394098"
+  :ellipsoid: Hough
+- :zone: 50U
+  :latitude: "48.1242033834005"
+  :easting: "387151.395738734"
+  :northing: "5331235.78001154"
+  :longitude: "115.483535903583"
+  :ellipsoid: Australian National
+- :zone: 18X
+  :latitude: "76.8564843583623"
+  :easting: "426772.850216472"
+  :northing: "8532641.63221763"
+  :longitude: "-77.8858858063325"
+  :ellipsoid: Helmert 1906
+- :zone: 34C
+  :latitude: "-73.1413850157385"
+  :easting: "520130.588120968"
+  :northing: "1884577.3296713"
+  :longitude: "21.6219781938462"
+  :ellipsoid: Modified Airy
+- :zone: 13P
+  :latitude: "10.8443718593394"
+  :easting: "330856.145329966"
+  :northing: "1199121.84577201"
+  :longitude: "-106.547472578294"
+  :ellipsoid: Airy
+- :zone: 37U
+  :latitude: "53.8678378667685"
+  :easting: "403942.856525831"
+  :northing: "5969826.99179774"
+  :longitude: "37.5391657940209"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 29C
+  :latitude: "-72.7737535405884"
+  :easting: "552533.249632339"
+  :northing: "1924931.2973827"
+  :longitude: "-7.41034977684023"
+  :ellipsoid: Bessel 1841
+- :zone: 52X
+  :latitude: "72.7221765690611"
+  :easting: "443034.475691343"
+  :northing: "8070443.9635078"
+  :longitude: "127.281429296735"
+  :ellipsoid: Krassovsky
+- :zone: 20V
+  :latitude: "59.0836358798848"
+  :easting: "626819.698008205"
+  :northing: "6551474.17215566"
+  :longitude: "-60.7869841003324"
+  :ellipsoid: WGS 66
+- :zone: 39U
+  :latitude: "50.3319354501851"
+  :easting: "473398.31678153"
+  :northing: "5575702.66835709"
+  :longitude: "50.6262418599614"
+  :ellipsoid: Krassovsky
+- :zone: 33D
+  :latitude: "-67.0761049801843"
+  :easting: "615915.210570116"
+  :northing: "2557596.82151162"
+  :longitude: "17.6673796933028"
+  :ellipsoid: Hough
+- :zone: 17T
+  :latitude: "44.6070598377999"
+  :easting: "655907.465248995"
+  :northing: "4941178.68965883"
+  :longitude: "-79.0353060704053"
+  :ellipsoid: Hough
+- :zone: 30V
+  :latitude: "56.9743083375776"
+  :easting: "622362.141454348"
+  :northing: "6316335.89134893"
+  :longitude: "-0.986959536978418"
+  :ellipsoid: WGS 66
+- :zone: 25U
+  :latitude: "54.8376254894191"
+  :easting: "664413.814250686"
+  :northing: "6079726.64178547"
+  :longitude: "-30.4398113516179"
+  :ellipsoid: WGS-84
+- :zone: 15N
+  :latitude: "7.80734863804564"
+  :easting: "308385.662043342"
+  :northing: "863327.07384326"
+  :longitude: "-94.7379708763827"
+  :ellipsoid: Everest 1830 India
+- :zone: 46T
+  :latitude: "42.1388081786232"
+  :easting: "592878.528530307"
+  :northing: "4665799.35497352"
+  :longitude: "94.1239212872368"
+  :ellipsoid: WGS-84
+- :zone: 53F
+  :latitude: "-50.2668337384696"
+  :easting: "683719.888476084"
+  :northing: "4428502.00655906"
+  :longitude: "137.577966166824"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 25K
+  :latitude: "-16.0823420814511"
+  :easting: "715297.878249588"
+  :northing: "8220901.80950808"
+  :longitude: "-30.9872437684145"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 21D
+  :latitude: "-66.2328424771405"
+  :easting: "605880.044371087"
+  :northing: "2652719.21929313"
+  :longitude: "-54.6449818303734"
+  :ellipsoid: Airy
+- :zone: 37M
+  :latitude: "-6.84757411014701"
+  :easting: "582392.885672852"
+  :northing: "9243096.70318807"
+  :longitude: "39.7458086007605"
+  :ellipsoid: Everest 1830 India
+- :zone: 25T
+  :latitude: "41.1513527127688"
+  :easting: "514105.333591258"
+  :northing: "4555176.5780732"
+  :longitude: "-32.831879043666"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 5U
+  :latitude: "55.2863200295101"
+  :easting: "543116.177973657"
+  :northing: "6126884.4743664"
+  :longitude: "-152.321131692079"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 43J
+  :latitude: "-29.451084280348"
+  :easting: "370119.219850812"
+  :northing: "6741628.56584502"
+  :longitude: "73.6605567348573"
+  :ellipsoid: Modified Airy
+- :zone: 56T
+  :latitude: "46.2940205986409"
+  :easting: "271420.393487589"
+  :northing: "5130997.45336144"
+  :longitude: "150.032190433477"
+  :ellipsoid: WGS-84
+- :zone: 54H
+  :latitude: "-35.5603588368332"
+  :easting: "693948.558643153"
+  :northing: "6062691.79771528"
+  :longitude: "143.139947059774"
+  :ellipsoid: Australian National
+- :zone: 44F
+  :latitude: "-53.9063545868914"
+  :easting: "630011.144548621"
+  :northing: "4025019.9690289"
+  :longitude: "82.9790651234818"
+  :ellipsoid: Helmert 1906
+- :zone: 33W
+  :latitude: "66.3869857142563"
+  :easting: "440206.910329835"
+  :northing: "7362851.54781893"
+  :longitude: "13.6620169842286"
+  :ellipsoid: Modified Airy
+- :zone: 54N
+  :latitude: "3.55952457280554"
+  :easting: "319298.674952978"
+  :northing: "393562.559924183"
+  :longitude: "139.373212276875"
+  :ellipsoid: Clarke 1880
+- :zone: 40P
+  :latitude: "15.5789614743989"
+  :easting: "416557.455087749"
+  :northing: "1722377.53283664"
+  :longitude: "56.2216245557286"
+  :ellipsoid: Everest 1830 India
+- :zone: 34C
+  :latitude: "-76.1197975163221"
+  :easting: "551450.063399398"
+  :northing: "1550567.96761959"
+  :longitude: "22.9216199653918"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 11V
+  :latitude: "62.5602541413105"
+  :easting: "448708.571885748"
+  :northing: "6936356.0146201"
+  :longitude: "-117.997775255694"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 13R
+  :latitude: "25.8584360955937"
+  :easting: "524890.477666797"
+  :northing: "2859750.40000131"
+  :longitude: "-104.751556557646"
+  :ellipsoid: Bessel 1841
+- :zone: 10E
+  :latitude: "-60.2453279878719"
+  :easting: "462612.136941668"
+  :northing: "3321051.91420429"
+  :longitude: "-123.675313033119"
+  :ellipsoid: South American 1969
+- :zone: 9L
+  :latitude: "-13.3967974757903"
+  :easting: "786904.874593123"
+  :northing: "8517563.4085654"
+  :longitude: "-126.350499493418"
+  :ellipsoid: Everest 1830 India
+- :zone: 21C
+  :latitude: "-78.6540825243318"
+  :easting: "555502.455472315"
+  :northing: "1267176.87975221"
+  :longitude: "-54.4721874213712"
+  :ellipsoid: International
+- :zone: 25S
+  :latitude: "33.1031044705639"
+  :easting: "646605.556167168"
+  :northing: "3663815.17274866"
+  :longitude: "-31.4288634606255"
+  :ellipsoid: WGS-84
+- :zone: 51S
+  :latitude: "39.864851371075"
+  :easting: "708285.405378073"
+  :northing: "4415595.279023"
+  :longitude: "125.435164112611"
+  :ellipsoid: GRS 1980
+- :zone: 33R
+  :latitude: "24.5603404065612"
+  :easting: "370967.839649069"
+  :northing: "2716872.74675363"
+  :longitude: "13.7258802175184"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 3R
+  :latitude: "31.1835240023235"
+  :easting: "754559.405865657"
+  :northing: "3453015.12274526"
+  :longitude: "-162.328830839704"
+  :ellipsoid: WGS-84
+- :zone: 58H
+  :latitude: "-34.2718803006205"
+  :easting: "452003.843228432"
+  :northing: "6207574.82668561"
+  :longitude: "164.478603281853"
+  :ellipsoid: GRS 1980
+- :zone: 46G
+  :latitude: "-42.7919587323294"
+  :easting: "449420.132525342"
+  :northing: "5262051.72898115"
+  :longitude: "92.3815411151324"
+  :ellipsoid: Helmert 1906
+- :zone: 17M
+  :latitude: "-4.94673118776331"
+  :easting: "553776.827294459"
+  :northing: "9453204.45974023"
+  :longitude: "-80.5149320978738"
+  :ellipsoid: WGS-72
+- :zone: 54C
+  :latitude: "-73.2258582070606"
+  :easting: "419963.573951727"
+  :northing: "1872662.51467536"
+  :longitude: "138.51474392925"
+  :ellipsoid: WGS-84
+- :zone: 41T
+  :latitude: "41.5297041790066"
+  :easting: "570664.013037394"
+  :northing: "4597908.28877691"
+  :longitude: "63.8470364720335"
+  :ellipsoid: WGS-84
+- :zone: 14X
+  :latitude: "77.0361181286736"
+  :easting: "514668.694868441"
+  :northing: "8550917.34758758"
+  :longitude: "-98.4142481028422"
+  :ellipsoid: WGS 60
+- :zone: 28Q
+  :latitude: "20.0790026532708"
+  :easting: "556009.987965339"
+  :northing: "2220316.12071077"
+  :longitude: "-14.464297336787"
+  :ellipsoid: WGS 66
+- :zone: 37M
+  :latitude: "-6.00344938468989"
+  :easting: "185287.196520777"
+  :northing: "9335585.25880476"
+  :longitude: "36.1574599181569"
+  :ellipsoid: Krassovsky
+- :zone: 33D
+  :latitude: "-68.8160173533496"
+  :easting: "486966.088944928"
+  :northing: "2366915.10268845"
+  :longitude: "14.676753274757"
+  :ellipsoid: Modified Everest
+- :zone: 10N
+  :latitude: "3.02752351643922"
+  :easting: "379534.010557107"
+  :northing: "334696.786137724"
+  :longitude: "-124.084031766269"
+  :ellipsoid: Australian National
+- :zone: 39R
+  :latitude: "31.8984482198827"
+  :easting: "605629.951837584"
+  :northing: "3529723.67951414"
+  :longitude: "52.117044756982"
+  :ellipsoid: GRS 1980
+- :zone: 8X
+  :latitude: "74.6542374159547"
+  :easting: "480878.565589977"
+  :northing: "8285143.40165614"
+  :longitude: "-135.647311441461"
+  :ellipsoid: WGS 66
+- :zone: 12X
+  :latitude: "83.9704718107223"
+  :easting: "527943.727104414"
+  :northing: "9325408.64703107"
+  :longitude: "-108.616547185029"
+  :ellipsoid: South American 1969
+- :zone: 20X
+  :latitude: "79.7816615344539"
+  :easting: "524744.601763056"
+  :northing: "8857481.62384563"
+  :longitude: "-61.7504610732985"
+  :ellipsoid: GRS 1980
+- :zone: 59L
+  :latitude: "-12.4972548881506"
+  :easting: "768388.781170199"
+  :northing: "8617192.85884249"
+  :longitude: "173.469367356779"
+  :ellipsoid: Helmert 1906
+- :zone: 20M
+  :latitude: "-0.0333210044673962"
+  :easting: "655511.489525822"
+  :northing: "9996316.19606776"
+  :longitude: "-61.6024142622206"
+  :ellipsoid: Modified Everest
+- :zone: 54P
+  :latitude: "8.62042639421796"
+  :easting: "389673.488184949"
+  :northing: "953043.367171278"
+  :longitude: "139.997359207479"
+  :ellipsoid: International
+- :zone: 54E
+  :latitude: "-61.3939064996927"
+  :easting: "351505.090233679"
+  :northing: "3190009.82327212"
+  :longitude: "138.219515457428"
+  :ellipsoid: International
+- :zone: 37W
+  :latitude: "65.0887919939408"
+  :easting: "608223.128297521"
+  :northing: "7220348.55919927"
+  :longitude: "41.303007713009"
+  :ellipsoid: GRS 1967
+- :zone: 51T
+  :latitude: "46.2413904918871"
+  :easting: "394800.729968883"
+  :northing: "5121870.24260744"
+  :longitude: "121.635515867872"
+  :ellipsoid: International
+- :zone: 12G
+  :latitude: "-47.3313525669031"
+  :easting: "575157.082866381"
+  :northing: "4757533.06930344"
+  :longitude: "-110.005253139642"
+  :ellipsoid: GRS 1980
+- :zone: 39R
+  :latitude: "30.1759452074515"
+  :easting: "777549.951224282"
+  :northing: "3341804.03364465"
+  :longitude: "53.8822080416733"
+  :ellipsoid: GRS 1967
+- :zone: 24X
+  :latitude: "72.7862934022847"
+  :easting: "568688.332726323"
+  :northing: "8078053.33070449"
+  :longitude: "-36.9202439307848"
+  :ellipsoid: International
+- :zone: 4X
+  :latitude: "72.2274730462678"
+  :easting: "483739.21203988"
+  :northing: "8014138.17609897"
+  :longitude: "-159.477262251739"
+  :ellipsoid: Clarke 1880
+- :zone: 17N
+  :latitude: "3.36434536658854"
+  :easting: "752205.649781205"
+  :northing: "372134.292407954"
+  :longitude: "-78.7299942178312"
+  :ellipsoid: Airy
+- :zone: 37C
+  :latitude: "-72.3360912280983"
+  :easting: "528941.948106945"
+  :northing: "1973353.39675481"
+  :longitude: "39.8545868602318"
+  :ellipsoid: Fischer 1968
+- :zone: 22X
+  :latitude: "72.9835079681788"
+  :easting: "533387.693130936"
+  :northing: "8099147.85615482"
+  :longitude: "-49.9778655264105"
+  :ellipsoid: International
+- :zone: 18P
+  :latitude: "12.2373773046462"
+  :easting: "714130.783723963"
+  :northing: "1353582.46324605"
+  :longitude: "-73.0315699421465"
+  :ellipsoid: GRS 1980
+- :zone: 31Q
+  :latitude: "17.5564984788136"
+  :easting: "237879.643619451"
+  :northing: "1942847.50130151"
+  :longitude: "0.530788167946383"
+  :ellipsoid: International
+- :zone: 26J
+  :latitude: "-29.1939118745363"
+  :easting: "607190.607908043"
+  :northing: "6770281.83031495"
+  :longitude: "-25.8974851302705"
+  :ellipsoid: Clarke 1880
+- :zone: 38Q
+  :latitude: "18.4236922686371"
+  :easting: "397864.828502237"
+  :northing: "2037322.04830449"
+  :longitude: "44.0329328107573"
+  :ellipsoid: Hough
+- :zone: 24F
+  :latitude: "-55.7257200519642"
+  :easting: "479237.323070903"
+  :northing: "3824332.21868817"
+  :longitude: "-39.3305671047284"
+  :ellipsoid: Helmert 1906
+- :zone: 54V
+  :latitude: "62.7892003516927"
+  :easting: "383618.125864685"
+  :northing: "6963881.60847544"
+  :longitude: "138.718571240205"
+  :ellipsoid: Clarke 1880
+- :zone: 52N
+  :latitude: "0.78292342312632"
+  :easting: "434598.198776632"
+  :northing: "86541.4981972444"
+  :longitude: "128.412208510108"
+  :ellipsoid: South American 1969
+- :zone: 22J
+  :latitude: "-27.652387191139"
+  :easting: "712719.422786103"
+  :northing: "6939445.2050421"
+  :longitude: "-48.8436865295465"
+  :ellipsoid: WGS-84
+- :zone: 10M
+  :latitude: "-3.77668299665972"
+  :easting: "570920.827908218"
+  :northing: "9582531.05510427"
+  :longitude: "-122.361287598351"
+  :ellipsoid: WGS-72
+- :zone: 36P
+  :latitude: "12.2125919178269"
+  :easting: "619860.907566081"
+  :northing: "1350320.2490256"
+  :longitude: "34.1018626785483"
+  :ellipsoid: Helmert 1906
+- :zone: 39D
+  :latitude: "-64.9827462710613"
+  :easting: "413723.304575586"
+  :northing: "2792196.73372064"
+  :longitude: "49.1714083186869"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 58F
+  :latitude: "-53.2894648591547"
+  :easting: "339023.328177969"
+  :northing: "4093117.5127795"
+  :longitude: "162.585056567767"
+  :ellipsoid: Clarke 1880
+- :zone: 32C
+  :latitude: "-75.176100990501"
+  :easting: "483020.611439362"
+  :northing: "1656649.69283395"
+  :longitude: "8.40545564675551"
+  :ellipsoid: WGS 66
+- :zone: 10E
+  :latitude: "-62.76253179113"
+  :easting: "615569.748606089"
+  :northing: "3039567.73729965"
+  :longitude: "-120.736048514809"
+  :ellipsoid: Everest 1830 India
+- :zone: 43X
+  :latitude: "77.8474580819954"
+  :easting: "501690.413180512"
+  :northing: "8640407.64058068"
+  :longitude: "75.0719404353057"
+  :ellipsoid: Bessel 1841
+- :zone: 44V
+  :latitude: "60.0883875744786"
+  :easting: "382274.569898478"
+  :northing: "6662630.04796129"
+  :longitude: "78.8832820339202"
+  :ellipsoid: Airy
+- :zone: 44N
+  :latitude: "6.86791795256509"
+  :easting: "710595.301322104"
+  :northing: "759566.64047955"
+  :longitude: "82.9058101369685"
+  :ellipsoid: GRS 1980
+- :zone: 20J
+  :latitude: "-25.1486192701264"
+  :easting: "776356.231647104"
+  :northing: "7215754.8911117"
+  :longitude: "-60.2587436964082"
+  :ellipsoid: Helmert 1906
+- :zone: 9J
+  :latitude: "-31.0907288279179"
+  :easting: "356460.906976224"
+  :northing: "6559350.88909112"
+  :longitude: "-130.504900261109"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 37X
+  :latitude: "83.3034310927728"
+  :easting: "526585.922826274"
+  :northing: "9250914.07811744"
+  :longitude: "41.0424407071055"
+  :ellipsoid: Hough
+- :zone: 17S
+  :latitude: "36.157812987843"
+  :easting: "542503.656142608"
+  :northing: "4001569.55286877"
+  :longitude: "-80.5274659873982"
+  :ellipsoid: GRS 1967
+- :zone: 49K
+  :latitude: "-23.8016326968279"
+  :easting: "766582.05136411"
+  :northing: "7365498.27580319"
+  :longitude: "113.616632533595"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 19L
+  :latitude: "-14.0954798769091"
+  :easting: "775778.537895163"
+  :northing: "8440210.54429321"
+  :longitude: "-66.4459766070721"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 1V
+  :latitude: "58.8533406912518"
+  :easting: "375272.233064267"
+  :northing: "6525054.78126247"
+  :longitude: "-179.162298730316"
+  :ellipsoid: Bessel 1841
+- :zone: 37T
+  :latitude: "45.5646600873306"
+  :easting: "677938.186800496"
+  :northing: "5048262.27080925"
+  :longitude: "41.2801567423253"
+  :ellipsoid: Helmert 1906
+- :zone: 4M
+  :latitude: "-4.25682403341571"
+  :easting: "568156.966540089"
+  :northing: "9529452.09253501"
+  :longitude: "-158.385843431127"
+  :ellipsoid: International
+- :zone: 44L
+  :latitude: "-10.2396079585079"
+  :easting: "397751.464505241"
+  :northing: "8867943.42015668"
+  :longitude: "80.0663873956458"
+  :ellipsoid: Australian National
+- :zone: 58M
+  :latitude: "-6.45978982694385"
+  :easting: "604415.027458815"
+  :northing: "9285868.20291786"
+  :longitude: "165.944261001114"
+  :ellipsoid: WGS 60
+- :zone: 52N
+  :latitude: "2.46765863645264"
+  :easting: "827570.523962609"
+  :northing: "273093.585400534"
+  :longitude: "131.945603393902"
+  :ellipsoid: Everest 1830 India
+- :zone: 11R
+  :latitude: "26.7463518300473"
+  :easting: "547988.406857761"
+  :northing: "2958441.42149618"
+  :longitude: "-116.517402378847"
+  :ellipsoid: Fischer 1968
+- :zone: 49Q
+  :latitude: "20.0631367869546"
+  :easting: "527687.465143011"
+  :northing: "2218529.5750089"
+  :longitude: "111.26478583037"
+  :ellipsoid: Krassovsky
+- :zone: 24X
+  :latitude: "73.7012261959657"
+  :easting: "508638.445492653"
+  :northing: "8178735.94805407"
+  :longitude: "-38.7242366547331"
+  :ellipsoid: WGS 66
+- :zone: 53V
+  :latitude: "61.4130744054392"
+  :easting: "643225.377741332"
+  :northing: "6811768.81428633"
+  :longitude: "137.6835458632"
+  :ellipsoid: South American 1969
+- :zone: 2W
+  :latitude: "66.8336694422557"
+  :easting: "395711.297936072"
+  :northing: "7414245.67215566"
+  :longitude: "-173.376297609368"
+  :ellipsoid: Airy
+- :zone: 27P
+  :latitude: "12.7220546126373"
+  :easting: "510256.881255311"
+  :northing: "1406402.51722625"
+  :longitude: "-20.9055196076801"
+  :ellipsoid: WGS 66
+- :zone: 59M
+  :latitude: "-2.61328816468108"
+  :easting: "556918.556365826"
+  :northing: "9711160.83417942"
+  :longitude: "171.512101726323"
+  :ellipsoid: Modified Everest
+- :zone: 9E
+  :latitude: "-57.4541680123041"
+  :easting: "413409.006486901"
+  :northing: "3631349.13135726"
+  :longitude: "-130.443050722577"
+  :ellipsoid: Clarke 1866
+- :zone: 8U
+  :latitude: "51.4294619444677"
+  :easting: "539851.769289503"
+  :northing: "5697769.8334818"
+  :longitude: "-134.426757206853"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 33N
+  :latitude: "2.28243265372846"
+  :easting: "488579.654468245"
+  :northing: "252260.530583355"
+  :longitude: "14.8972739302596"
+  :ellipsoid: Modified Everest
+- :zone: 14G
+  :latitude: "-44.2274911522972"
+  :easting: "492702.247291288"
+  :northing: "5103381.03462047"
+  :longitude: "-99.0913856107339"
+  :ellipsoid: Modified Airy
+- :zone: 2S
+  :latitude: "34.845999480128"
+  :easting: "331527.238996913"
+  :northing: "3857527.40427864"
+  :longitude: "-172.842681346269"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 36J
+  :latitude: "-27.6717341576511"
+  :easting: "722635.72880466"
+  :northing: "6937119.75584766"
+  :longitude: "35.2571995620831"
+  :ellipsoid: WGS 66
+- :zone: 13Q
+  :latitude: "19.9214964644881"
+  :easting: "673701.583465184"
+  :northing: "2203462.29147583"
+  :longitude: "-103.340496315229"
+  :ellipsoid: Clarke 1880
+- :zone: 41S
+  :latitude: "35.9033449443135"
+  :easting: "316400.725293952"
+  :northing: "3974789.25293768"
+  :longitude: "60.965216789012"
+  :ellipsoid: Everest 1830 India
+- :zone: 54D
+  :latitude: "-70.8866573713732"
+  :easting: "603460.988321752"
+  :northing: "2132808.35578507"
+  :longitude: "143.831957290921"
+  :ellipsoid: Fischer 1968
+- :zone: 22K
+  :latitude: "-22.3947896414373"
+  :easting: "266039.36945633"
+  :northing: "7521909.49338389"
+  :longitude: "-53.2728376932893"
+  :ellipsoid: Everest 1830 India
+- :zone: 12X
+  :latitude: "77.253651666356"
+  :easting: "560576.698466607"
+  :northing: "8576149.92634876"
+  :longitude: "-108.539994870488"
+  :ellipsoid: Clarke 1880
+- :zone: 11L
+  :latitude: "-14.7744885399655"
+  :easting: "796009.593505733"
+  :northing: "8364904.53788469"
+  :longitude: "-114.250436293483"
+  :ellipsoid: Clarke 1866
+- :zone: 21G
+  :latitude: "-47.2835863742135"
+  :easting: "334243.165697886"
+  :northing: "4760972.76377597"
+  :longitude: "-59.191938200446"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 51N
+  :latitude: "0.627576788773666"
+  :easting: "361777.26926594"
+  :northing: "69375.8831925983"
+  :longitude: "121.75770702851"
+  :ellipsoid: Bessel 1841
+- :zone: 12S
+  :latitude: "35.5270250226151"
+  :easting: "233755.711730637"
+  :northing: "3935498.85758821"
+  :longitude: "-113.936196672304"
+  :ellipsoid: Helmert 1906
+- :zone: 50H
+  :latitude: "-33.223048415447"
+  :easting: "370014.623536236"
+  :northing: "6323099.25976853"
+  :longitude: "115.605070330761"
+  :ellipsoid: WGS 60
+- :zone: 35P
+  :latitude: "15.1512499774216"
+  :easting: "696781.690904831"
+  :northing: "1675715.56353851"
+  :longitude: "28.8316366349176"
+  :ellipsoid: Bessel 1841
+- :zone: 29J
+  :latitude: "-26.3447201781794"
+  :easting: "731422.371811788"
+  :northing: "7084061.48345215"
+  :longitude: "-6.68114732673885"
+  :ellipsoid: WGS-72
+- :zone: 26H
+  :latitude: "-33.938207351344"
+  :easting: "284436.199696227"
+  :northing: "6242225.01690586"
+  :longitude: "-29.3323169968633"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 53P
+  :latitude: "9.66932355523414"
+  :easting: "527397.411103909"
+  :northing: "1068862.12638087"
+  :longitude: "135.2497375123"
+  :ellipsoid: GRS 1980
+- :zone: 60H
+  :latitude: "-32.7058399004368"
+  :easting: "308242.440173207"
+  :northing: "6379850.95900793"
+  :longitude: "174.953950987426"
+  :ellipsoid: Modified Airy
+- :zone: 45W
+  :latitude: "66.2465231510228"
+  :easting: "374120.870039801"
+  :northing: "7349526.4870879"
+  :longitude: "84.198386529071"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 44U
+  :latitude: "50.8737243510672"
+  :easting: "685579.204020539"
+  :northing: "5638483.70887218"
+  :longitude: "83.6381085935457"
+  :ellipsoid: Modified Airy
+- :zone: 31V
+  :latitude: "56.7408506479957"
+  :easting: "324308.934224721"
+  :northing: "6292247.29781798"
+  :longitude: "0.127408767098842"
+  :ellipsoid: Hough
+- :zone: 37W
+  :latitude: "71.8012333183597"
+  :easting: "559088.516001731"
+  :northing: "7966736.92275303"
+  :longitude: "40.6955204065713"
+  :ellipsoid: Bessel 1841
+- :zone: 2F
+  :latitude: "-52.4311003520785"
+  :easting: "448775.367361333"
+  :northing: "4190738.18382811"
+  :longitude: "-171.753428330806"
+  :ellipsoid: WGS 66
+- :zone: 1N
+  :latitude: "4.91799601358203"
+  :easting: "814843.179721062"
+  :northing: "544268.756726857"
+  :longitude: "-174.161351096588"
+  :ellipsoid: WGS-84
+- :zone: 39L
+  :latitude: "-14.0856058079262"
+  :easting: "303142.760003801"
+  :northing: "8442147.39744786"
+  :longitude: "49.1765228887165"
+  :ellipsoid: Airy
+- :zone: 28U
+  :latitude: "49.3846014716743"
+  :easting: "569554.902599737"
+  :northing: "5470762.28973179"
+  :longitude: "-14.0416879127554"
+  :ellipsoid: International
+- :zone: 21W
+  :latitude: "69.220585642219"
+  :easting: "412096.661436904"
+  :northing: "7679944.77773849"
+  :longitude: "-59.2208043165802"
+  :ellipsoid: Airy
+- :zone: 18C
+  :latitude: "-76.5846547366596"
+  :easting: "424832.175027394"
+  :northing: "1497680.61326941"
+  :longitude: "-77.9034548953845"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 44P
+  :latitude: "10.608280927345"
+  :easting: "655871.033867479"
+  :northing: "1172918.19418541"
+  :longitude: "82.4248037123807"
+  :ellipsoid: Clarke 1880
+- :zone: 52Q
+  :latitude: "16.7250661031614"
+  :easting: "481556.883101656"
+  :northing: "1849155.82565983"
+  :longitude: "128.826983831256"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 14V
+  :latitude: "60.0683632022629"
+  :easting: "453176.10555296"
+  :northing: "6659330.32703425"
+  :longitude: "-99.8412238570303"
+  :ellipsoid: WGS 66
+- :zone: 48H
+  :latitude: "-32.0157118930196"
+  :easting: "774348.490806195"
+  :northing: "6454435.61418285"
+  :longitude: "107.904783245058"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 59J
+  :latitude: "-31.9234244312324"
+  :easting: "700325.993533926"
+  :northing: "6466280.42986774"
+  :longitude: "173.118835166358"
+  :ellipsoid: Clarke 1866
+- :zone: 12U
+  :latitude: "51.6679580472244"
+  :easting: "639027.955062374"
+  :northing: "5726022.28078556"
+  :longitude: "-108.989590187903"
+  :ellipsoid: WGS-84
+- :zone: 21F
+  :latitude: "-51.0011625108647"
+  :easting: "686476.157269598"
+  :northing: "4346672.48753887"
+  :longitude: "-54.3423078987196"
+  :ellipsoid: Hough
+- :zone: 20E
+  :latitude: "-59.9389054272473"
+  :easting: "562608.458178879"
+  :northing: "3354839.77949208"
+  :longitude: "-61.8795693810463"
+  :ellipsoid: GRS 1967
+- :zone: 42U
+  :latitude: "50.1718071915274"
+  :easting: "371269.55871383"
+  :northing: "5559308.20281266"
+  :longitude: "67.1972927440295"
+  :ellipsoid: Australian National
+- :zone: 53M
+  :latitude: "-3.73801622350375"
+  :easting: "662297.69471267"
+  :northing: "9586696.04586191"
+  :longitude: "136.461458917486"
+  :ellipsoid: WGS-84
+- :zone: 58J
+  :latitude: "-26.2412579857586"
+  :easting: "219863.081341649"
+  :northing: "7094549.46466467"
+  :longitude: "162.195749946704"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 16D
+  :latitude: "-69.8322416178419"
+  :easting: "417302.461573099"
+  :northing: "2251172.62552692"
+  :longitude: "-89.1494931729758"
+  :ellipsoid: International
+- :zone: 20N
+  :latitude: "3.91022775262462"
+  :easting: "187128.549038698"
+  :northing: "432730.70440583"
+  :longitude: "-65.8170705656094"
+  :ellipsoid: Australian National
+- :zone: 59T
+  :latitude: "44.3698039723548"
+  :easting: "351556.307977092"
+  :northing: "4914722.17444927"
+  :longitude: "169.136911121965"
+  :ellipsoid: Krassovsky
+- :zone: 56K
+  :latitude: "-18.0555132847462"
+  :easting: "803613.095125796"
+  :northing: "8001305.57822568"
+  :longitude: "155.867903593094"
+  :ellipsoid: WGS 60
+- :zone: 10F
+  :latitude: "-54.6259919474662"
+  :easting: "479777.186704073"
+  :northing: "3947357.70675638"
+  :longitude: "-123.313277389303"
+  :ellipsoid: Modified Everest
+- :zone: 53H
+  :latitude: "-36.6264035300906"
+  :easting: "499412.854917175"
+  :northing: "5946856.3211378"
+  :longitude: "134.99343245925"
+  :ellipsoid: Airy
+- :zone: 6D
+  :latitude: "-64.7028468665263"
+  :easting: "619483.744676044"
+  :northing: "2822280.38211136"
+  :longitude: "-144.493538449197"
+  :ellipsoid: Fischer 1968
+- :zone: 29L
+  :latitude: "-14.2825540716464"
+  :easting: "542083.632113683"
+  :northing: "8421141.25811252"
+  :longitude: "-8.60977917959545"
+  :ellipsoid: Bessel 1841
+- :zone: 3E
+  :latitude: "-56.258286649426"
+  :easting: "615126.742636836"
+  :northing: "3763622.07333328"
+  :longitude: "-163.141529918464"
+  :ellipsoid: WGS-72
+- :zone: 11J
+  :latitude: "-24.2891613620279"
+  :easting: "334786.717298404"
+  :northing: "7312764.19690656"
+  :longitude: "-118.627835617817"
+  :ellipsoid: Helmert 1906
+- :zone: 52Q
+  :latitude: "23.5099134075299"
+  :easting: "295878.466143084"
+  :northing: "2601398.73519904"
+  :longitude: "127.000908136699"
+  :ellipsoid: South American 1969
+- :zone: 41D
+  :latitude: "-69.690250674077"
+  :easting: "398278.469251553"
+  :northing: "2266347.30333324"
+  :longitude: "60.3734070598664"
+  :ellipsoid: Krassovsky
+- :zone: 51E
+  :latitude: "-59.8494395740546"
+  :easting: "485595.275245875"
+  :northing: "3365535.55903271"
+  :longitude: "122.742924285467"
+  :ellipsoid: Clarke 1866
+- :zone: 44V
+  :latitude: "56.9288155218193"
+  :easting: "552267.101541496"
+  :northing: "6309811.72492785"
+  :longitude: "81.8587657773521"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 41V
+  :latitude: "61.4536699669284"
+  :easting: "550154.777488763"
+  :northing: "6813706.56138963"
+  :longitude: "63.9407845422517"
+  :ellipsoid: Australian National
+- :zone: 33J
+  :latitude: "-26.502127541824"
+  :easting: "498799.487439884"
+  :northing: "7068696.57391453"
+  :longitude: "14.9879525569598"
+  :ellipsoid: South American 1969
+- :zone: 28H
+  :latitude: "-38.2431799960341"
+  :easting: "556911.406675945"
+  :northing: "5767363.93694015"
+  :longitude: "-14.3495443590032"
+  :ellipsoid: Modified Everest
+- :zone: 24C
+  :latitude: "-75.7825430160861"
+  :easting: "454051.783478387"
+  :northing: "1588427.4011035"
+  :longitude: "-40.6761858243941"
+  :ellipsoid: GRS 1980
+- :zone: 51X
+  :latitude: "82.2383679007745"
+  :easting: "463354.426972196"
+  :northing: "9132205.31349973"
+  :longitude: "120.568822823906"
+  :ellipsoid: WGS-72
+- :zone: 14N
+  :latitude: "7.92296843467804"
+  :easting: "725219.741514597"
+  :northing: "876338.172525959"
+  :longitude: "-96.9570538596618"
+  :ellipsoid: Fischer 1968
+- :zone: 55K
+  :latitude: "-19.9308655432569"
+  :easting: "308064.905482826"
+  :northing: "7795115.29552426"
+  :longitude: "145.16619317145"
+  :ellipsoid: Fischer 1968
+- :zone: 15X
+  :latitude: "75.9867442179318"
+  :easting: "569542.17905459"
+  :northing: "8435461.6998636"
+  :longitude: "-90.4266070591966"
+  :ellipsoid: International
+- :zone: 29Q
+  :latitude: "17.0447305123131"
+  :easting: "788339.595659693"
+  :northing: "1886512.51086928"
+  :longitude: "-6.29135235292608"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 28E
+  :latitude: "-60.2950177427096"
+  :easting: "572772.710825702"
+  :northing: "3314983.92842035"
+  :longitude: "-13.6835137239781"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 16S
+  :latitude: "37.4357201532249"
+  :easting: "674549.989625671"
+  :northing: "4145081.37924612"
+  :longitude: "-85.0270428866"
+  :ellipsoid: Helmert 1906
+- :zone: 32S
+  :latitude: "35.6600801334844"
+  :easting: "545774.74132739"
+  :northing: "3946355.15904645"
+  :longitude: "9.50571157112122"
+  :ellipsoid: Hough
+- :zone: 38L
+  :latitude: "-9.84544515632457"
+  :easting: "664376.501285566"
+  :northing: "8911406.55149287"
+  :longitude: "46.4989532273512"
+  :ellipsoid: Clarke 1880
+- :zone: 9V
+  :latitude: "63.821988119785"
+  :easting: "614628.393342825"
+  :northing: "7079392.69750763"
+  :longitude: "-126.670894806394"
+  :ellipsoid: Krassovsky
+- :zone: 60C
+  :latitude: "-76.6120600397079"
+  :easting: "539550.428422506"
+  :northing: "1495973.25229497"
+  :longitude: "178.530333926786"
+  :ellipsoid: South American 1969
+- :zone: 24U
+  :latitude: "54.4415433100825"
+  :easting: "598251.491171143"
+  :northing: "6033706.65760297"
+  :longitude: "-37.4849768318624"
+  :ellipsoid: WGS-84
+- :zone: 39W
+  :latitude: "65.1718409480116"
+  :easting: "591015.307945058"
+  :northing: "7228241.42821334"
+  :longitude: "52.9430330692395"
+  :ellipsoid: Bessel 1841
+- :zone: 6N
+  :latitude: "4.1092313712135"
+  :easting: "216628.857513332"
+  :northing: "454618.36664913"
+  :longitude: "-149.552607865103"
+  :ellipsoid: Everest 1830 India
+- :zone: 35C
+  :latitude: "-77.8999341206689"
+  :easting: "520775.6631623"
+  :northing: "1352549.45938882"
+  :longitude: "27.887834456852"
+  :ellipsoid: Hough
+- :zone: 55R
+  :latitude: "25.4369817657623"
+  :easting: "767051.285817717"
+  :northing: "2816032.7288958"
+  :longitude: "149.655192970789"
+  :ellipsoid: International
+- :zone: 50R
+  :latitude: "28.0164056429588"
+  :easting: "414357.978012302"
+  :northing: "3099336.27248927"
+  :longitude: "116.128858501526"
+  :ellipsoid: Australian National
+- :zone: 7N
+  :latitude: "7.68888455007252"
+  :easting: "794858.155765854"
+  :northing: "850827.329682249"
+  :longitude: "-138.327255304684"
+  :ellipsoid: GRS 1967
+- :zone: 36C
+  :latitude: "-76.9090576943497"
+  :easting: "551577.026470986"
+  :northing: "1462438.80204871"
+  :longitude: "35.0402945038869"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 5V
+  :latitude: "61.156958816071"
+  :easting: "364877.891602252"
+  :northing: "6782153.07329031"
+  :longitude: "-155.511428588157"
+  :ellipsoid: Bessel 1841
+- :zone: 4V
+  :latitude: "59.4291479588837"
+  :easting: "358231.72009861"
+  :northing: "6590502.18341198"
+  :longitude: "-161.499127532557"
+  :ellipsoid: WGS-84
+- :zone: 20E
+  :latitude: "-59.3011153156042"
+  :easting: "600485.434981191"
+  :northing: "3425064.30035265"
+  :longitude: "-61.2354196954256"
+  :ellipsoid: GRS 1967
+- :zone: 30U
+  :latitude: "54.6593950416621"
+  :easting: "531569.667367315"
+  :northing: "6057000.29220798"
+  :longitude: "-2.51061615615328"
+  :ellipsoid: GRS 1980
+- :zone: 39G
+  :latitude: "-47.1281912174952"
+  :easting: "437239.78569376"
+  :northing: "4780243.9569017"
+  :longitude: "50.1725036213203"
+  :ellipsoid: Fischer 1968
+- :zone: 17X
+  :latitude: "83.8839409904563"
+  :easting: "514418.23487005"
+  :northing: "9315286.3006078"
+  :longitude: "-79.7877824820193"
+  :ellipsoid: WGS-72
+- :zone: 47S
+  :latitude: "38.187250669113"
+  :easting: "688108.758947143"
+  :northing: "4228472.33846966"
+  :longitude: "101.148090625558"
+  :ellipsoid: Airy
+- :zone: 26T
+  :latitude: "40.4233287289302"
+  :easting: "421931.790966255"
+  :northing: "4475166.41927601"
+  :longitude: "-27.9202776886765"
+  :ellipsoid: Australian National
+- :zone: 47L
+  :latitude: "-13.3534110039822"
+  :easting: "328677.349843285"
+  :northing: "8523229.45486707"
+  :longitude: "97.4180521743581"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 31H
+  :latitude: "-36.1268078791445"
+  :easting: "517203.851940813"
+  :northing: "6001955.95026858"
+  :longitude: "3.1911889781901"
+  :ellipsoid: GRS 1967
+- :zone: 42D
+  :latitude: "-65.870671273649"
+  :easting: "621697.545785028"
+  :northing: "2691868.70068821"
+  :longitude: "71.6684075390161"
+  :ellipsoid: Hough
+- :zone: 1G
+  :latitude: "-44.7032654610135"
+  :easting: "332051.149235128"
+  :northing: "5048137.03030904"
+  :longitude: "-179.11990259409"
+  :ellipsoid: Clarke 1880
+- :zone: 5Q
+  :latitude: "22.0901201808674"
+  :easting: "330860.319022677"
+  :northing: "2443721.35295042"
+  :longitude: "-154.639491339707"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 38H
+  :latitude: "-36.4970906357279"
+  :easting: "417532.704160334"
+  :northing: "5960455.15419492"
+  :longitude: "44.0792333090701"
+  :ellipsoid: International
+- :zone: 34C
+  :latitude: "-76.8256755231839"
+  :easting: "540843.989525844"
+  :northing: "1472095.56654229"
+  :longitude: "22.6055579265839"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 47P
+  :latitude: "9.42600952825298"
+  :easting: "626595.757046135"
+  :northing: "1042163.73404676"
+  :longitude: "100.153074513884"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 14H
+  :latitude: "-36.346316353164"
+  :easting: "733436.635836264"
+  :northing: "5974475.67284948"
+  :longitude: "-96.398790164706"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 35D
+  :latitude: "-66.7583953856327"
+  :easting: "487924.72166237"
+  :northing: "2596289.51724235"
+  :longitude: "26.7257352715995"
+  :ellipsoid: Modified Everest
+- :zone: 36U
+  :latitude: "51.7115957509787"
+  :easting: "293606.036207907"
+  :northing: "5732968.3699442"
+  :longitude: "30.0125031658341"
+  :ellipsoid: Clarke 1866
+- :zone: 54J
+  :latitude: "-31.2837122315436"
+  :easting: "566470.367076028"
+  :northing: "6538929.79048126"
+  :longitude: "141.698325749239"
+  :ellipsoid: Clarke 1866
+- :zone: 25D
+  :latitude: "-67.730115486232"
+  :easting: "535192.196539537"
+  :northing: "2487579.24867699"
+  :longitude: "-32.1677567873324"
+  :ellipsoid: Airy
+- :zone: 44E
+  :latitude: "-61.3789763560355"
+  :easting: "482262.78505763"
+  :northing: "3194919.7360347"
+  :longitude: "80.6680931147184"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 3G
+  :latitude: "-40.7436553025038"
+  :easting: "716255.16608294"
+  :northing: "5486865.01835559"
+  :longitude: "-162.438424391526"
+  :ellipsoid: Airy
+- :zone: 34J
+  :latitude: "-30.1283800393934"
+  :easting: "556805.491811363"
+  :northing: "6667102.23169263"
+  :longitude: "21.589714111449"
+  :ellipsoid: Clarke 1880
+- :zone: 31P
+  :latitude: "13.6017891913806"
+  :easting: "638692.314932118"
+  :northing: "1504068.09475283"
+  :longitude: "4.28201244301661"
+  :ellipsoid: Helmert 1906
+- :zone: 41E
+  :latitude: "-59.1465134755096"
+  :easting: "346731.813282999"
+  :northing: "3441151.33899344"
+  :longitude: "60.3201061555438"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 27D
+  :latitude: "-66.609095246857"
+  :easting: "477295.231767644"
+  :northing: "2612887.47073067"
+  :longitude: "-21.5125741735211"
+  :ellipsoid: Bessel 1841
+- :zone: 50E
+  :latitude: "-63.8259685220904"
+  :easting: "362317.8229666"
+  :northing: "2919638.28366636"
+  :longitude: "114.201993631965"
+  :ellipsoid: Clarke 1880
+- :zone: 7K
+  :latitude: "-19.6397037105378"
+  :easting: "194548.806212761"
+  :northing: "7825769.88730422"
+  :longitude: "-143.912477759287"
+  :ellipsoid: Australian National
+- :zone: 19S
+  :latitude: "35.9410194725523"
+  :easting: "671238.866603644"
+  :northing: "3979085.97648599"
+  :longitude: "-67.1015687021588"
+  :ellipsoid: Australian National
+- :zone: 46N
+  :latitude: "7.27661137347829"
+  :easting: "315307.755939251"
+  :northing: "804591.857856239"
+  :longitude: "91.3268685808775"
+  :ellipsoid: Bessel 1841
+- :zone: 58X
+  :latitude: "72.922457410921"
+  :easting: "408686.132152079"
+  :northing: "8094025.85023433"
+  :longitude: "162.213360937298"
+  :ellipsoid: Hough
+- :zone: 25H
+  :latitude: "-36.9601032111618"
+  :easting: "731529.568159891"
+  :northing: "5906744.79429311"
+  :longitude: "-30.3991765762935"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 39K
+  :latitude: "-18.8015712644725"
+  :easting: "607669.886101478"
+  :northing: "7920810.81720111"
+  :longitude: "52.0217417437556"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 55D
+  :latitude: "-70.90038116343"
+  :easting: "537703.385474828"
+  :northing: "2133353.54080759"
+  :longitude: "148.032449794065"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 41G
+  :latitude: "-41.5074840432045"
+  :easting: "405984.079354732"
+  :northing: "5404211.13854388"
+  :longitude: "61.8734566936584"
+  :ellipsoid: Krassovsky
+- :zone: 54M
+  :latitude: "-5.1718845881116"
+  :easting: "188440.915420551"
+  :northing: "9427701.41297688"
+  :longitude: "138.189518350482"
+  :ellipsoid: Bessel 1841
+- :zone: 17F
+  :latitude: "-51.4485222518388"
+  :easting: "370138.780906146"
+  :northing: "4298619.59692328"
+  :longitude: "-82.8688201059572"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 34G
+  :latitude: "-43.9281773266984"
+  :easting: "287828.504571372"
+  :northing: "5132707.86372208"
+  :longitude: "18.3568387889561"
+  :ellipsoid: WGS-84
+- :zone: 10E
+  :latitude: "-58.126242846328"
+  :easting: "456779.119764497"
+  :northing: "3556982.90295966"
+  :longitude: "-123.733795783528"
+  :ellipsoid: Fischer 1968
+- :zone: 22S
+  :latitude: "35.9830944429197"
+  :easting: "458239.612495156"
+  :northing: "3982172.57360767"
+  :longitude: "-51.4632468389748"
+  :ellipsoid: WGS-84
+- :zone: 3N
+  :latitude: "7.92034917790765"
+  :easting: "305946.002271006"
+  :northing: "875906.522534943"
+  :longitude: "-166.760325296477"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 45S
+  :latitude: "32.4276120971253"
+  :easting: "732586.053085813"
+  :northing: "3590217.85740724"
+  :longitude: "89.4739671969567"
+  :ellipsoid: Everest 1830 India
+- :zone: 49M
+  :latitude: "-7.63336873896428"
+  :easting: "358995.071764828"
+  :northing: "9156105.50349597"
+  :longitude: "109.72152462771"
+  :ellipsoid: Bessel 1841
+- :zone: 47E
+  :latitude: "-61.919422486652"
+  :easting: "481722.357968947"
+  :northing: "3135433.33817663"
+  :longitude: "98.6519032579521"
+  :ellipsoid: Modified Everest
+- :zone: 40S
+  :latitude: "38.9380723781206"
+  :easting: "411826.018814325"
+  :northing: "4310411.23681255"
+  :longitude: "55.982629061217"
+  :ellipsoid: GRS 1967
+- :zone: 54Q
+  :latitude: "17.2033529535872"
+  :easting: "664788.878725138"
+  :northing: "1902557.20798029"
+  :longitude: "142.549875731645"
+  :ellipsoid: Everest 1830 India
+- :zone: 42N
+  :latitude: "3.51367877732811"
+  :easting: "523645.375960571"
+  :northing: "388344.287441782"
+  :longitude: "69.2129208248267"
+  :ellipsoid: Everest 1830 India
+- :zone: 9F
+  :latitude: "-52.5479321655823"
+  :easting: "585531.707088946"
+  :northing: "4177248.50957216"
+  :longitude: "-127.738620100488"
+  :ellipsoid: South American 1969
+- :zone: 57V
+  :latitude: "63.726542935188"
+  :easting: "381452.108915804"
+  :northing: "7068768.13511563"
+  :longitude: "156.599312598602"
+  :ellipsoid: WGS-72
+- :zone: 60S
+  :latitude: "35.736632935535"
+  :easting: "496037.934794331"
+  :northing: "3954399.21594676"
+  :longitude: "176.956179976245"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 17U
+  :latitude: "55.4975709171341"
+  :easting: "684267.613962615"
+  :northing: "6153392.93846948"
+  :longitude: "-78.0823863127947"
+  :ellipsoid: Bessel 1841
+- :zone: 9E
+  :latitude: "-58.0712332189186"
+  :easting: "504532.86963763"
+  :northing: "3563567.52626988"
+  :longitude: "-128.923163882043"
+  :ellipsoid: Clarke 1866
+- :zone: 17M
+  :latitude: "-5.93537682167586"
+  :easting: "780557.345033466"
+  :northing: "9343290.05479785"
+  :longitude: "-78.4660428053257"
+  :ellipsoid: Helmert 1906
+- :zone: 3F
+  :latitude: "-53.6337691363712"
+  :easting: "646228.923837574"
+  :northing: "4054952.68557501"
+  :longitude: "-162.788386059629"
+  :ellipsoid: WGS-72
+- :zone: 49G
+  :latitude: "-46.07565590805"
+  :easting: "703814.533338941"
+  :northing: "4894142.06338873"
+  :longitude: "113.635780889383"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 34J
+  :latitude: "-31.4578616453078"
+  :easting: "440885.310576684"
+  :northing: "6519829.75182186"
+  :longitude: "20.3777169248345"
+  :ellipsoid: Bessel 1841
+- :zone: 54E
+  :latitude: "-59.2984405310237"
+  :easting: "508200.504291571"
+  :northing: "3426706.82953906"
+  :longitude: "141.143983842965"
+  :ellipsoid: WGS-84
+- :zone: 12X
+  :latitude: "76.6538444636136"
+  :easting: "457415.004519802"
+  :northing: "8507820.47501947"
+  :longitude: "-112.653057094772"
+  :ellipsoid: Bessel 1841
+- :zone: 40K
+  :latitude: "-17.5523066991544"
+  :easting: "299834.68520058"
+  :northing: "8058498.63411851"
+  :longitude: "55.1139289149168"
+  :ellipsoid: Modified Everest
+- :zone: 41E
+  :latitude: "-61.204813370697"
+  :easting: "648487.901174713"
+  :northing: "3211189.30203972"
+  :longitude: "65.7637694190397"
+  :ellipsoid: Helmert 1906
+- :zone: 27U
+  :latitude: "48.5250525506666"
+  :easting: "500068.506987135"
+  :northing: "5374145.91042368"
+  :longitude: "-20.9990720265785"
+  :ellipsoid: Everest 1830 India
+- :zone: 53M
+  :latitude: "-1.20032996822832"
+  :easting: "237998.887096428"
+  :northing: "9867227.1733205"
+  :longitude: "132.645342496335"
+  :ellipsoid: Bessel 1841
+- :zone: 42P
+  :latitude: "13.9662360902587"
+  :easting: "636943.782961323"
+  :northing: "1544230.06417956"
+  :longitude: "70.2679598706246"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 58L
+  :latitude: "-15.9951294333541"
+  :easting: "695081.683535882"
+  :northing: "8230903.82122531"
+  :longitude: "166.822990474024"
+  :ellipsoid: Clarke 1880
+- :zone: 18X
+  :latitude: "81.5797399695856"
+  :easting: "468183.172195887"
+  :northing: "9058451.61243734"
+  :longitude: "-76.9465867189825"
+  :ellipsoid: WGS-84
+- :zone: 35X
+  :latitude: "83.3133164180588"
+  :easting: "547662.306737"
+  :northing: "9252980.55274197"
+  :longitude: "30.6688064990395"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 11D
+  :latitude: "-71.4105503642801"
+  :easting: "491194.457804536"
+  :northing: "2076767.59049489"
+  :longitude: "-117.24748601195"
+  :ellipsoid: Australian National
+- :zone: 4X
+  :latitude: "81.3341073182585"
+  :easting: "473738.843813149"
+  :northing: "9030684.76077098"
+  :longitude: "-160.561269352652"
+  :ellipsoid: Clarke 1880
+- :zone: 28J
+  :latitude: "-28.5959366786306"
+  :easting: "617504.867185874"
+  :northing: "6836444.19024189"
+  :longitude: "-13.7981108967801"
+  :ellipsoid: Modified Everest
+- :zone: 26S
+  :latitude: "36.2690986226404"
+  :easting: "573739.766584399"
+  :northing: "4014113.1321735"
+  :longitude: "-26.1790408354939"
+  :ellipsoid: WGS 66
+- :zone: 49G
+  :latitude: "-47.7687627175188"
+  :easting: "372476.375474718"
+  :northing: "4708310.94529955"
+  :longitude: "109.298113767341"
+  :ellipsoid: Clarke 1880
+- :zone: 44V
+  :latitude: "63.6026250697529"
+  :easting: "488515.305616927"
+  :northing: "7052780.42616271"
+  :longitude: "80.7684803288119"
+  :ellipsoid: Australian National
+- :zone: 19K
+  :latitude: "-21.2705334097663"
+  :easting: "235185.885568155"
+  :northing: "7645929.54108685"
+  :longitude: "-71.5522690900974"
+  :ellipsoid: Airy
+- :zone: 10T
+  :latitude: "47.772836745878"
+  :easting: "479207.766144661"
+  :northing: "5290776.58154676"
+  :longitude: "-123.277503857473"
+  :ellipsoid: Clarke 1880
+- :zone: 30M
+  :latitude: "-3.87298369317118"
+  :easting: "487226.154449426"
+  :northing: "9571909.90612281"
+  :longitude: "-3.11505593164526"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 34Q
+  :latitude: "16.7231133718651"
+  :easting: "759465.719555568"
+  :northing: "1850521.13299857"
+  :longitude: "23.4334254226964"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 55G
+  :latitude: "-47.7539261269925"
+  :easting: "401489.559088296"
+  :northing: "4710156.9702429"
+  :longitude: "145.685645022044"
+  :ellipsoid: Helmert 1906
+- :zone: 35N
+  :latitude: "0.0607278042791393"
+  :easting: "424002.574512162"
+  :northing: "6712.76305566759"
+  :longitude: "26.317049222428"
+  :ellipsoid: WGS 60
+- :zone: 50E
+  :latitude: "-57.0824455247107"
+  :easting: "464558.072268503"
+  :northing: "3673856.74376325"
+  :longitude: "116.415211584664"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 32K
+  :latitude: "-17.6012235042979"
+  :easting: "357237.73498344"
+  :northing: "8053624.25823094"
+  :longitude: "7.65436254519685"
+  :ellipsoid: Modified Airy
+- :zone: 4N
+  :latitude: "7.92639407259973"
+  :easting: "333996.27900145"
+  :northing: "876471.003757981"
+  :longitude: "-160.505945240478"
+  :ellipsoid: Helmert 1906
+- :zone: 60W
+  :latitude: "67.7170047755081"
+  :easting: "391583.409854323"
+  :northing: "7513557.46303015"
+  :longitude: "174.437251264525"
+  :ellipsoid: GRS 1980
+- :zone: 6F
+  :latitude: "-50.1002620650065"
+  :easting: "391536.330325534"
+  :northing: "4449120.2003253"
+  :longitude: "-148.516625451767"
+  :ellipsoid: WGS-84
+- :zone: 25D
+  :latitude: "-64.9008826045014"
+  :easting: "503464.573780328"
+  :northing: "2802783.62794413"
+  :longitude: "-32.92680469008"
+  :ellipsoid: Clarke 1866
+- :zone: 35R
+  :latitude: "25.4186654530492"
+  :easting: "213738.473452555"
+  :northing: "2814359.65729429"
+  :longitude: "24.1542133335679"
+  :ellipsoid: WGS-72
+- :zone: 51Q
+  :latitude: "19.9257929142667"
+  :easting: "785001.778022374"
+  :northing: "2205399.33361409"
+  :longitude: "125.722856561983"
+  :ellipsoid: Everest 1830 India
+- :zone: 4E
+  :latitude: "-61.1272541848579"
+  :easting: "642649.05585218"
+  :northing: "3220142.50795681"
+  :longitude: "-156.35144329409"
+  :ellipsoid: WGS 66
+- :zone: 20U
+  :latitude: "52.6736601112187"
+  :easting: "469720.579788245"
+  :northing: "5836083.43784335"
+  :longitude: "-63.4478187276288"
+  :ellipsoid: South American 1969
+- :zone: 26V
+  :latitude: "56.4421530215516"
+  :easting: "680686.454220116"
+  :northing: "6259210.01067666"
+  :longitude: "-24.0688735541033"
+  :ellipsoid: Helmert 1906
+- :zone: 3R
+  :latitude: "27.8661616376909"
+  :easting: "312923.718893124"
+  :northing: "3083524.49453697"
+  :longitude: "-166.900364113362"
+  :ellipsoid: Bessel 1841
+- :zone: 40H
+  :latitude: "-34.4680435931789"
+  :easting: "310319.804456314"
+  :northing: "6184277.9834853"
+  :longitude: "54.9345960834725"
+  :ellipsoid: Airy
+- :zone: 35G
+  :latitude: "-43.5480493545099"
+  :easting: "315216.198236052"
+  :northing: "5175763.51540781"
+  :longitude: "24.7125510086506"
+  :ellipsoid: Australian National
+- :zone: 55D
+  :latitude: "-67.8314847082767"
+  :easting: "535324.55987669"
+  :northing: "2475683.96687909"
+  :longitude: "147.838912234307"
+  :ellipsoid: WGS-84
+- :zone: 38F
+  :latitude: "-52.967305136132"
+  :easting: "428076.026893311"
+  :northing: "4131047.67230072"
+  :longitude: "43.9291021422245"
+  :ellipsoid: Clarke 1866
+- :zone: 2V
+  :latitude: "59.9690346663454"
+  :easting: "382427.71663974"
+  :northing: "6649866.58539052"
+  :longitude: "-173.10613369115"
+  :ellipsoid: WGS 60
+- :zone: 13C
+  :latitude: "-76.6913457453743"
+  :easting: "431983.441702402"
+  :northing: "1486130.00104086"
+  :longitude: "-107.647735885876"
+  :ellipsoid: WGS 66
+- :zone: 54T
+  :latitude: "45.549232836855"
+  :easting: "521537.592181178"
+  :northing: "5044003.1728565"
+  :longitude: "141.275915413489"
+  :ellipsoid: WGS-84
+- :zone: 39S
+  :latitude: "36.4443073501673"
+  :easting: "274095.156718866"
+  :northing: "4035893.15040978"
+  :longitude: "48.479619374658"
+  :ellipsoid: Clarke 1880
+- :zone: 42U
+  :latitude: "52.4742698058643"
+  :easting: "525110.734980984"
+  :northing: "5813636.07518162"
+  :longitude: "69.3696838032176"
+  :ellipsoid: Clarke 1866
+- :zone: 43K
+  :latitude: "-19.246515548107"
+  :easting: "792955.71811642"
+  :northing: "7869539.81576068"
+  :longitude: "77.7866891246323"
+  :ellipsoid: Fischer 1968
+- :zone: 13K
+  :latitude: "-16.1954920879762"
+  :easting: "260698.704453383"
+  :northing: "8208129.25229961"
+  :longitude: "-107.238336299968"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 5P
+  :latitude: "11.7313630692862"
+  :easting: "306970.496353046"
+  :northing: "1297456.77052189"
+  :longitude: "-154.771207628585"
+  :ellipsoid: WGS 66
+- :zone: 11X
+  :latitude: "72.01806364414"
+  :easting: "400185.158483407"
+  :northing: "7993377.0438093"
+  :longitude: "-119.89778453295"
+  :ellipsoid: South American 1969
+- :zone: 46D
+  :latitude: "-66.7418504172919"
+  :easting: "580543.829646494"
+  :northing: "2596216.58524228"
+  :longitude: "94.8280829858511"
+  :ellipsoid: GRS 1980
+- :zone: 48T
+  :latitude: "46.2419710596774"
+  :easting: "605953.487321928"
+  :northing: "5121390.32953657"
+  :longitude: "106.374545382119"
+  :ellipsoid: Modified Everest
+- :zone: 56R
+  :latitude: "24.6177477302516"
+  :easting: "397767.959482338"
+  :northing: "2722732.09027553"
+  :longitude: "151.989913720747"
+  :ellipsoid: Bessel 1841
+- :zone: 19T
+  :latitude: "43.5867339402175"
+  :easting: "475200.698464384"
+  :northing: "4825502.82962144"
+  :longitude: "-69.3072339121787"
+  :ellipsoid: Modified Airy
+- :zone: 7C
+  :latitude: "-77.8099196539147"
+  :easting: "462927.68548746"
+  :northing: "1362304.96294244"
+  :longitude: "-142.572911774295"
+  :ellipsoid: WGS 60
+- :zone: 26L
+  :latitude: "-14.2955642353335"
+  :easting: "752093.02478479"
+  :northing: "8418310.74002738"
+  :longitude: "-24.6631653029101"
+  :ellipsoid: Fischer 1968
+- :zone: 45U
+  :latitude: "54.3052549490755"
+  :easting: "427862.204089916"
+  :northing: "6018073.26369083"
+  :longitude: "85.8913474963792"
+  :ellipsoid: Australian National
+- :zone: 39V
+  :latitude: "57.6002108731327"
+  :easting: "466805.206184824"
+  :northing: "6384359.29478799"
+  :longitude: "50.4445900768829"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 37P
+  :latitude: "14.1314998544428"
+  :easting: "762761.719073292"
+  :northing: "1563515.21618802"
+  :longitude: "41.4342499202958"
+  :ellipsoid: Modified Everest
+- :zone: 54N
+  :latitude: "7.79779464170012"
+  :easting: "677323.720151688"
+  :northing: "862194.373491165"
+  :longitude: "142.608334014096"
+  :ellipsoid: Modified Airy
+- :zone: 30D
+  :latitude: "-66.0001919506498"
+  :easting: "517325.734423953"
+  :northing: "2679997.43575552"
+  :longitude: "-2.6182588154974"
+  :ellipsoid: Fischer 1968
+- :zone: 5W
+  :latitude: "65.14498791186"
+  :easting: "435907.926150273"
+  :northing: "7225315.43514335"
+  :longitude: "-154.366624194813"
+  :ellipsoid: WGS 66
+- :zone: 44G
+  :latitude: "-43.9189895052331"
+  :easting: "308840.418830436"
+  :northing: "5134351.85220029"
+  :longitude: "78.6189673855849"
+  :ellipsoid: South American 1969
+- :zone: 2X
+  :latitude: "74.228419070809"
+  :easting: "577111.848023473"
+  :northing: "8239188.33705899"
+  :longitude: "-168.457623815752"
+  :ellipsoid: Fischer 1968
+- :zone: 43E
+  :latitude: "-61.1174992232197"
+  :easting: "384998.099287568"
+  :northing: "3222231.59986867"
+  :longitude: "72.8655675773182"
+  :ellipsoid: Fischer 1968
+- :zone: 37H
+  :latitude: "-34.523440708619"
+  :easting: "532189.29356177"
+  :northing: "6179736.7863213"
+  :longitude: "39.3507302508559"
+  :ellipsoid: Fischer 1968
+- :zone: 50E
+  :latitude: "-61.0656072718444"
+  :easting: "486480.777748199"
+  :northing: "3229856.42779464"
+  :longitude: "116.749524775144"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 13P
+  :latitude: "9.75207739464967"
+  :easting: "276670.022144441"
+  :northing: "1078679.52937295"
+  :longitude: "-107.035825682817"
+  :ellipsoid: WGS 60
+- :zone: 57M
+  :latitude: "-0.87445590651518"
+  :easting: "288272.114782561"
+  :northing: "9903292.27479183"
+  :longitude: "157.097393621038"
+  :ellipsoid: South American 1969
+- :zone: 22C
+  :latitude: "-79.4942460769396"
+  :easting: "537805.173536543"
+  :northing: "1175102.38195371"
+  :longitude: "-49.1422156037689"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 43V
+  :latitude: "58.4053337919174"
+  :easting: "415747.639515939"
+  :northing: "6474154.46516948"
+  :longitude: "73.5580779185547"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 32J
+  :latitude: "-28.8661064946533"
+  :easting: "784064.732710511"
+  :northing: "6803618.23930587"
+  :longitude: "11.9124571706936"
+  :ellipsoid: Modified Everest
+- :zone: 1J
+  :latitude: "-30.70120357214"
+  :easting: "261422.801043857"
+  :northing: "6600812.70749438"
+  :longitude: "-179.490858873814"
+  :ellipsoid: International
+- :zone: 34C
+  :latitude: "-74.3304214295556"
+  :easting: "504729.711113954"
+  :northing: "1751052.70212271"
+  :longitude: "21.1568833178708"
+  :ellipsoid: WGS 60
+- :zone: 5D
+  :latitude: "-70.3285772013314"
+  :easting: "566892.029829997"
+  :northing: "2197234.16309721"
+  :longitude: "-151.219100704398"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 47D
+  :latitude: "-67.0658033719383"
+  :easting: "601150.21649125"
+  :northing: "2560160.51220915"
+  :longitude: "101.326923799037"
+  :ellipsoid: Modified Everest
+- :zone: 27P
+  :latitude: "10.2339750438857"
+  :easting: "529251.441045121"
+  :northing: "1131204.54307861"
+  :longitude: "-20.7328676758006"
+  :ellipsoid: Everest 1830 India
+- :zone: 20C
+  :latitude: "-78.8513697348469"
+  :easting: "438196.238549743"
+  :northing: "1245070.5378123"
+  :longitude: "-65.8643432999023"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 24P
+  :latitude: "8.82455671027429"
+  :easting: "367385.021311208"
+  :northing: "975576.127024787"
+  :longitude: "-40.2060134917927"
+  :ellipsoid: Bessel 1841
+- :zone: 33T
+  :latitude: "44.7237331035981"
+  :easting: "490277.186403817"
+  :northing: "4952356.07444208"
+  :longitude: "14.8772285958125"
+  :ellipsoid: Krassovsky
+- :zone: 55P
+  :latitude: "8.95074030996383"
+  :easting: "690709.223812861"
+  :northing: "989855.415746449"
+  :longitude: "148.734588986774"
+  :ellipsoid: WGS-84
+- :zone: 45H
+  :latitude: "-39.1584520282846"
+  :easting: "256632.491082458"
+  :northing: "5662231.72460031"
+  :longitude: "84.1830230710414"
+  :ellipsoid: Modified Everest
+- :zone: 54K
+  :latitude: "-22.2110071489991"
+  :easting: "489642.66697156"
+  :northing: "7543804.6457914"
+  :longitude: "140.899509485076"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 2W
+  :latitude: "68.4115907330898"
+  :easting: "489730.795726341"
+  :northing: "7588812.90209535"
+  :longitude: "-171.250095111272"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 47W
+  :latitude: "68.7539563417144"
+  :easting: "397109.331716695"
+  :northing: "7629082.60528133"
+  :longitude: "96.4551647130405"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 47H
+  :latitude: "-35.5834348149979"
+  :easting: "479100.880390609"
+  :northing: "6062505.29880333"
+  :longitude: "98.7693019097364"
+  :ellipsoid: Airy
+- :zone: 3X
+  :latitude: "74.6782517638957"
+  :easting: "586291.920247614"
+  :northing: "8289919.81487471"
+  :longitude: "-162.073304566651"
+  :ellipsoid: Helmert 1906
+- :zone: 53K
+  :latitude: "-16.2792054758096"
+  :easting: "232683.451393997"
+  :northing: "8198522.13670446"
+  :longitude: "132.498789296363"
+  :ellipsoid: International
+- :zone: 49V
+  :latitude: "56.5494045156185"
+  :easting: "543264.769534525"
+  :northing: "6267472.99590159"
+  :longitude: "111.703723534613"
+  :ellipsoid: GRS 1967
+- :zone: 7H
+  :latitude: "-32.7322827906578"
+  :easting: "443416.637263558"
+  :northing: "6378609.17527228"
+  :longitude: "-141.603970596305"
+  :ellipsoid: Modified Airy
+- :zone: 55R
+  :latitude: "26.3400130571838"
+  :easting: "598175.7695275"
+  :northing: "2913713.03045754"
+  :longitude: "147.983815737086"
+  :ellipsoid: WGS-84
+- :zone: 32H
+  :latitude: "-35.4871617798279"
+  :easting: "600511.595586113"
+  :northing: "6072352.4807616"
+  :longitude: "10.1080576409794"
+  :ellipsoid: Australian National
+- :zone: 50E
+  :latitude: "-60.42659554902"
+  :easting: "589552.559052192"
+  :northing: "3299955.34833029"
+  :longitude: "118.62662168969"
+  :ellipsoid: Fischer 1968
+- :zone: 17W
+  :latitude: "64.0078680744605"
+  :easting: "546634.905340866"
+  :northing: "7098264.58273509"
+  :longitude: "-80.0462664515183"
+  :ellipsoid: GRS 1967
+- :zone: 58E
+  :latitude: "-56.3553498166306"
+  :easting: "441489.791224601"
+  :northing: "3753945.38903853"
+  :longitude: "164.053133094201"
+  :ellipsoid: Australian National
+- :zone: 12M
+  :latitude: "-1.25111244904043"
+  :easting: "658627.565057275"
+  :northing: "9861680.28638384"
+  :longitude: "-109.574136173314"
+  :ellipsoid: Airy
+- :zone: 49H
+  :latitude: "-37.8199760136105"
+  :easting: "693196.141631393"
+  :northing: "5811819.79932521"
+  :longitude: "113.194890774834"
+  :ellipsoid: International
+- :zone: 10U
+  :latitude: "52.4941711400558"
+  :easting: "663014.355163077"
+  :northing: "5818720.87437903"
+  :longitude: "-120.598740025818"
+  :ellipsoid: WGS 66
+- :zone: 13D
+  :latitude: "-68.720788407246"
+  :easting: "556704.715914434"
+  :northing: "2376086.96797372"
+  :longitude: "-103.599822318467"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 1G
+  :latitude: "-44.4500025316326"
+  :easting: "693886.088233491"
+  :northing: "5075256.59986455"
+  :longitude: "-174.563276761252"
+  :ellipsoid: Hough
+- :zone: 55M
+  :latitude: "-3.51982081628771"
+  :easting: "325007.172697524"
+  :northing: "9610826.23688903"
+  :longitude: "145.424646996725"
+  :ellipsoid: Clarke 1866
+- :zone: 10K
+  :latitude: "-20.871916821857"
+  :easting: "338413.824094576"
+  :northing: "7691244.52423999"
+  :longitude: "-124.553311141748"
+  :ellipsoid: WGS 66
+- :zone: 4F
+  :latitude: "-49.4019308447694"
+  :easting: "706016.893027757"
+  :northing: "4523964.83154775"
+  :longitude: "-156.160264457986"
+  :ellipsoid: South American 1969
+- :zone: 25N
+  :latitude: "7.31189546667598"
+  :easting: "600793.883876541"
+  :northing: "808339.044927794"
+  :longitude: "-32.086860602443"
+  :ellipsoid: Helmert 1906
+- :zone: 13L
+  :latitude: "-12.8052187724202"
+  :easting: "283965.001031009"
+  :northing: "8583684.77137217"
+  :longitude: "-106.990549583911"
+  :ellipsoid: Everest 1830 India
+- :zone: 42H
+  :latitude: "-38.3116671497867"
+  :easting: "617228.467275085"
+  :northing: "5758753.46118053"
+  :longitude: "70.3408830401204"
+  :ellipsoid: GRS 1980
+- :zone: 9M
+  :latitude: "-2.54978610051285"
+  :easting: "361658.672175697"
+  :northing: "9718102.47138579"
+  :longitude: "-130.244361801552"
+  :ellipsoid: Fischer 1968
+- :zone: 40F
+  :latitude: "-50.5653348058264"
+  :easting: "528855.451133649"
+  :northing: "4398928.61084085"
+  :longitude: "57.4074743097657"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 57N
+  :latitude: "6.09652300145197"
+  :easting: "246972.820499015"
+  :northing: "674422.825978094"
+  :longitude: "156.713897402188"
+  :ellipsoid: Krassovsky
+- :zone: 13S
+  :latitude: "37.1905197648192"
+  :easting: "312625.069220189"
+  :northing: "4117684.40815484"
+  :longitude: "-107.111304510006"
+  :ellipsoid: Bessel 1841
+- :zone: 15K
+  :latitude: "-22.3401222728482"
+  :easting: "605761.056353208"
+  :northing: "7529138.56066856"
+  :longitude: "-91.9729727847697"
+  :ellipsoid: Helmert 1906
+- :zone: 38K
+  :latitude: "-16.7005123185909"
+  :easting: "396026.815177164"
+  :northing: "8153469.51159811"
+  :longitude: "44.024646699329"
+  :ellipsoid: Everest 1830 India
+- :zone: 34H
+  :latitude: "-38.7882421374715"
+  :easting: "263414.05598518"
+  :northing: "5703174.77728816"
+  :longitude: "18.2761364986861"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 31K
+  :latitude: "-23.2669915396283"
+  :easting: "332581.717431735"
+  :northing: "7425969.54625788"
+  :longitude: "1.36327810269933"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 10S
+  :latitude: "32.602891570934"
+  :easting: "397947.271582908"
+  :northing: "3607790.81008776"
+  :longitude: "-124.087581447656"
+  :ellipsoid: WGS 66
+- :zone: 47X
+  :latitude: "75.0814303976418"
+  :easting: "522723.248107582"
+  :northing: "8331942.96369686"
+  :longitude: "99.7908455726753"
+  :ellipsoid: Bessel 1841
+- :zone: 45L
+  :latitude: "-10.8124495428775"
+  :easting: "332070.28642228"
+  :northing: "8804331.57882047"
+  :longitude: "85.4639400403561"
+  :ellipsoid: GRS 1967
+- :zone: 21Q
+  :latitude: "23.0597014577442"
+  :easting: "430783.120417681"
+  :northing: "2550078.17086006"
+  :longitude: "-57.6757891130015"
+  :ellipsoid: Everest 1830 India
+- :zone: 46W
+  :latitude: "67.5295492304662"
+  :easting: "515004.847957829"
+  :northing: "7490481.88278995"
+  :longitude: "93.3517965853129"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 56T
+  :latitude: "41.3095857483432"
+  :easting: "471878.735853166"
+  :northing: "4572692.06418473"
+  :longitude: "152.664006874965"
+  :ellipsoid: Modified Airy
+- :zone: 55C
+  :latitude: "-74.1357819344287"
+  :easting: "416239.182030482"
+  :northing: "1770652.95885674"
+  :longitude: "144.254128655037"
+  :ellipsoid: International
+- :zone: 42V
+  :latitude: "63.282845717702"
+  :easting: "583449.73277667"
+  :northing: "7018186.04640878"
+  :longitude: "70.6637485016623"
+  :ellipsoid: WGS-84
+- :zone: 60X
+  :latitude: "72.181825587322"
+  :easting: "450764.977983535"
+  :northing: "8009885.95038014"
+  :longitude: "175.558314100301"
+  :ellipsoid: Helmert 1906
+- :zone: 6L
+  :latitude: "-15.6833807064034"
+  :easting: "328983.074956022"
+  :northing: "8265436.37959629"
+  :longitude: "-148.595744171624"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 58H
+  :latitude: "-39.5921253086549"
+  :easting: "363746.764077851"
+  :northing: "5616293.42341647"
+  :longitude: "163.413220736405"
+  :ellipsoid: Australian National
+- :zone: 50C
+  :latitude: "-72.9375338307636"
+  :easting: "432420.38077794"
+  :northing: "1906225.79373092"
+  :longitude: "114.935797251714"
+  :ellipsoid: Everest 1830 India
+- :zone: 22K
+  :latitude: "-21.1028081784124"
+  :easting: "427521.569056343"
+  :northing: "7666308.44785589"
+  :longitude: "-51.6978500846356"
+  :ellipsoid: Fischer 1968
+- :zone: 11X
+  :latitude: "83.4644626498568"
+  :easting: "485359.52016526"
+  :northing: "9268549.22310173"
+  :longitude: "-118.152195591397"
+  :ellipsoid: Helmert 1906
+- :zone: 51R
+  :latitude: "25.9404826627254"
+  :easting: "322536.475346436"
+  :northing: "2870279.58566473"
+  :longitude: "121.22785158056"
+  :ellipsoid: Hough
+- :zone: 44M
+  :latitude: "-0.704952803441174"
+  :easting: "575966.800564356"
+  :northing: "9922075.63081988"
+  :longitude: "81.6827276016036"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 12P
+  :latitude: "10.6540723763841"
+  :easting: "465210.655540227"
+  :northing: "1177655.23306891"
+  :longitude: "-111.318132473095"
+  :ellipsoid: Everest 1830 India
+- :zone: 40F
+  :latitude: "-53.0405545142223"
+  :easting: "429053.639509113"
+  :northing: "4122591.45094977"
+  :longitude: "55.9418498122142"
+  :ellipsoid: Krassovsky
+- :zone: 30R
+  :latitude: "30.3590516472597"
+  :easting: "554917.399354236"
+  :northing: "3358710.69471739"
+  :longitude: "-2.4285353569168"
+  :ellipsoid: WGS-84
+- :zone: 18L
+  :latitude: "-15.6530831651842"
+  :easting: "790949.51326443"
+  :northing: "8267716.33719248"
+  :longitude: "-72.285767513321"
+  :ellipsoid: Everest 1830 India
+- :zone: 12Q
+  :latitude: "17.0787924938892"
+  :easting: "585167.145376267"
+  :northing: "1888434.1339691"
+  :longitude: "-110.199586165332"
+  :ellipsoid: Hough
+- :zone: 24V
+  :latitude: "57.9090739866782"
+  :easting: "539217.427348228"
+  :northing: "6418805.99124219"
+  :longitude: "-38.3382168047217"
+  :ellipsoid: Hough
+- :zone: 13U
+  :latitude: "54.1757464391621"
+  :easting: "651972.339184778"
+  :northing: "6005041.48968616"
+  :longitude: "-102.671292206841"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 55X
+  :latitude: "79.9641476775162"
+  :easting: "517189.37983916"
+  :northing: "8877746.19146799"
+  :longitude: "147.883597710196"
+  :ellipsoid: South American 1969
+- :zone: 14K
+  :latitude: "-20.2032350733216"
+  :easting: "667784.011982125"
+  :northing: "7765216.82824449"
+  :longitude: "-97.3941159408291"
+  :ellipsoid: WGS-72
+- :zone: 12K
+  :latitude: "-16.183101608287"
+  :easting: "631622.098609694"
+  :northing: "8210560.19600829"
+  :longitude: "-109.768574077366"
+  :ellipsoid: Everest 1830 India
+- :zone: 48J
+  :latitude: "-30.7358835820862"
+  :easting: "450750.975320071"
+  :northing: "6599505.14511099"
+  :longitude: "104.485558017519"
+  :ellipsoid: International
+- :zone: 7E
+  :latitude: "-60.3501081077845"
+  :easting: "486116.798235404"
+  :northing: "3310261.71152634"
+  :longitude: "-141.2516049998"
+  :ellipsoid: Everest 1830 India
+- :zone: 30R
+  :latitude: "24.9802536616046"
+  :easting: "281819.398265724"
+  :northing: "2764507.81955774"
+  :longitude: "-5.16145506773213"
+  :ellipsoid: Fischer 1968
+- :zone: 59F
+  :latitude: "-52.1830615470703"
+  :easting: "473544.874784138"
+  :northing: "4219096.95347133"
+  :longitude: "170.613000557412"
+  :ellipsoid: Everest 1830 India
+- :zone: 27H
+  :latitude: "-35.7967150574717"
+  :easting: "735974.434624929"
+  :northing: "6035388.74266603"
+  :longitude: "-18.3888637406092"
+  :ellipsoid: International
+- :zone: 30C
+  :latitude: "-73.4663659748172"
+  :easting: "583140.612694473"
+  :northing: "1845644.27229113"
+  :longitude: "-0.381821631021637"
+  :ellipsoid: Australian National
+- :zone: 4X
+  :latitude: "72.6424249299604"
+  :easting: "592791.692895918"
+  :northing: "8062746.92416458"
+  :longitude: "-156.212459385437"
+  :ellipsoid: WGS-84
+- :zone: 37T
+  :latitude: "46.5329216761366"
+  :easting: "719440.484082758"
+  :northing: "5156754.05239321"
+  :longitude: "41.8620533419204"
+  :ellipsoid: Everest 1830 India
+- :zone: 40P
+  :latitude: "15.6240798902831"
+  :easting: "747791.520925822"
+  :northing: "1728594.63392776"
+  :longitude: "59.311147466294"
+  :ellipsoid: Clarke 1866
+- :zone: 32K
+  :latitude: "-21.8609067994208"
+  :easting: "503068.12784467"
+  :northing: "7582731.90321979"
+  :longitude: "9.02969776740377"
+  :ellipsoid: Airy
+- :zone: 47U
+  :latitude: "51.0861451673117"
+  :easting: "588976.355432494"
+  :northing: "5660187.3536803"
+  :longitude: "100.270392072722"
+  :ellipsoid: Fischer 1968
+- :zone: 26C
+  :latitude: "-76.509396270127"
+  :easting: "463928.868320505"
+  :northing: "1508513.22571268"
+  :longitude: "-28.3854885262883"
+  :ellipsoid: Everest 1830 India
+- :zone: 42S
+  :latitude: "33.0435908211805"
+  :easting: "355523.651590389"
+  :northing: "3656928.54777551"
+  :longitude: "67.4525769654728"
+  :ellipsoid: Airy
+- :zone: 43H
+  :latitude: "-33.8748453648909"
+  :easting: "677939.35343285"
+  :northing: "6250041.66357151"
+  :longitude: "76.9238781573236"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 15T
+  :latitude: "43.68220567917"
+  :easting: "370895.858628072"
+  :northing: "4837305.5956775"
+  :longitude: "-94.6019716647452"
+  :ellipsoid: Modified Airy
+- :zone: 35X
+  :latitude: "75.556652200765"
+  :easting: "632795.325481602"
+  :northing: "8391117.52715257"
+  :longitude: "31.77441956466"
+  :ellipsoid: WGS 60
+- :zone: 45N
+  :latitude: "1.90484759998438"
+  :easting: "622274.46751187"
+  :northing: "210583.828897115"
+  :longitude: "88.0993804869"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 48X
+  :latitude: "74.7264778451559"
+  :easting: "474324.267098746"
+  :northing: "8293298.11492066"
+  :longitude: "104.126784537284"
+  :ellipsoid: Fischer 1968
+- :zone: 25M
+  :latitude: "-5.61606168543625"
+  :easting: "211421.444925238"
+  :northing: "9378635.18713333"
+  :longitude: "-35.6051553628571"
+  :ellipsoid: Airy
+- :zone: 22X
+  :latitude: "72.0304526811685"
+  :easting: "417821.451189947"
+  :northing: "7993099.29846485"
+  :longitude: "-53.3874072139042"
+  :ellipsoid: Bessel 1841
+- :zone: 56W
+  :latitude: "68.0060734863935"
+  :easting: "514172.661289953"
+  :northing: "7543606.95137232"
+  :longitude: "153.339109011226"
+  :ellipsoid: South American 1969
+- :zone: 22V
+  :latitude: "56.5190342700986"
+  :easting: "418934.27195175"
+  :northing: "6264624.88530562"
+  :longitude: "-52.3175583497797"
+  :ellipsoid: WGS-72
+- :zone: 24S
+  :latitude: "33.454629198597"
+  :easting: "755547.902554731"
+  :northing: "3705089.87062815"
+  :longitude: "-36.2506445382603"
+  :ellipsoid: WGS 60
+- :zone: 25T
+  :latitude: "47.9437087482423"
+  :easting: "597407.280435401"
+  :northing: "5310923.05688906"
+  :longitude: "-31.6956131504656"
+  :ellipsoid: Helmert 1906
+- :zone: 25H
+  :latitude: "-33.3883835392547"
+  :easting: "251244.003063768"
+  :northing: "6302824.90710211"
+  :longitude: "-35.6746013662907"
+  :ellipsoid: Bessel 1841
+- :zone: 49K
+  :latitude: "-16.8950109771943"
+  :easting: "691426.393250037"
+  :northing: "8131180.29981954"
+  :longitude: "112.797138576367"
+  :ellipsoid: GRS 1967
+- :zone: 46X
+  :latitude: "76.9743322772294"
+  :easting: "566492.697417878"
+  :northing: "8545551.37720499"
+  :longitude: "95.6435873926593"
+  :ellipsoid: Krassovsky
+- :zone: 19S
+  :latitude: "33.0573234824604"
+  :easting: "676454.915920869"
+  :northing: "3659217.9351208"
+  :longitude: "-67.1100453497309"
+  :ellipsoid: Hough
+- :zone: 7H
+  :latitude: "-35.0009503623938"
+  :easting: "257308.360026432"
+  :northing: "6123608.69762627"
+  :longitude: "-143.659282694902"
+  :ellipsoid: Fischer 1968
+- :zone: 43V
+  :latitude: "59.737778856236"
+  :easting: "354202.157180503"
+  :northing: "6625093.73459735"
+  :longitude: "72.4061606704836"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 22S
+  :latitude: "36.7997248327861"
+  :easting: "494703.094148861"
+  :northing: "4072454.30487608"
+  :longitude: "-51.059375001078"
+  :ellipsoid: Clarke 1866
+- :zone: 42K
+  :latitude: "-22.7212614719316"
+  :easting: "224581.668929568"
+  :northing: "7484846.18798233"
+  :longitude: "66.3186736100846"
+  :ellipsoid: WGS-72
+- :zone: 55R
+  :latitude: "24.0413987826917"
+  :easting: "251078.931333155"
+  :northing: "2660976.92020615"
+  :longitude: "144.552382136581"
+  :ellipsoid: WGS-84
+- :zone: 19P
+  :latitude: "15.7411699536286"
+  :easting: "346060.84697715"
+  :northing: "1740860.18554268"
+  :longitude: "-70.4368081603732"
+  :ellipsoid: Krassovsky
+- :zone: 53H
+  :latitude: "-38.416873012896"
+  :easting: "641154.459567608"
+  :northing: "5746670.04730366"
+  :longitude: "136.61687019342"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 13X
+  :latitude: "75.1111360681007"
+  :easting: "481411.665457517"
+  :northing: "8335436.59376783"
+  :longitude: "-105.648176004422"
+  :ellipsoid: Airy
+- :zone: 29P
+  :latitude: "15.9898459397665"
+  :easting: "721774.310715024"
+  :northing: "1768916.89978102"
+  :longitude: "-6.92766956161293"
+  :ellipsoid: WGS-72
+- :zone: 28S
+  :latitude: "37.3272235589447"
+  :easting: "500297.319459075"
+  :northing: "4130823.27232731"
+  :longitude: "-14.9966435239728"
+  :ellipsoid: Modified Everest
+- :zone: 40X
+  :latitude: "74.8358202707451"
+  :easting: "548195.984225444"
+  :northing: "8305985.58452905"
+  :longitude: "58.650789127815"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 5U
+  :latitude: "52.7066482223222"
+  :easting: "599993.616572481"
+  :northing: "5840686.1018475"
+  :longitude: "-151.519985739937"
+  :ellipsoid: GRS 1967
+- :zone: 3U
+  :latitude: "49.5629167435162"
+  :easting: "372883.133676315"
+  :northing: "5491539.12253069"
+  :longitude: "-166.757867699769"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 5T
+  :latitude: "45.1616735140287"
+  :easting: "302845.240466088"
+  :northing: "5003989.56463272"
+  :longitude: "-155.508540040729"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 38X
+  :latitude: "81.2799403513549"
+  :easting: "515069.735951684"
+  :northing: "9024599.80349185"
+  :longitude: "45.890388216268"
+  :ellipsoid: Australian National
+- :zone: 22C
+  :latitude: "-78.390563972176"
+  :easting: "469118.006237355"
+  :northing: "1297638.52066937"
+  :longitude: "-52.3747777402343"
+  :ellipsoid: WGS 60
+- :zone: 14F
+  :latitude: "-51.2720711081613"
+  :easting: "686847.098199668"
+  :northing: "4316931.45551411"
+  :longitude: "-96.321040183213"
+  :ellipsoid: Airy
+- :zone: 26T
+  :latitude: "44.3979462093858"
+  :easting: "516793.95405029"
+  :northing: "4915878.09328516"
+  :longitude: "-26.7891229771826"
+  :ellipsoid: Clarke 1866
+- :zone: 57X
+  :latitude: "81.1185797320184"
+  :easting: "496717.709977577"
+  :northing: "9006477.65726973"
+  :longitude: "158.809569815969"
+  :ellipsoid: GRS 1967
+- :zone: 5V
+  :latitude: "62.8841650789915"
+  :easting: "414959.351842125"
+  :northing: "6973812.70255123"
+  :longitude: "-154.672411471"
+  :ellipsoid: South American 1969
+- :zone: 48U
+  :latitude: "49.4567042265903"
+  :easting: "361607.67394771"
+  :northing: "5480076.66429183"
+  :longitude: "103.090365512484"
+  :ellipsoid: Krassovsky
+- :zone: 48J
+  :latitude: "-30.8978509634734"
+  :easting: "583531.645798337"
+  :northing: "6581684.89345526"
+  :longitude: "105.874165942018"
+  :ellipsoid: Everest 1830 India
+- :zone: 8P
+  :latitude: "10.4239114013636"
+  :easting: "548821.981466514"
+  :northing: "1152329.09228408"
+  :longitude: "-134.553944065799"
+  :ellipsoid: Helmert 1906
+- :zone: 45L
+  :latitude: "-14.3635141638131"
+  :easting: "346365.083769423"
+  :northing: "8411591.54939332"
+  :longitude: "85.5751971642576"
+  :ellipsoid: Fischer 1968
+- :zone: 53E
+  :latitude: "-58.1599293244641"
+  :easting: "580939.972640099"
+  :northing: "3552511.92897569"
+  :longitude: "136.375457627382"
+  :ellipsoid: International
+- :zone: 24C
+  :latitude: "-77.2174630984881"
+  :easting: "548580.6554521"
+  :northing: "1428115.61053291"
+  :longitude: "-37.0327090558632"
+  :ellipsoid: Australian National
+- :zone: 17Q
+  :latitude: "16.4692277911876"
+  :easting: "706331.189838366"
+  :northing: "1821704.9046601"
+  :longitude: "-79.067077420247"
+  :ellipsoid: Airy
+- :zone: 35R
+  :latitude: "27.6125923107236"
+  :easting: "476020.686265944"
+  :northing: "3053995.57092482"
+  :longitude: "26.7569487636121"
+  :ellipsoid: Modified Airy
+- :zone: 43C
+  :latitude: "-79.8431533099182"
+  :easting: "497678.485962582"
+  :northing: "1135820.04684957"
+  :longitude: "74.8820801895407"
+  :ellipsoid: Hough
+- :zone: 32S
+  :latitude: "39.4424564716321"
+  :easting: "605305.53725867"
+  :northing: "4366605.04054707"
+  :longitude: "10.2237529655039"
+  :ellipsoid: Fischer 1968
+- :zone: 44X
+  :latitude: "83.196374724526"
+  :easting: "463762.546697809"
+  :northing: "9239252.84946338"
+  :longitude: "78.2591455307592"
+  :ellipsoid: WGS 66
+- :zone: 30F
+  :latitude: "-52.6547479524176"
+  :easting: "693794.55145452"
+  :northing: "4162261.10257489"
+  :longitude: "-0.134794204403761"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 29S
+  :latitude: "33.0276535233388"
+  :easting: "716090.632772291"
+  :northing: "3656456.1425668"
+  :longitude: "-6.68640128078508"
+  :ellipsoid: Clarke 1880
+- :zone: 33N
+  :latitude: "4.08228333008744"
+  :easting: "814958.13166492"
+  :northing: "451786.026936226"
+  :longitude: "17.8363973867809"
+  :ellipsoid: Krassovsky
+- :zone: 8H
+  :latitude: "-39.3887589326368"
+  :easting: "346221.332000731"
+  :northing: "5639022.44181471"
+  :longitude: "-136.785892148378"
+  :ellipsoid: Modified Airy
+- :zone: 19V
+  :latitude: "58.986841806808"
+  :easting: "421397.402506779"
+  :northing: "6538721.37908011"
+  :longitude: "-70.3678887693292"
+  :ellipsoid: Everest 1830 India
+- :zone: 37T
+  :latitude: "42.1693834811411"
+  :easting: "560250.249304305"
+  :northing: "4668432.10035574"
+  :longitude: "39.7295454863853"
+  :ellipsoid: Modified Everest
+- :zone: 22R
+  :latitude: "29.3326268570903"
+  :easting: "495303.34363792"
+  :northing: "3244850.76433517"
+  :longitude: "-51.0483758355738"
+  :ellipsoid: GRS 1967
+- :zone: 59N
+  :latitude: "7.04533528057556"
+  :easting: "224250.001023189"
+  :northing: "779497.597073143"
+  :longitude: "168.503947958448"
+  :ellipsoid: WGS-84
+- :zone: 37Q
+  :latitude: "18.3913558396439"
+  :easting: "548830.084241193"
+  :northing: "2033553.68138444"
+  :longitude: "39.4622837586553"
+  :ellipsoid: South American 1969
+- :zone: 48T
+  :latitude: "43.3423088948644"
+  :easting: "341243.319910815"
+  :northing: "4800690.27818285"
+  :longitude: "103.04137897556"
+  :ellipsoid: WGS-72
+- :zone: 13H
+  :latitude: "-33.080199810012"
+  :easting: "749848.473798014"
+  :northing: "6336631.23215716"
+  :longitude: "-102.323391655186"
+  :ellipsoid: WGS 66
+- :zone: 19P
+  :latitude: "8.0321337552283"
+  :easting: "501776.502019669"
+  :northing: "887794.182782833"
+  :longitude: "-68.9838780945176"
+  :ellipsoid: Clarke 1866
+- :zone: 6P
+  :latitude: "15.0950459162041"
+  :easting: "678503.897514149"
+  :northing: "1669518.71967872"
+  :longitude: "-145.339085063032"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 45L
+  :latitude: "-8.9990092407821"
+  :easting: "464018.399447268"
+  :northing: "9005248.52354217"
+  :longitude: "86.6726481004456"
+  :ellipsoid: Hough
+- :zone: 35X
+  :latitude: "72.5194567898129"
+  :easting: "343013.78079102"
+  :northing: "8053031.58326701"
+  :longitude: "22.3133847970652"
+  :ellipsoid: South American 1969
+- :zone: 23J
+  :latitude: "-25.0435835460112"
+  :easting: "602861.180134226"
+  :northing: "7230057.30112824"
+  :longitude: "-43.9801976556679"
+  :ellipsoid: Modified Everest
+- :zone: 29F
+  :latitude: "-51.4202269621504"
+  :easting: "674592.176844861"
+  :northing: "4300450.89603998"
+  :longitude: "-6.48892733274465"
+  :ellipsoid: GRS 1980
+- :zone: 16T
+  :latitude: "40.3871815006471"
+  :easting: "293029.705638927"
+  :northing: "4473591.64197495"
+  :longitude: "-89.4383897439884"
+  :ellipsoid: WGS 66
+- :zone: 31P
+  :latitude: "9.38209970709205"
+  :easting: "180152.310509047"
+  :northing: "1038340.72890792"
+  :longitude: "0.0876976315080924"
+  :ellipsoid: Everest 1830 India
+- :zone: 13W
+  :latitude: "64.3893067241981"
+  :easting: "365753.613740627"
+  :northing: "7143463.22528339"
+  :longitude: "-107.784073206706"
+  :ellipsoid: Krassovsky
+- :zone: 36H
+  :latitude: "-35.3727311905739"
+  :easting: "255910.622933052"
+  :northing: "6082292.5244988"
+  :longitude: "30.3131889819878"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 10F
+  :latitude: "-50.884843057428"
+  :easting: "710171.556924558"
+  :northing: "4359249.49555364"
+  :longitude: "-120.011479003353"
+  :ellipsoid: Modified Everest
+- :zone: 37S
+  :latitude: "33.6140933458078"
+  :easting: "468817.347530674"
+  :northing: "3719095.12929728"
+  :longitude: "38.6637996827992"
+  :ellipsoid: Everest 1830 India
+- :zone: 22M
+  :latitude: "-3.32020205596149"
+  :easting: "289893.779744772"
+  :northing: "9632810.91100335"
+  :longitude: "-52.8909730540748"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 26Q
+  :latitude: "20.7917885041413"
+  :easting: "684669.230263311"
+  :northing: "2300126.51785401"
+  :longitude: "-25.225784262193"
+  :ellipsoid: Fischer 1968
+- :zone: 51L
+  :latitude: "-14.2127980376064"
+  :easting: "498821.766902596"
+  :northing: "8428722.06226813"
+  :longitude: "122.989079486528"
+  :ellipsoid: Helmert 1906
+- :zone: 39C
+  :latitude: "-78.5684308789236"
+  :easting: "560876.062633349"
+  :northing: "1276748.05984679"
+  :longitude: "53.7523481300903"
+  :ellipsoid: WGS 66
+- :zone: 56D
+  :latitude: "-65.6937263377432"
+  :easting: "541595.67536817"
+  :northing: "2713743.97777915"
+  :longitude: "153.905606246024"
+  :ellipsoid: International
+- :zone: 24R
+  :latitude: "30.201056677098"
+  :easting: "640490.27936823"
+  :northing: "3341616.96646036"
+  :longitude: "-37.5402930410718"
+  :ellipsoid: Modified Airy
+- :zone: 16H
+  :latitude: "-38.758343657961"
+  :easting: "515167.274252896"
+  :northing: "5710003.14908597"
+  :longitude: "-86.8254346180221"
+  :ellipsoid: WGS 60
+- :zone: 56E
+  :latitude: "-58.1035653565808"
+  :easting: "368932.611318396"
+  :northing: "3558226.66336061"
+  :longitude: "150.77561630124"
+  :ellipsoid: Modified Everest
+- :zone: 25V
+  :latitude: "56.8825038440556"
+  :easting: "403610.298336"
+  :northing: "6304724.05765501"
+  :longitude: "-34.5820276395089"
+  :ellipsoid: Modified Airy
+- :zone: 4U
+  :latitude: "51.2714285223691"
+  :easting: "699508.891305899"
+  :northing: "5683583.41611182"
+  :longitude: "-156.139931248393"
+  :ellipsoid: Clarke 1880
+- :zone: 43N
+  :latitude: "1.39284564877605"
+  :easting: "727822.140131258"
+  :northing: "154040.427495729"
+  :longitude: "77.0477269755479"
+  :ellipsoid: Airy
+- :zone: 28T
+  :latitude: "44.9802896904291"
+  :easting: "470502.338265644"
+  :northing: "4980846.28478141"
+  :longitude: "-15.3741335360755"
+  :ellipsoid: Australian National
+- :zone: 15X
+  :latitude: "83.5579214910344"
+  :easting: "528306.205823406"
+  :northing: "9279456.67222026"
+  :longitude: "-90.7397380079151"
+  :ellipsoid: Krassovsky
+- :zone: 28S
+  :latitude: "37.7857847729914"
+  :easting: "549156.436304083"
+  :northing: "4181820.78751488"
+  :longitude: "-14.4416555803224"
+  :ellipsoid: Everest 1830 India
+- :zone: 12E
+  :latitude: "-61.701279603885"
+  :easting: "575953.808330079"
+  :northing: "3158223.97850769"
+  :longitude: "-109.563835242315"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 17R
+  :latitude: "24.2326399951906"
+  :easting: "696718.260342495"
+  :northing: "2681348.82207355"
+  :longitude: "-79.062658556384"
+  :ellipsoid: WGS-84
+- :zone: 27T
+  :latitude: "43.6602450114622"
+  :easting: "546928.328066937"
+  :northing: "4833854.38550678"
+  :longitude: "-20.4178948091065"
+  :ellipsoid: Everest 1830 India
+- :zone: 10U
+  :latitude: "55.4873135633743"
+  :easting: "356725.51946693"
+  :northing: "6150742.57105599"
+  :longitude: "-125.267888848591"
+  :ellipsoid: Everest 1830 India
+- :zone: 28J
+  :latitude: "-31.5720510241762"
+  :easting: "418531.680150931"
+  :northing: "6506616.00826256"
+  :longitude: "-15.8585134656944"
+  :ellipsoid: Krassovsky
+- :zone: 16S
+  :latitude: "35.3661005399907"
+  :easting: "592059.808944601"
+  :northing: "3914119.07205552"
+  :longitude: "-85.9866282732489"
+  :ellipsoid: WGS 66
+- :zone: 43S
+  :latitude: "32.4208060286875"
+  :easting: "682152.58038389"
+  :northing: "3588542.34630273"
+  :longitude: "76.937152446372"
+  :ellipsoid: Clarke 1866
+- :zone: 8M
+  :latitude: "-6.69302194064262"
+  :easting: "457149.606302018"
+  :northing: "9260168.57095612"
+  :longitude: "-135.387707080612"
+  :ellipsoid: WGS 66
+- :zone: 12X
+  :latitude: "74.7458996714221"
+  :easting: "577135.875330461"
+  :northing: "8296295.25184684"
+  :longitude: "-108.372422622758"
+  :ellipsoid: Airy
+- :zone: 6H
+  :latitude: "-35.2124876563367"
+  :easting: "477791.91384306"
+  :northing: "6103351.85888688"
+  :longitude: "-147.244003192974"
+  :ellipsoid: GRS 1967
+- :zone: 31X
+  :latitude: "81.9328635801389"
+  :easting: "585975.385698496"
+  :northing: "9101452.80734558"
+  :longitude: "8.49571787111145"
+  :ellipsoid: South American 1969
+- :zone: 57W
+  :latitude: "71.0475925625243"
+  :easting: "482523.797200695"
+  :northing: "7882799.87192288"
+  :longitude: "158.517879537902"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 20D
+  :latitude: "-67.8367517890222"
+  :easting: "604160.609910702"
+  :northing: "2473436.6769716"
+  :longitude: "-60.5253825205291"
+  :ellipsoid: Clarke 1866
+- :zone: 16X
+  :latitude: "79.1367794213384"
+  :easting: "477061.913091487"
+  :northing: "8785485.31297382"
+  :longitude: "-88.0902975863896"
+  :ellipsoid: South American 1969
+- :zone: 14X
+  :latitude: "72.3668276271435"
+  :easting: "472115.045220251"
+  :northing: "8030112.11404364"
+  :longitude: "-99.8247367769618"
+  :ellipsoid: Hough
+- :zone: 32D
+  :latitude: "-68.6639990376337"
+  :easting: "409616.879681467"
+  :northing: "2381466.78974735"
+  :longitude: "6.7736216562588"
+  :ellipsoid: WGS-84
+- :zone: 48V
+  :latitude: "56.369203542617"
+  :easting: "374094.712380892"
+  :northing: "6248823.41196407"
+  :longitude: "102.961680938191"
+  :ellipsoid: Clarke 1866
+- :zone: 27C
+  :latitude: "-79.5560155735765"
+  :easting: "521284.378331306"
+  :northing: "1167776.81989535"
+  :longitude: "-19.9481835778127"
+  :ellipsoid: WGS-84
+- :zone: 21D
+  :latitude: "-67.0377287833116"
+  :easting: "391048.791434465"
+  :northing: "2562911.18620036"
+  :longitude: "-59.5034521454521"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 46E
+  :latitude: "-63.4676614074895"
+  :easting: "620029.038655935"
+  :northing: "2960037.63001368"
+  :longitude: "95.4086833317115"
+  :ellipsoid: WGS 66
+- :zone: 6S
+  :latitude: "33.6933995698695"
+  :easting: "563906.784394215"
+  :northing: "3728387.84802602"
+  :longitude: "-146.310453903762"
+  :ellipsoid: South American 1969
+- :zone: 57P
+  :latitude: "11.3416812063234"
+  :easting: "561457.856902116"
+  :northing: "1253823.43878579"
+  :longitude: "159.563223193075"
+  :ellipsoid: South American 1969
+- :zone: 25D
+  :latitude: "-68.6940247397257"
+  :easting: "573758.390281356"
+  :northing: "2378625.78677763"
+  :longitude: "-31.1808135748804"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 2N
+  :latitude: "6.71973049546777"
+  :easting: "319159.706097632"
+  :northing: "743000.401368137"
+  :longitude: "-172.636084777834"
+  :ellipsoid: Clarke 1880
+- :zone: 41S
+  :latitude: "36.3086982158058"
+  :easting: "537834.219163851"
+  :northing: "4018284.82898117"
+  :longitude: "63.4214308360104"
+  :ellipsoid: Australian National
+- :zone: 11S
+  :latitude: "35.1974088657091"
+  :easting: "403757.739191764"
+  :northing: "3895458.18488702"
+  :longitude: "-118.057213694691"
+  :ellipsoid: Fischer 1968
+- :zone: 19M
+  :latitude: "-4.42838352784139"
+  :easting: "326376.719731627"
+  :northing: "9510341.39153632"
+  :longitude: "-70.5647231317435"
+  :ellipsoid: Hough
+- :zone: 29K
+  :latitude: "-19.3804954357771"
+  :easting: "758887.269588734"
+  :northing: "7855222.03720286"
+  :longitude: "-6.53520013344746"
+  :ellipsoid: WGS-84
+- :zone: 17E
+  :latitude: "-57.9836668551134"
+  :easting: "484176.216337418"
+  :northing: "3572964.48348991"
+  :longitude: "-81.2675783600112"
+  :ellipsoid: Krassovsky
+- :zone: 33S
+  :latitude: "34.9481436840763"
+  :easting: "231607.163413898"
+  :northing: "3870915.28917129"
+  :longitude: "12.0606506614141"
+  :ellipsoid: Modified Everest
+- :zone: 46X
+  :latitude: "79.236171289559"
+  :easting: "537437.136489546"
+  :northing: "8796940.5357783"
+  :longitude: "94.7958731641434"
+  :ellipsoid: Australian National
+- :zone: 43J
+  :latitude: "-27.9209542415175"
+  :easting: "719632.274481275"
+  :northing: "6909797.31797105"
+  :longitude: "77.2321534797487"
+  :ellipsoid: Modified Everest
+- :zone: 8G
+  :latitude: "-45.4276624904735"
+  :easting: "552655.379844583"
+  :northing: "4969225.34546059"
+  :longitude: "-134.326919191893"
+  :ellipsoid: International
+- :zone: 33X
+  :latitude: "76.2728211278903"
+  :easting: "584141.222101057"
+  :northing: "8467925.19538858"
+  :longitude: "18.1778642247056"
+  :ellipsoid: GRS 1967
+- :zone: 12D
+  :latitude: "-69.3907396692136"
+  :easting: "481519.990281627"
+  :northing: "2301977.55246257"
+  :longitude: "-111.470431563789"
+  :ellipsoid: Fischer 1968
+- :zone: 24C
+  :latitude: "-76.4827436614873"
+  :easting: "432561.680440323"
+  :northing: "1510272.14799416"
+  :longitude: "-41.5857163208352"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 33V
+  :latitude: "61.8598869545891"
+  :easting: "455216.126579519"
+  :northing: "6858336.49169917"
+  :longitude: "14.1487794546553"
+  :ellipsoid: Airy
+- :zone: 60N
+  :latitude: "3.54293898179039"
+  :easting: "257373.118686125"
+  :northing: "391892.089515591"
+  :longitude: "174.81595471932"
+  :ellipsoid: GRS 1980
+- :zone: 42N
+  :latitude: "6.43559288380004"
+  :easting: "624686.264141689"
+  :northing: "711493.689115344"
+  :longitude: "70.1275112628407"
+  :ellipsoid: WGS-72
+- :zone: 30D
+  :latitude: "-69.6958144297604"
+  :easting: "491033.701805086"
+  :northing: "2268876.61472753"
+  :longitude: "-3.23156291840803"
+  :ellipsoid: Everest 1830 India
+- :zone: 24L
+  :latitude: "-13.6616054426364"
+  :easting: "434937.807979566"
+  :northing: "8489611.57889917"
+  :longitude: "-39.6015977039248"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 22G
+  :latitude: "-40.6811869518647"
+  :easting: "583547.683754327"
+  :northing: "5496147.66654361"
+  :longitude: "-50.0113450272116"
+  :ellipsoid: South American 1969
+- :zone: 39E
+  :latitude: "-60.2090171926739"
+  :easting: "559969.851170418"
+  :northing: "3324786.20727016"
+  :longitude: "52.0819893747434"
+  :ellipsoid: Hough
+- :zone: 24E
+  :latitude: "-63.5227806183433"
+  :easting: "453090.224112772"
+  :northing: "2955818.35072272"
+  :longitude: "-39.9430377383544"
+  :ellipsoid: WGS-72
+- :zone: 36K
+  :latitude: "-22.4282388469635"
+  :easting: "783437.336357769"
+  :northing: "7517364.78402059"
+  :longitude: "35.7538912859063"
+  :ellipsoid: Modified Everest
+- :zone: 13S
+  :latitude: "38.1470176795979"
+  :easting: "691233.84319542"
+  :northing: "4224452.05459327"
+  :longitude: "-102.817670288185"
+  :ellipsoid: Krassovsky
+- :zone: 28C
+  :latitude: "-75.764810180546"
+  :easting: "537560.662041156"
+  :northing: "1590536.63650773"
+  :longitude: "-13.6315324059096"
+  :ellipsoid: Helmert 1906
+- :zone: 47L
+  :latitude: "-8.50075525742962"
+  :easting: "229233.860609575"
+  :northing: "9059542.10157434"
+  :longitude: "96.5405996471208"
+  :ellipsoid: Clarke 1866
+- :zone: 41F
+  :latitude: "-52.9675436537454"
+  :easting: "589344.919631673"
+  :northing: "4130408.88209887"
+  :longitude: "64.3303263543463"
+  :ellipsoid: Krassovsky
+- :zone: 22D
+  :latitude: "-68.2378766344258"
+  :easting: "507871.009831584"
+  :northing: "2431198.39338533"
+  :longitude: "-50.8097459659533"
+  :ellipsoid: Airy
+- :zone: 20L
+  :latitude: "-12.7313128054761"
+  :easting: "344841.014492025"
+  :northing: "8592149.01628657"
+  :longitude: "-64.4291515367262"
+  :ellipsoid: WGS 66
+- :zone: 37K
+  :latitude: "-18.9501061526646"
+  :easting: "464063.98193321"
+  :northing: "7904861.55624693"
+  :longitude: "38.6586280418123"
+  :ellipsoid: Bessel 1841
+- :zone: 25W
+  :latitude: "64.8849261880904"
+  :easting: "434401.321303812"
+  :northing: "7195583.52951348"
+  :longitude: "-34.385429632717"
+  :ellipsoid: Everest 1830 India
+- :zone: 41M
+  :latitude: "-6.23523856015014"
+  :easting: "388504.895476856"
+  :northing: "9310672.69476967"
+  :longitude: "61.9921669719659"
+  :ellipsoid: Krassovsky
+- :zone: 6T
+  :latitude: "45.9364621381409"
+  :easting: "686722.108556106"
+  :northing: "5089439.31202525"
+  :longitude: "-144.591077990782"
+  :ellipsoid: Airy
+- :zone: 53G
+  :latitude: "-41.7227017465263"
+  :easting: "534862.538353316"
+  :northing: "5381328.22392285"
+  :longitude: "135.419185112835"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 31Q
+  :latitude: "21.4735367545533"
+  :easting: "696205.000197323"
+  :northing: "2375730.39458351"
+  :longitude: "4.89361943334174"
+  :ellipsoid: Hough
+- :zone: 1K
+  :latitude: "-21.7374795357266"
+  :easting: "393784.733598419"
+  :northing: "7595877.3059553"
+  :longitude: "-178.027089960346"
+  :ellipsoid: GRS 1980
+- :zone: 47N
+  :latitude: "1.11371231230186"
+  :easting: "199796.526934701"
+  :northing: "123228.381607099"
+  :longitude: "96.3026729934599"
+  :ellipsoid: Clarke 1866
+- :zone: 55G
+  :latitude: "-42.2447882820635"
+  :easting: "643872.210666963"
+  :northing: "5321522.79835123"
+  :longitude: "148.743873857217"
+  :ellipsoid: Helmert 1906
+- :zone: 51F
+  :latitude: "-55.5082875522462"
+  :easting: "343474.271686372"
+  :northing: "3845831.94926407"
+  :longitude: "120.521386357409"
+  :ellipsoid: GRS 1967
+- :zone: 9H
+  :latitude: "-36.7930712788868"
+  :easting: "559409.604455623"
+  :northing: "5927871.16135374"
+  :longitude: "-128.334102090963"
+  :ellipsoid: WGS 66
+- :zone: 14N
+  :latitude: "2.59190488789272"
+  :easting: "821636.26224841"
+  :northing: "286825.234396734"
+  :longitude: "-96.1074926912265"
+  :ellipsoid: Bessel 1841
+- :zone: 50D
+  :latitude: "-68.1181386727381"
+  :easting: "383772.706672737"
+  :northing: "2441334.7457218"
+  :longitude: "114.204706271511"
+  :ellipsoid: WGS-72
+- :zone: 35S
+  :latitude: "32.3174575039114"
+  :easting: "614783.206731468"
+  :northing: "3576277.39499587"
+  :longitude: "28.2193918652693"
+  :ellipsoid: WGS-84
+- :zone: 31H
+  :latitude: "-39.811978734667"
+  :easting: "567371.522662312"
+  :northing: "5592736.7214318"
+  :longitude: "3.78709389932027"
+  :ellipsoid: Krassovsky
+- :zone: 30K
+  :latitude: "-23.6322931397874"
+  :easting: "779992.39535468"
+  :northing: "7383997.73657273"
+  :longitude: "-0.255268600112544"
+  :ellipsoid: Modified Everest
+- :zone: 45U
+  :latitude: "53.9779283879979"
+  :easting: "563583.21400295"
+  :northing: "5981629.19073352"
+  :longitude: "87.9694566884359"
+  :ellipsoid: International
+- :zone: 53R
+  :latitude: "24.1059026836102"
+  :easting: "563257.447787468"
+  :northing: "2666101.07383442"
+  :longitude: "135.622432706402"
+  :ellipsoid: Australian National
+- :zone: 7X
+  :latitude: "72.7694468971967"
+  :easting: "520384.364843945"
+  :northing: "8075087.79302461"
+  :longitude: "-140.383485718303"
+  :ellipsoid: International
+- :zone: 10Q
+  :latitude: "23.1428709247058"
+  :easting: "505113.597136107"
+  :northing: "2559136.50570467"
+  :longitude: "-122.95004279108"
+  :ellipsoid: Modified Everest
+- :zone: 28C
+  :latitude: "-77.6903878204971"
+  :easting: "527827.974026918"
+  :northing: "1376890.38742851"
+  :longitude: "-13.8304619840113"
+  :ellipsoid: Everest 1830 India
+- :zone: 16G
+  :latitude: "-44.4157598109597"
+  :easting: "453779.000155021"
+  :northing: "5081758.20598543"
+  :longitude: "-87.5805746193215"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 50Q
+  :latitude: "18.1359589654202"
+  :easting: "598961.879223097"
+  :northing: "2005479.11379272"
+  :longitude: "117.935500001011"
+  :ellipsoid: GRS 1980
+- :zone: 22K
+  :latitude: "-22.596136275271"
+  :easting: "688702.961431238"
+  :northing: "7500025.5597641"
+  :longitude: "-49.1643023245693"
+  :ellipsoid: WGS-72
+- :zone: 11H
+  :latitude: "-34.8407401773983"
+  :easting: "708776.91538343"
+  :northing: "6142510.70717211"
+  :longitude: "-114.716488082732"
+  :ellipsoid: Airy
+- :zone: 21C
+  :latitude: "-76.9367577495753"
+  :easting: "440266.847516055"
+  :northing: "1459081.53659704"
+  :longitude: "-59.3680234703989"
+  :ellipsoid: GRS 1980
+- :zone: 29T
+  :latitude: "46.518172851519"
+  :easting: "424253.355877641"
+  :northing: "5152102.18418369"
+  :longitude: "-9.98749020308736"
+  :ellipsoid: WGS 66
+- :zone: 8Q
+  :latitude: "16.8119465009574"
+  :easting: "239467.43242697"
+  :northing: "1860380.09760617"
+  :longitude: "-137.444548243455"
+  :ellipsoid: Helmert 1906
+- :zone: 15P
+  :latitude: "14.4335229345694"
+  :easting: "346433.334360955"
+  :northing: "1596016.4170649"
+  :longitude: "-94.4247636968231"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 51R
+  :latitude: "28.2398462994175"
+  :easting: "634733.877371954"
+  :northing: "3124285.38394313"
+  :longitude: "124.373493483903"
+  :ellipsoid: Modified Everest
+- :zone: 16E
+  :latitude: "-63.2441189329501"
+  :easting: "497310.209540149"
+  :northing: "2987998.34547748"
+  :longitude: "-87.0535576308296"
+  :ellipsoid: Modified Airy
+- :zone: 33X
+  :latitude: "73.0561558429291"
+  :easting: "500072.890529556"
+  :northing: "8106753.78560861"
+  :longitude: "15.0022407744042"
+  :ellipsoid: WGS 66
+- :zone: 18M
+  :latitude: "-4.25710482646879"
+  :easting: "538770.702344551"
+  :northing: "9529444.54690344"
+  :longitude: "-74.65062212455"
+  :ellipsoid: WGS-84
+- :zone: 29F
+  :latitude: "-48.4931240490302"
+  :easting: "279807.238697117"
+  :northing: "4624579.23684606"
+  :longitude: "-11.9804914332424"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 45P
+  :latitude: "13.2227128671312"
+  :easting: "776135.015365332"
+  :northing: "1463174.94252545"
+  :longitude: "89.5479246751464"
+  :ellipsoid: GRS 1967
+- :zone: 26Q
+  :latitude: "21.674278117251"
+  :easting: "299997.022294727"
+  :northing: "2398029.43960629"
+  :longitude: "-28.9329628537659"
+  :ellipsoid: South American 1969
+- :zone: 2C
+  :latitude: "-74.9252370263923"
+  :easting: "561668.808359551"
+  :northing: "1683844.62106312"
+  :longitude: "-168.875488646101"
+  :ellipsoid: Clarke 1880
+- :zone: 3L
+  :latitude: "-9.38880410300303"
+  :easting: "598813.602750072"
+  :northing: "8962104.47258725"
+  :longitude: "-164.099963984486"
+  :ellipsoid: Airy
+- :zone: 44E
+  :latitude: "-61.5142721040737"
+  :easting: "580546.150265335"
+  :northing: "3179709.66104064"
+  :longitude: "82.5140461720557"
+  :ellipsoid: Bessel 1841
+- :zone: 19U
+  :latitude: "53.3140589741412"
+  :easting: "452632.479758524"
+  :northing: "5907443.6127846"
+  :longitude: "-69.7109902933663"
+  :ellipsoid: WGS-84
+- :zone: 51R
+  :latitude: "26.8452334860052"
+  :easting: "722204.347303138"
+  :northing: "2971252.44794547"
+  :longitude: "125.236227949537"
+  :ellipsoid: WGS-84
+- :zone: 33L
+  :latitude: "-11.1746859748619"
+  :easting: "590283.185310593"
+  :northing: "8764574.8230252"
+  :longitude: "15.826898304786"
+  :ellipsoid: Australian National
+- :zone: 7R
+  :latitude: "30.4003613827056"
+  :easting: "759807.740180679"
+  :northing: "3365992.3797569"
+  :longitude: "-138.295887677506"
+  :ellipsoid: Clarke 1880
+- :zone: 38T
+  :latitude: "42.9846328642507"
+  :easting: "697074.732058576"
+  :northing: "4761960.06481922"
+  :longitude: "47.41718439222"
+  :ellipsoid: South American 1969
+- :zone: 19Q
+  :latitude: "19.0459577207393"
+  :easting: "758440.767196144"
+  :northing: "2107707.71526985"
+  :longitude: "-66.544478895799"
+  :ellipsoid: Hough
+- :zone: 43M
+  :latitude: "-7.15301063600984"
+  :easting: "394865.695046315"
+  :northing: "9209289.57392232"
+  :longitude: "74.0477367299137"
+  :ellipsoid: Everest 1830 India
+- :zone: 38H
+  :latitude: "-38.7067894493418"
+  :easting: "652304.815741446"
+  :northing: "5714512.01631406"
+  :longitude: "46.7515724688266"
+  :ellipsoid: Clarke 1866
+- :zone: 57P
+  :latitude: "11.34509048111"
+  :easting: "602482.093246013"
+  :northing: "1254305.66752389"
+  :longitude: "159.939172525569"
+  :ellipsoid: Fischer 1968
+- :zone: 46T
+  :latitude: "42.2564118788"
+  :easting: "636278.453390094"
+  :northing: "4679591.36911273"
+  :longitude: "94.6521450075466"
+  :ellipsoid: WGS 60
+- :zone: 16M
+  :latitude: "-6.74337642759511"
+  :easting: "417506.977405363"
+  :northing: "9254556.72665592"
+  :longitude: "-87.7464531577773"
+  :ellipsoid: WGS-84
+- :zone: 48C
+  :latitude: "-76.5258130651961"
+  :easting: "553929.348972323"
+  :northing: "1505192.20233762"
+  :longitude: "107.073784750378"
+  :ellipsoid: GRS 1980
+- :zone: 50C
+  :latitude: "-73.8856817689306"
+  :easting: "437251.455667048"
+  :northing: "1799649.77175727"
+  :longitude: "114.974238808441"
+  :ellipsoid: WGS-84
+- :zone: 31F
+  :latitude: "-52.6123953746928"
+  :easting: "580206.754740603"
+  :northing: "4170188.64069806"
+  :longitude: "4.1845884237506"
+  :ellipsoid: WGS-72
+- :zone: 1J
+  :latitude: "-26.3045496152241"
+  :easting: "236695.457923214"
+  :northing: "7087886.60076451"
+  :longitude: "-179.637259783815"
+  :ellipsoid: WGS 60
+- :zone: 20V
+  :latitude: "57.1197759801584"
+  :easting: "361660.253625722"
+  :northing: "6333102.09387657"
+  :longitude: "-65.2848484129996"
+  :ellipsoid: Helmert 1906
+- :zone: 6G
+  :latitude: "-46.8026630277537"
+  :easting: "571906.491394573"
+  :northing: "4816315.66138727"
+  :longitude: "-146.057645086433"
+  :ellipsoid: Australian National
+- :zone: 4H
+  :latitude: "-38.8595886694269"
+  :easting: "631770.881255304"
+  :northing: "5697696.92248195"
+  :longitude: "-157.481289586982"
+  :ellipsoid: Fischer 1968
+- :zone: 3D
+  :latitude: "-71.5563645532973"
+  :easting: "496173.455514958"
+  :northing: "2061456.81896975"
+  :longitude: "-165.108382426494"
+  :ellipsoid: Modified Airy
+- :zone: 23N
+  :latitude: "0.717262356738061"
+  :easting: "238875.797684349"
+  :northing: "79346.4748434853"
+  :longitude: "-47.3461691165798"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 30D
+  :latitude: "-68.1455688932281"
+  :easting: "437707.315023181"
+  :northing: "2440851.78266126"
+  :longitude: "-4.49980025017155"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 12J
+  :latitude: "-27.65633315202"
+  :easting: "465668.86769379"
+  :northing: "6941062.70761179"
+  :longitude: "-111.348116883049"
+  :ellipsoid: Modified Everest
+- :zone: 6V
+  :latitude: "63.5537020760048"
+  :easting: "616908.348370855"
+  :northing: "7048641.03204597"
+  :longitude: "-144.646568009667"
+  :ellipsoid: Modified Airy
+- :zone: 3H
+  :latitude: "-33.5449843659575"
+  :easting: "557201.177364444"
+  :northing: "6288109.94487799"
+  :longitude: "-164.383861979095"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 7P
+  :latitude: "15.7489874065237"
+  :easting: "446068.548421825"
+  :northing: "1741117.94656241"
+  :longitude: "-141.503488432538"
+  :ellipsoid: Airy
+- :zone: 44V
+  :latitude: "58.6892449552004"
+  :easting: "468673.150489128"
+  :northing: "6505725.64168696"
+  :longitude: "80.4596173920891"
+  :ellipsoid: International
+- :zone: 55R
+  :latitude: "25.2210504127705"
+  :easting: "246677.552850693"
+  :northing: "2791794.24275699"
+  :longitude: "144.485612271205"
+  :ellipsoid: GRS 1980
+- :zone: 30G
+  :latitude: "-41.551994945666"
+  :easting: "633381.876860952"
+  :northing: "5398679.52378975"
+  :longitude: "-1.40066060386943"
+  :ellipsoid: Helmert 1906
+- :zone: 40E
+  :latitude: "-57.6307505484448"
+  :easting: "552845.809747856"
+  :northing: "3612031.19090921"
+  :longitude: "57.8849575679472"
+  :ellipsoid: South American 1969
+- :zone: 1H
+  :latitude: "-32.9284160914746"
+  :easting: "726562.382772007"
+  :northing: "6354024.72841715"
+  :longitude: "-174.576952777604"
+  :ellipsoid: WGS 60
+- :zone: 12H
+  :latitude: "-39.9479180710408"
+  :easting: "328447.622528534"
+  :northing: "5576098.66825838"
+  :longitude: "-113.008106912967"
+  :ellipsoid: Hough
+- :zone: 4T
+  :latitude: "40.3248428813374"
+  :easting: "402407.11765976"
+  :northing: "4464445.77433068"
+  :longitude: "-160.148762758248"
+  :ellipsoid: WGS-84
+- :zone: 56N
+  :latitude: "3.31173201258406"
+  :easting: "612202.061032156"
+  :northing: "366108.35119472"
+  :longitude: "154.009951087563"
+  :ellipsoid: GRS 1967
+- :zone: 30R
+  :latitude: "28.9979523989394"
+  :easting: "577850.463790909"
+  :northing: "3208025.5654761"
+  :longitude: "-2.20074398076918"
+  :ellipsoid: WGS 66
+- :zone: 1C
+  :latitude: "-79.9635778969601"
+  :easting: "467566.90724735"
+  :northing: "1122014.74233502"
+  :longitude: "-178.667252355676"
+  :ellipsoid: GRS 1980
+- :zone: 31J
+  :latitude: "-28.1404380710867"
+  :easting: "477139.756036296"
+  :northing: "6887218.5214191"
+  :longitude: "2.76719521902493"
+  :ellipsoid: GRS 1980
+- :zone: 19V
+  :latitude: "56.2359238641698"
+  :easting: "527386.035487193"
+  :northing: "6232423.83814674"
+  :longitude: "-68.5581977658789"
+  :ellipsoid: WGS-72
+- :zone: 16W
+  :latitude: "71.6561573030662"
+  :easting: "491155.675656447"
+  :northing: "7949687.29695553"
+  :longitude: "-87.2518203737133"
+  :ellipsoid: Modified Airy
+- :zone: 11G
+  :latitude: "-46.6297050217688"
+  :easting: "726452.401634049"
+  :northing: "4831726.6137232"
+  :longitude: "-114.041672020975"
+  :ellipsoid: WGS 66
+- :zone: 9H
+  :latitude: "-38.0427668571867"
+  :easting: "494778.412474625"
+  :northing: "5789433.4874595"
+  :longitude: "-129.059507690042"
+  :ellipsoid: WGS 66
+- :zone: 26D
+  :latitude: "-69.2402688763852"
+  :easting: "586975.517349849"
+  :northing: "2318160.9593455"
+  :longitude: "-24.800577426813"
+  :ellipsoid: Modified Airy
+- :zone: 41P
+  :latitude: "9.56384274223181"
+  :easting: "493487.383880019"
+  :northing: "1057182.94014935"
+  :longitude: "62.9406545872575"
+  :ellipsoid: Hough
+- :zone: 24G
+  :latitude: "-46.8469119358787"
+  :easting: "571117.112868006"
+  :northing: "4811407.33578285"
+  :longitude: "-38.0672250491928"
+  :ellipsoid: South American 1969
+- :zone: 57J
+  :latitude: "-25.0908577321962"
+  :easting: "748428.190892001"
+  :northing: "7222957.07705386"
+  :longitude: "161.463556354802"
+  :ellipsoid: Everest 1830 India
+- :zone: 9Q
+  :latitude: "18.7839700221431"
+  :easting: "711168.156257141"
+  :northing: "2077901.49788667"
+  :longitude: "-126.996294416839"
+  :ellipsoid: Modified Airy
+- :zone: 20G
+  :latitude: "-45.3040121513681"
+  :easting: "388521.640548901"
+  :northing: "4982293.35744939"
+  :longitude: "-64.4219664945598"
+  :ellipsoid: WGS-84
+- :zone: 46N
+  :latitude: "4.04089836078211"
+  :easting: "772215.929927842"
+  :northing: "447013.638618119"
+  :longitude: "95.4519521522546"
+  :ellipsoid: Modified Airy
+- :zone: 40F
+  :latitude: "-53.5052105677487"
+  :easting: "412075.085358846"
+  :northing: "4071151.88986659"
+  :longitude: "55.674155680334"
+  :ellipsoid: Airy
+- :zone: 6F
+  :latitude: "-49.8542982204404"
+  :easting: "357684.245192289"
+  :northing: "4476289.22427171"
+  :longitude: "-148.98014037214"
+  :ellipsoid: Modified Airy
+- :zone: 54K
+  :latitude: "-19.924852961044"
+  :easting: "658614.54620333"
+  :northing: "7796267.89371607"
+  :longitude: "142.515599627239"
+  :ellipsoid: Airy
+- :zone: 28C
+  :latitude: "-73.8457860680485"
+  :easting: "476338.263037295"
+  :northing: "1804873.35678869"
+  :longitude: "-15.7619272576376"
+  :ellipsoid: Krassovsky
+- :zone: 59L
+  :latitude: "-12.1388293273085"
+  :easting: "298212.817838979"
+  :northing: "8657544.10835646"
+  :longitude: "169.145455145205"
+  :ellipsoid: Modified Airy
+- :zone: 41K
+  :latitude: "-20.6495932786313"
+  :easting: "381715.530248675"
+  :northing: "7716194.06811822"
+  :longitude: "61.8645666308221"
+  :ellipsoid: Helmert 1906
+- :zone: 57C
+  :latitude: "-72.4446397371833"
+  :easting: "412009.207290674"
+  :northing: "1959484.91983283"
+  :longitude: "156.385717615514"
+  :ellipsoid: Hough
+- :zone: 25E
+  :latitude: "-57.8207958205553"
+  :easting: "663870.035817209"
+  :northing: "3587878.78510991"
+  :longitude: "-30.2409868350846"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 23F
+  :latitude: "-55.6461352480418"
+  :easting: "325715.63162533"
+  :northing: "3829794.08846462"
+  :longitude: "-47.7695909092247"
+  :ellipsoid: WGS 60
+- :zone: 20X
+  :latitude: "82.4805136982259"
+  :easting: "508635.699332399"
+  :northing: "9158394.05091295"
+  :longitude: "-62.4089350226835"
+  :ellipsoid: Clarke 1866
+- :zone: 8H
+  :latitude: "-38.4590396240553"
+  :easting: "279523.168075079"
+  :northing: "5740151.42420126"
+  :longitude: "-137.526805656057"
+  :ellipsoid: Krassovsky
+- :zone: 21C
+  :latitude: "-78.7367904753334"
+  :easting: "474862.053659018"
+  :northing: "1259154.01023277"
+  :longitude: "-58.1529696802598"
+  :ellipsoid: GRS 1980
+- :zone: 59K
+  :latitude: "-22.6288991538721"
+  :easting: "439656.803531558"
+  :northing: "7497698.20028734"
+  :longitude: "170.41270562919"
+  :ellipsoid: Modified Airy
+- :zone: 13J
+  :latitude: "-29.9062720083772"
+  :easting: "274514.855468831"
+  :northing: "6689576.069179"
+  :longitude: "-107.335703081878"
+  :ellipsoid: Modified Everest
+- :zone: 37U
+  :latitude: "54.3236892363582"
+  :easting: "496138.384948591"
+  :northing: "6019667.71714888"
+  :longitude: "38.940629940069"
+  :ellipsoid: International
+- :zone: 4P
+  :latitude: "11.8872813349318"
+  :easting: "759903.723761244"
+  :northing: "1315219.67337801"
+  :longitude: "-156.614193481505"
+  :ellipsoid: International
+- :zone: 10G
+  :latitude: "-45.8145584621569"
+  :easting: "324199.919405038"
+  :northing: "4924520.43142026"
+  :longitude: "-125.263168074934"
+  :ellipsoid: Modified Everest
+- :zone: 1S
+  :latitude: "32.6925299668516"
+  :easting: "590573.447777679"
+  :northing: "3617362.2870565"
+  :longitude: "-176.033693596588"
+  :ellipsoid: Airy
+- :zone: 28W
+  :latitude: "71.3260720855773"
+  :easting: "474860.978374177"
+  :northing: "7914124.19850538"
+  :longitude: "-15.7034472675775"
+  :ellipsoid: International
+- :zone: 27D
+  :latitude: "-65.3831306077382"
+  :easting: "580213.80535437"
+  :northing: "2747710.25787988"
+  :longitude: "-19.2740730234159"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 26N
+  :latitude: "7.41469980650278"
+  :easting: "661376.478929836"
+  :northing: "819863.19996279"
+  :longitude: "-25.5377638669697"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 34E
+  :latitude: "-58.3377584854288"
+  :easting: "653434.666354812"
+  :northing: "3531328.04907606"
+  :longitude: "23.6213103356336"
+  :ellipsoid: Modified Everest
+- :zone: 30G
+  :latitude: "-45.4011399935517"
+  :easting: "447545.516270955"
+  :northing: "4972485.85287706"
+  :longitude: "-3.67021028390411"
+  :ellipsoid: Clarke 1866
+- :zone: 31X
+  :latitude: "76.0133307404128"
+  :easting: "457690.116022384"
+  :northing: "8437028.29682883"
+  :longitude: "1.43173516895885"
+  :ellipsoid: Clarke 1880
+- :zone: 33N
+  :latitude: "0.873437099366427"
+  :easting: "801542.058920662"
+  :northing: "96641.9249119846"
+  :longitude: "17.709455940437"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 55L
+  :latitude: "-14.2522284443073"
+  :easting: "663688.323378082"
+  :northing: "8423970.19874018"
+  :longitude: "148.517482197081"
+  :ellipsoid: Everest 1830 India
+- :zone: 56Q
+  :latitude: "19.2910014942622"
+  :easting: "690276.747249775"
+  :northing: "2133892.54323373"
+  :longitude: "154.810764141391"
+  :ellipsoid: Clarke 1866
+- :zone: 15X
+  :latitude: "83.8736841121004"
+  :easting: "494480.663598899"
+  :northing: "9312918.61273545"
+  :longitude: "-93.4633003900201"
+  :ellipsoid: Modified Airy
+- :zone: 11R
+  :latitude: "27.9105808517974"
+  :easting: "722710.841913365"
+  :northing: "3089359.80810113"
+  :longitude: "-114.737096267022"
+  :ellipsoid: WGS 66
+- :zone: 3D
+  :latitude: "-66.7103506791713"
+  :easting: "547238.257467145"
+  :northing: "2600450.96143766"
+  :longitude: "-163.929330619116"
+  :ellipsoid: Hough
+- :zone: 59W
+  :latitude: "68.4100151885887"
+  :easting: "578839.425828237"
+  :northing: "7589844.93822321"
+  :longitude: "172.920171351635"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 12G
+  :latitude: "-43.4936979172786"
+  :easting: "742099.892053403"
+  :northing: "5180517.60120696"
+  :longitude: "-108.005350993801"
+  :ellipsoid: Modified Airy
+- :zone: 46Q
+  :latitude: "20.611572749674"
+  :easting: "709872.881284022"
+  :northing: "2280283.20559547"
+  :longitude: "95.0141817504877"
+  :ellipsoid: Modified Everest
+- :zone: 16X
+  :latitude: "73.5018285051955"
+  :easting: "496551.299954334"
+  :northing: "8156490.97058023"
+  :longitude: "-87.1087981665402"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 55C
+  :latitude: "-72.0007246603803"
+  :easting: "588568.507013918"
+  :northing: "2009058.48464906"
+  :longitude: "149.568700548992"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 2R
+  :latitude: "25.4108623693357"
+  :easting: "237467.958442498"
+  :northing: "2813018.27764348"
+  :longitude: "-173.60982122417"
+  :ellipsoid: Fischer 1968
+- :zone: 52F
+  :latitude: "-52.4482676575713"
+  :easting: "571005.582000375"
+  :northing: "4188568.97393183"
+  :longitude: "130.044784731109"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 9Q
+  :latitude: "18.7930904926345"
+  :easting: "507463.842398304"
+  :northing: "2077810.33628841"
+  :longitude: "-128.929172698011"
+  :ellipsoid: Clarke 1866
+- :zone: 21L
+  :latitude: "-9.08044162519566"
+  :easting: "676294.232341948"
+  :northing: "8995861.85096771"
+  :longitude: "-55.3959187488937"
+  :ellipsoid: Fischer 1968
+- :zone: 19L
+  :latitude: "-13.7107859557436"
+  :easting: "691181.534772492"
+  :northing: "8483653.45773915"
+  :longitude: "-67.232111870136"
+  :ellipsoid: Clarke 1866
+- :zone: 31F
+  :latitude: "-53.16958692877"
+  :easting: "664181.141770938"
+  :northing: "4106016.06272776"
+  :longitude: "5.45626995411084"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 57L
+  :latitude: "-10.9307156116851"
+  :easting: "709814.244687714"
+  :northing: "8791010.53661072"
+  :longitude: "160.919815072309"
+  :ellipsoid: GRS 1967
+- :zone: 55V
+  :latitude: "61.840701739178"
+  :easting: "530257.9494396"
+  :northing: "6856365.59613915"
+  :longitude: "147.574676316599"
+  :ellipsoid: Clarke 1866
+- :zone: 5T
+  :latitude: "45.8596976113066"
+  :easting: "409684.725783863"
+  :northing: "5079135.07345781"
+  :longitude: "-154.163439232821"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 15V
+  :latitude: "56.1547581234987"
+  :easting: "331237.70537991"
+  :northing: "6226737.48747185"
+  :longitude: "-95.7171272150228"
+  :ellipsoid: Krassovsky
+- :zone: 45C
+  :latitude: "-76.5237906512958"
+  :easting: "575326.440650159"
+  :northing: "1504429.16058046"
+  :longitude: "89.8965930806374"
+  :ellipsoid: Hough
+- :zone: 6F
+  :latitude: "-51.0066362439736"
+  :easting: "469694.546337919"
+  :northing: "4349249.05722189"
+  :longitude: "-147.431943936014"
+  :ellipsoid: Krassovsky
+- :zone: 43V
+  :latitude: "57.8832336496386"
+  :easting: "595212.429675596"
+  :northing: "6416907.36827539"
+  :longitude: "76.6056412497072"
+  :ellipsoid: Helmert 1906
+- :zone: 27Q
+  :latitude: "19.6016505122604"
+  :easting: "690290.206284916"
+  :northing: "2168231.3242731"
+  :longitude: "-19.1854426989667"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 14Q
+  :latitude: "20.3362643995417"
+  :easting: "557526.537221322"
+  :northing: "2248801.44877574"
+  :longitude: "-98.4488898131541"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 12D
+  :latitude: "-68.0688856566031"
+  :easting: "505393.785062839"
+  :northing: "2449425.15691561"
+  :longitude: "-110.870592313735"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 37Q
+  :latitude: "20.850006814971"
+  :easting: "619338.823180836"
+  :northing: "2305980.67422259"
+  :longitude: "40.1470707936055"
+  :ellipsoid: GRS 1967
+- :zone: 26U
+  :latitude: "55.7535141567594"
+  :easting: "511991.327475882"
+  :northing: "6178663.46001652"
+  :longitude: "-26.8089461682993"
+  :ellipsoid: GRS 1980
+- :zone: 20H
+  :latitude: "-37.9078436621771"
+  :easting: "547525.707536079"
+  :northing: "5804272.07380389"
+  :longitude: "-62.4593662924421"
+  :ellipsoid: GRS 1980
+- :zone: 3R
+  :latitude: "26.302399776458"
+  :easting: "297757.701793122"
+  :northing: "2910773.85143444"
+  :longitude: "-167.025801627561"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 33V
+  :latitude: "59.9481641511859"
+  :easting: "483265.985001577"
+  :northing: "6644980.3441916"
+  :longitude: "14.7004180385657"
+  :ellipsoid: Bessel 1841
+- :zone: 31C
+  :latitude: "-72.8728207406813"
+  :easting: "470351.395794861"
+  :northing: "1913474.69472682"
+  :longitude: "2.09798578460521"
+  :ellipsoid: WGS 66
+- :zone: 17C
+  :latitude: "-79.2934388277983"
+  :easting: "474908.557057085"
+  :northing: "1197015.15964602"
+  :longitude: "-82.2099104758762"
+  :ellipsoid: GRS 1980
+- :zone: 7C
+  :latitude: "-74.2142209441718"
+  :easting: "495541.510841435"
+  :northing: "1764833.48889397"
+  :longitude: "-141.146843212543"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 7N
+  :latitude: "4.5804626564387"
+  :easting: "437108.230046971"
+  :northing: "506272.749446891"
+  :longitude: "-141.567040160174"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 60H
+  :latitude: "-35.2932053173919"
+  :easting: "575303.620019015"
+  :northing: "6094136.6705393"
+  :longitude: "177.82816444711"
+  :ellipsoid: Hough
+- :zone: 46N
+  :latitude: "4.79877261774084"
+  :easting: "378072.152176982"
+  :northing: "530485.083953134"
+  :longitude: "91.9005157035924"
+  :ellipsoid: Clarke 1866
+- :zone: 55N
+  :latitude: "4.31819357773433"
+  :easting: "648846.682889955"
+  :northing: "477432.045712188"
+  :longitude: "148.341303333551"
+  :ellipsoid: Australian National
+- :zone: 26M
+  :latitude: "-0.536415382730496"
+  :easting: "292290.145222193"
+  :northing: "9940678.0846416"
+  :longitude: "-28.8663782338951"
+  :ellipsoid: GRS 1967
+- :zone: 48T
+  :latitude: "47.0259710812879"
+  :easting: "576962.469038422"
+  :northing: "5208054.37174447"
+  :longitude: "106.01297005246"
+  :ellipsoid: Everest 1830 India
+- :zone: 20X
+  :latitude: "81.2616361755885"
+  :easting: "514007.776139712"
+  :northing: "9022552.50769724"
+  :longitude: "-62.1740818999193"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 1E
+  :latitude: "-58.9746255467707"
+  :easting: "469380.946951368"
+  :northing: "3463245.38415885"
+  :longitude: "-177.53261758132"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 17X
+  :latitude: "75.202734121666"
+  :easting: "525377.184671297"
+  :northing: "8346561.89221642"
+  :longitude: "-80.1098347183888"
+  :ellipsoid: Krassovsky
+- :zone: 45D
+  :latitude: "-64.7423100175756"
+  :easting: "559694.661688893"
+  :northing: "2819673.17954986"
+  :longitude: "88.2538777805772"
+  :ellipsoid: GRS 1980
+- :zone: 40W
+  :latitude: "68.4405530459342"
+  :easting: "464450.239753445"
+  :northing: "7591369.54710399"
+  :longitude: "56.1329753394985"
+  :ellipsoid: Modified Airy
+- :zone: 45N
+  :latitude: "5.38878174069093"
+  :easting: "396028.757479999"
+  :northing: "595726.323556076"
+  :longitude: "86.0615672917646"
+  :ellipsoid: Helmert 1906
+- :zone: 44V
+  :latitude: "58.458478137613"
+  :easting: "379083.71630144"
+  :northing: "6481126.81167578"
+  :longitude: "78.9273960414481"
+  :ellipsoid: Airy
+- :zone: 55C
+  :latitude: "-72.6377654098696"
+  :easting: "469725.167520368"
+  :northing: "1939477.50278594"
+  :longitude: "146.091066025669"
+  :ellipsoid: International
+- :zone: 49X
+  :latitude: "74.2296382934929"
+  :easting: "468049.521013516"
+  :northing: "8237721.52220915"
+  :longitude: "109.946828432378"
+  :ellipsoid: Clarke 1880
+- :zone: 19L
+  :latitude: "-15.2398242115612"
+  :easting: "251733.780530189"
+  :northing: "8313829.44180753"
+  :longitude: "-71.3113426303562"
+  :ellipsoid: WGS 66
+- :zone: 48P
+  :latitude: "9.00344434737539"
+  :easting: "329631.358738607"
+  :northing: "995597.395347121"
+  :longitude: "103.450152837158"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 2V
+  :latitude: "56.2752065615606"
+  :easting: "361185.803166911"
+  :northing: "6238990.89334462"
+  :longitude: "-173.241901293847"
+  :ellipsoid: GRS 1967
+- :zone: 3C
+  :latitude: "-73.4806739412066"
+  :easting: "586039.188422178"
+  :northing: "1843906.86860808"
+  :longitude: "-162.288205492393"
+  :ellipsoid: WGS 60
+- :zone: 28K
+  :latitude: "-18.9689884174488"
+  :easting: "540751.695772183"
+  :northing: "7902740.48388794"
+  :longitude: "-14.6128931228321"
+  :ellipsoid: Clarke 1880
+- :zone: 25K
+  :latitude: "-17.9942206904023"
+  :easting: "324569.607047934"
+  :northing: "8009648.62460335"
+  :longitude: "-34.6568930071818"
+  :ellipsoid: Helmert 1906
+- :zone: 41U
+  :latitude: "48.7138081136984"
+  :easting: "399762.933119943"
+  :northing: "5396552.3084814"
+  :longitude: "61.6373411170215"
+  :ellipsoid: Fischer 1968
+- :zone: 60R
+  :latitude: "30.9984249356909"
+  :easting: "741146.27662824"
+  :northing: "3432216.25502221"
+  :longitude: "179.525452314159"
+  :ellipsoid: International
+- :zone: 45E
+  :latitude: "-57.1902087911709"
+  :easting: "476555.84094318"
+  :northing: "3661947.14284555"
+  :longitude: "86.6120495495682"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 50X
+  :latitude: "74.9890482312621"
+  :easting: "452586.530991172"
+  :northing: "8322254.3734065"
+  :longitude: "115.359644932033"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 56X
+  :latitude: "83.3267093233001"
+  :easting: "474360.930530461"
+  :northing: "9253481.41288155"
+  :longitude: "151.023487330639"
+  :ellipsoid: Hough
+- :zone: 26E
+  :latitude: "-59.1320673341979"
+  :easting: "616190.025647276"
+  :northing: "3443451.68581982"
+  :longitude: "-24.9696533015371"
+  :ellipsoid: South American 1969
+- :zone: 5V
+  :latitude: "59.6492760173468"
+  :easting: "464429.876979204"
+  :northing: "6612590.86082979"
+  :longitude: "-153.631045394764"
+  :ellipsoid: Helmert 1906
+- :zone: 53D
+  :latitude: "-65.3681345803636"
+  :easting: "408812.438401013"
+  :northing: "2749097.8630899"
+  :longitude: "133.039009712316"
+  :ellipsoid: WGS-84
+- :zone: 34S
+  :latitude: "35.0602051259169"
+  :easting: "647798.21464408"
+  :northing: "3880941.37831861"
+  :longitude: "22.6207839390437"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 53L
+  :latitude: "-9.12758521604582"
+  :easting: "421626.56508008"
+  :northing: "8990972.25596531"
+  :longitude: "134.28673773185"
+  :ellipsoid: Hough
+- :zone: 45W
+  :latitude: "65.5525175731477"
+  :easting: "372345.580388078"
+  :northing: "7272063.40937412"
+  :longitude: "84.2346016872739"
+  :ellipsoid: Everest 1830 India
+- :zone: 8E
+  :latitude: "-57.2751738994497"
+  :easting: "421875.353558092"
+  :northing: "3651882.11813481"
+  :longitude: "-136.295871944183"
+  :ellipsoid: Everest 1830 India
+- :zone: 37H
+  :latitude: "-36.2272859459059"
+  :easting: "604833.432037742"
+  :northing: "5990565.88090623"
+  :longitude: "40.1666674992205"
+  :ellipsoid: Everest 1830 India
+- :zone: 31L
+  :latitude: "-14.6814694647313"
+  :easting: "278659.397646236"
+  :northing: "8375891.77073548"
+  :longitude: "0.944565035566285"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 1X
+  :latitude: "77.0899837373827"
+  :easting: "490762.294306622"
+  :northing: "8556644.94411781"
+  :longitude: "-177.37036550633"
+  :ellipsoid: Clarke 1880
+- :zone: 51K
+  :latitude: "-20.6503905163223"
+  :easting: "585092.321577382"
+  :northing: "7716465.20011188"
+  :longitude: "123.816835293962"
+  :ellipsoid: Clarke 1866
+- :zone: 44Q
+  :latitude: "16.8751999296532"
+  :easting: "376332.678774068"
+  :northing: "1866133.00937845"
+  :longitude: "79.839028892396"
+  :ellipsoid: Helmert 1906
+- :zone: 44P
+  :latitude: "13.3629450241432"
+  :easting: "743726.224974388"
+  :northing: "1478406.00569355"
+  :longitude: "83.2502966301276"
+  :ellipsoid: Krassovsky
+- :zone: 31L
+  :latitude: "-12.0398980004405"
+  :easting: "749637.534243359"
+  :northing: "8667984.82186195"
+  :longitude: "5.29298186867322"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 46F
+  :latitude: "-55.8497165220386"
+  :easting: "602187.511827394"
+  :northing: "3809441.66072786"
+  :longitude: "94.6322191885729"
+  :ellipsoid: GRS 1980
+- :zone: 21C
+  :latitude: "-78.7564727096092"
+  :easting: "563963.799631354"
+  :northing: "1255782.3744227"
+  :longitude: "-54.0603855607228"
+  :ellipsoid: Clarke 1880
+- :zone: 3M
+  :latitude: "-3.44050710182705"
+  :easting: "217411.244072476"
+  :northing: "9619374.46570054"
+  :longitude: "-167.54322817865"
+  :ellipsoid: Clarke 1880
+- :zone: 35Q
+  :latitude: "20.7652852235598"
+  :easting: "239616.643787471"
+  :northing: "2298032.26719669"
+  :longitude: "24.4988587119468"
+  :ellipsoid: Airy
+- :zone: 53P
+  :latitude: "11.2072070609038"
+  :easting: "287543.056146242"
+  :northing: "1239583.14014647"
+  :longitude: "133.05422229312"
+  :ellipsoid: Hough
+- :zone: 43J
+  :latitude: "-29.4606899624163"
+  :easting: "708559.918226045"
+  :northing: "6739029.403319"
+  :longitude: "77.1506085252619"
+  :ellipsoid: WGS 60
+- :zone: 25H
+  :latitude: "-32.9833503340519"
+  :easting: "328884.309500239"
+  :northing: "6349050.2595105"
+  :longitude: "-34.8312832728173"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 59P
+  :latitude: "12.2604140277024"
+  :easting: "321950.552013747"
+  :northing: "1355752.70968001"
+  :longitude: "169.362814677288"
+  :ellipsoid: Modified Airy
+- :zone: 53P
+  :latitude: "8.58934073415716"
+  :easting: "173066.753535838"
+  :northing: "950734.625926016"
+  :longitude: "132.030158875263"
+  :ellipsoid: Krassovsky
+- :zone: 23H
+  :latitude: "-36.3498006126314"
+  :easting: "675735.138534041"
+  :northing: "5975872.32774493"
+  :longitude: "-43.041346816992"
+  :ellipsoid: Bessel 1841
+- :zone: 35X
+  :latitude: "77.9022157466906"
+  :easting: "495215.264878104"
+  :northing: "8647556.1339883"
+  :longitude: "26.7954965475094"
+  :ellipsoid: Hough
+- :zone: 7P
+  :latitude: "11.5287938423674"
+  :easting: "602541.773309467"
+  :northing: "1274622.02109957"
+  :longitude: "-140.059676220787"
+  :ellipsoid: South American 1969
+- :zone: 8X
+  :latitude: "79.5535825046842"
+  :easting: "510872.437451809"
+  :northing: "8831628.81761795"
+  :longitude: "-134.462896064561"
+  :ellipsoid: Clarke 1880
+- :zone: 40M
+  :latitude: "-7.95699955362879"
+  :easting: "420523.297787146"
+  :northing: "9120386.89401319"
+  :longitude: "56.2788840543598"
+  :ellipsoid: WGS-72
+- :zone: 1S
+  :latitude: "39.6262193018376"
+  :easting: "582653.657742031"
+  :northing: "4386720.5495526"
+  :longitude: "-176.036941916601"
+  :ellipsoid: WGS 66
+- :zone: 15L
+  :latitude: "-11.3177479724301"
+  :easting: "193313.931187608"
+  :northing: "8747410.21254279"
+  :longitude: "-95.8093597965797"
+  :ellipsoid: GRS 1980
+- :zone: 46G
+  :latitude: "-44.7052098342806"
+  :easting: "312900.99665284"
+  :northing: "5047614.04138694"
+  :longitude: "90.6378860262389"
+  :ellipsoid: Modified Airy
+- :zone: 13R
+  :latitude: "29.8002253598859"
+  :easting: "564212.334133172"
+  :northing: "3296845.4997507"
+  :longitude: "-104.335563090513"
+  :ellipsoid: Australian National
+- :zone: 2T
+  :latitude: "41.8314905539578"
+  :easting: "288367.559315677"
+  :northing: "4633741.47913723"
+  :longitude: "-173.548903177189"
+  :ellipsoid: Bessel 1841
+- :zone: 60K
+  :latitude: "-20.9397399626419"
+  :easting: "587964.598045775"
+  :northing: "7684264.41023451"
+  :longitude: "177.846022326138"
+  :ellipsoid: Helmert 1906
+- :zone: 22E
+  :latitude: "-59.8452259351522"
+  :easting: "403249.052228122"
+  :northing: "3364547.63080443"
+  :longitude: "-52.7266500965733"
+  :ellipsoid: Fischer 1968
+- :zone: 18J
+  :latitude: "-26.0680962505341"
+  :easting: "465267.026288494"
+  :northing: "7116718.83458407"
+  :longitude: "-75.3472580617998"
+  :ellipsoid: GRS 1967
+- :zone: 17N
+  :latitude: "6.13274640677975"
+  :easting: "786265.710109449"
+  :northing: "678569.139023455"
+  :longitude: "-78.4135573734237"
+  :ellipsoid: WGS-72
+- :zone: 30C
+  :latitude: "-79.1267737619683"
+  :easting: "552691.944836942"
+  :northing: "1214704.98371191"
+  :longitude: "-0.497114312399844"
+  :ellipsoid: WGS 60
+- :zone: 31J
+  :latitude: "-24.3874082122701"
+  :easting: "407753.379704524"
+  :northing: "7302569.18988596"
+  :longitude: "2.09033702193366"
+  :ellipsoid: South American 1969
+- :zone: 1K
+  :latitude: "-16.2686031840395"
+  :easting: "799513.539257512"
+  :northing: "8199280.42366317"
+  :longitude: "-174.197788153224"
+  :ellipsoid: Helmert 1906
+- :zone: 22D
+  :latitude: "-65.009556508361"
+  :easting: "513278.630717144"
+  :northing: "2790376.06412403"
+  :longitude: "-50.718315828489"
+  :ellipsoid: Helmert 1906
+- :zone: 29F
+  :latitude: "-55.7846246270823"
+  :easting: "542201.691681254"
+  :northing: "3817664.07014439"
+  :longitude: "-8.32707606363726"
+  :ellipsoid: Australian National
+- :zone: 26M
+  :latitude: "-2.14570899466443"
+  :easting: "498459.807119314"
+  :northing: "9762833.56587461"
+  :longitude: "-27.0138509712139"
+  :ellipsoid: WGS-84
+- :zone: 58U
+  :latitude: "50.5508187838413"
+  :easting: "355507.078365311"
+  :northing: "5601252.79891444"
+  :longitude: "162.960081893214"
+  :ellipsoid: Modified Airy
+- :zone: 51D
+  :latitude: "-66.381295969703"
+  :easting: "496706.83833171"
+  :northing: "2638268.02666923"
+  :longitude: "122.926332336821"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 5C
+  :latitude: "-74.1566204321942"
+  :easting: "532286.383291318"
+  :northing: "1771089.53239425"
+  :longitude: "-151.940327936064"
+  :ellipsoid: Bessel 1841
+- :zone: 48E
+  :latitude: "-56.7773271199879"
+  :easting: "445597.814984988"
+  :northing: "3706906.46675089"
+  :longitude: "104.109799199876"
+  :ellipsoid: International
+- :zone: 9R
+  :latitude: "27.0451770530908"
+  :easting: "653496.876977914"
+  :northing: "2992392.13391933"
+  :longitude: "-127.452387125271"
+  :ellipsoid: South American 1969
+- :zone: 18Q
+  :latitude: "16.6533858718592"
+  :easting: "458261.614045128"
+  :northing: "1841112.3463134"
+  :longitude: "-75.3914558444994"
+  :ellipsoid: Modified Everest
+- :zone: 29N
+  :latitude: "1.6211019381423"
+  :easting: "505040.591083726"
+  :northing: "179182.951008382"
+  :longitude: "-8.95468391684346"
+  :ellipsoid: Helmert 1906
+- :zone: 43C
+  :latitude: "-79.3459703487028"
+  :easting: "507281.837003628"
+  :northing: "1191294.06142229"
+  :longitude: "75.3528067186413"
+  :ellipsoid: Hough
+- :zone: 7P
+  :latitude: "9.87371925597843"
+  :easting: "779780.076676466"
+  :northing: "1092522.33805817"
+  :longitude: "-138.448940756621"
+  :ellipsoid: Fischer 1968
+- :zone: 54X
+  :latitude: "77.5054494824172"
+  :easting: "543116.422773128"
+  :northing: "8602835.2796839"
+  :longitude: "142.785779294229"
+  :ellipsoid: Modified Airy
+- :zone: 26M
+  :latitude: "-6.32607395830634"
+  :easting: "444112.653566865"
+  :northing: "9300728.35043521"
+  :longitude: "-27.5052848310088"
+  :ellipsoid: Hough
+- :zone: 46M
+  :latitude: "-0.0910099239023623"
+  :easting: "730066.05358549"
+  :northing: "9989935.03823886"
+  :longitude: "95.0673363021535"
+  :ellipsoid: Bessel 1841
+- :zone: 45E
+  :latitude: "-60.1860598622687"
+  :easting: "554863.943886888"
+  :northing: "3327423.55886512"
+  :longitude: "87.9891714690919"
+  :ellipsoid: Hough
+- :zone: 43T
+  :latitude: "42.7672642900646"
+  :easting: "277031.146413509"
+  :northing: "4738264.31582415"
+  :longitude: "72.2749277733085"
+  :ellipsoid: Clarke 1880
+- :zone: 30F
+  :latitude: "-54.2538586313642"
+  :easting: "359595.430977426"
+  :northing: "3986540.06130879"
+  :longitude: "-5.15546632307803"
+  :ellipsoid: Airy
+- :zone: 42W
+  :latitude: "70.9009290296928"
+  :easting: "524535.172788418"
+  :northing: "7866243.29064019"
+  :longitude: "69.6718184437712"
+  :ellipsoid: Clarke 1880
+- :zone: 23C
+  :latitude: "-75.4375274575894"
+  :easting: "458996.170076484"
+  :northing: "1627222.40308494"
+  :longitude: "-46.4610180060382"
+  :ellipsoid: Clarke 1866
+- :zone: 16G
+  :latitude: "-42.5910116349162"
+  :easting: "390353.013513949"
+  :northing: "5283722.53197248"
+  :longitude: "-88.3363817075098"
+  :ellipsoid: Fischer 1968
+- :zone: 41K
+  :latitude: "-16.2577944751071"
+  :easting: "767850.088394029"
+  :northing: "8200898.27701474"
+  :longitude: "65.5060188818163"
+  :ellipsoid: WGS 60
+- :zone: 25T
+  :latitude: "47.9327065339794"
+  :easting: "677253.434952812"
+  :northing: "5310972.49609313"
+  :longitude: "-30.6265090385473"
+  :ellipsoid: Modified Airy
+- :zone: 32U
+  :latitude: "48.0543835382343"
+  :easting: "687381.516822389"
+  :northing: "5325497.80279335"
+  :longitude: "11.5146551275475"
+  :ellipsoid: Krassovsky
+- :zone: 32D
+  :latitude: "-65.7052573046267"
+  :easting: "497556.594152793"
+  :northing: "2712865.67965816"
+  :longitude: "8.94677858908338"
+  :ellipsoid: Helmert 1906
+- :zone: 4S
+  :latitude: "35.7503764940392"
+  :easting: "541244.132229659"
+  :northing: "3955941.63182338"
+  :longitude: "-158.543756760842"
+  :ellipsoid: Modified Airy
+- :zone: 30W
+  :latitude: "68.6981405174636"
+  :easting: "480067.434221323"
+  :northing: "7619988.82853236"
+  :longitude: "-3.49173188301748"
+  :ellipsoid: Modified Everest
+- :zone: 17F
+  :latitude: "-49.6225623898587"
+  :easting: "384992.288174722"
+  :northing: "4502334.93622299"
+  :longitude: "-82.5922994799865"
+  :ellipsoid: Clarke 1866
+- :zone: 40C
+  :latitude: "-72.9274219494125"
+  :easting: "433920.668093239"
+  :northing: "1906731.94887622"
+  :longitude: "54.9832602215294"
+  :ellipsoid: Clarke 1880
+- :zone: 23C
+  :latitude: "-78.1493278918028"
+  :easting: "528317.525952313"
+  :northing: "1325621.50497254"
+  :longitude: "-43.7645050392462"
+  :ellipsoid: Modified Everest
+- :zone: 11U
+  :latitude: "50.3284304777149"
+  :easting: "546305.934088509"
+  :northing: "5574743.56401665"
+  :longitude: "-116.349343196205"
+  :ellipsoid: Modified Airy
+- :zone: 40X
+  :latitude: "74.3023926315722"
+  :easting: "522177.010068379"
+  :northing: "8245693.15699376"
+  :longitude: "57.7342949183142"
+  :ellipsoid: Clarke 1880
+- :zone: 51D
+  :latitude: "-71.1307076350216"
+  :easting: "553720.782653881"
+  :northing: "2108200.22570884"
+  :longitude: "124.488647544682"
+  :ellipsoid: Modified Everest
+- :zone: 56C
+  :latitude: "-75.3836626308948"
+  :easting: "422391.239184291"
+  :northing: "1631749.55441896"
+  :longitude: "150.243885218516"
+  :ellipsoid: Australian National
+- :zone: 46D
+  :latitude: "-67.2819203386667"
+  :easting: "585526.36217775"
+  :northing: "2535825.03253516"
+  :longitude: "94.9847876897432"
+  :ellipsoid: WGS-84
+- :zone: 26M
+  :latitude: "-7.33142024775275"
+  :easting: "516033.147116551"
+  :northing: "9189610.03464806"
+  :longitude: "-26.8547347397694"
+  :ellipsoid: WGS 66
+- :zone: 59P
+  :latitude: "14.3845934585824"
+  :easting: "349010.82547103"
+  :northing: "1590566.17248307"
+  :longitude: "169.599431922321"
+  :ellipsoid: Bessel 1841
+- :zone: 60C
+  :latitude: "-73.5905477131022"
+  :easting: "506277.734217249"
+  :northing: "1833555.22256906"
+  :longitude: "177.199081842649"
+  :ellipsoid: Hough
+- :zone: 44M
+  :latitude: "-2.68544485105829"
+  :easting: "320095.84750932"
+  :northing: "9703055.5230926"
+  :longitude: "79.3817002460973"
+  :ellipsoid: Fischer 1968
+- :zone: 23J
+  :latitude: "-30.5073958458502"
+  :easting: "395395.675865987"
+  :northing: "6624665.94069665"
+  :longitude: "-46.0901047080719"
+  :ellipsoid: Clarke 1866
+- :zone: 37E
+  :latitude: "-63.3249904908332"
+  :easting: "602805.818489815"
+  :northing: "2976531.25053698"
+  :longitude: "41.0527349079867"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 11M
+  :latitude: "-1.61003780386984"
+  :easting: "496141.951029954"
+  :northing: "9822053.3213996"
+  :longitude: "-117.034684535432"
+  :ellipsoid: Clarke 1866
+- :zone: 19Q
+  :latitude: "22.2783220833026"
+  :easting: "474503.127829063"
+  :northing: "2463654.08162659"
+  :longitude: "-69.2474982047965"
+  :ellipsoid: WGS-72
+- :zone: 39X
+  :latitude: "75.4062085839801"
+  :easting: "567039.69438561"
+  :northing: "8369335.58218084"
+  :longitude: "53.3845653068144"
+  :ellipsoid: Everest 1830 India
+- :zone: 1C
+  :latitude: "-75.2950782667526"
+  :easting: "467186.901308802"
+  :northing: "1643107.86498181"
+  :longitude: "-178.158104283004"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 31G
+  :latitude: "-40.2912721838004"
+  :easting: "576698.669833549"
+  :northing: "5539507.07929589"
+  :longitude: "3.90237217008689"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 58P
+  :latitude: "12.5048339573667"
+  :easting: "469755.161628261"
+  :northing: "1382284.32549215"
+  :longitude: "164.721599566687"
+  :ellipsoid: Everest 1830 India
+- :zone: 55D
+  :latitude: "-70.861115582977"
+  :easting: "406518.067588682"
+  :northing: "2135911.86041503"
+  :longitude: "144.444757796835"
+  :ellipsoid: International
+- :zone: 52H
+  :latitude: "-39.0087760164844"
+  :easting: "463089.104976199"
+  :northing: "5682148.0829442"
+  :longitude: "128.573686310582"
+  :ellipsoid: Australian National
+- :zone: 11X
+  :latitude: "73.807142396556"
+  :easting: "554408.057902347"
+  :northing: "8191348.5456761"
+  :longitude: "-115.251875625078"
+  :ellipsoid: South American 1969
+- :zone: 60U
+  :latitude: "51.8498991358998"
+  :easting: "382464.763738667"
+  :northing: "5745750.1017286"
+  :longitude: "175.293568765728"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 43C
+  :latitude: "-73.9340855053218"
+  :easting: "492048.415878299"
+  :northing: "1795070.05808418"
+  :longitude: "74.7425982819513"
+  :ellipsoid: International
+- :zone: 8T
+  :latitude: "41.5629961721581"
+  :easting: "336139.286774015"
+  :northing: "4603138.53579646"
+  :longitude: "-136.965130682639"
+  :ellipsoid: GRS 1967
+- :zone: 33E
+  :latitude: "-59.6710831240381"
+  :easting: "404268.047419541"
+  :northing: "3384685.0169031"
+  :longitude: "13.3001963122808"
+  :ellipsoid: Bessel 1841
+- :zone: 50H
+  :latitude: "-33.2705816307066"
+  :easting: "444217.744224665"
+  :northing: "6318499.28092214"
+  :longitude: "116.401056326882"
+  :ellipsoid: International
+- :zone: 41M
+  :latitude: "-7.27009314416794"
+  :easting: "370336.013272432"
+  :northing: "9196284.46072599"
+  :longitude: "61.8252878394142"
+  :ellipsoid: Modified Everest
+- :zone: 48S
+  :latitude: "32.9943063348287"
+  :easting: "281970.654886131"
+  :northing: "3653087.01761561"
+  :longitude: "102.666457327905"
+  :ellipsoid: Australian National
+- :zone: 9P
+  :latitude: "11.1567598395545"
+  :easting: "542315.247328112"
+  :northing: "1233341.57263956"
+  :longitude: "-128.612450268711"
+  :ellipsoid: WGS 66
+- :zone: 2N
+  :latitude: "5.10114272125"
+  :easting: "286525.515725696"
+  :northing: "564109.463758122"
+  :longitude: "-172.925883146935"
+  :ellipsoid: Bessel 1841
+- :zone: 28T
+  :latitude: "41.6627475008016"
+  :easting: "459285.217250389"
+  :northing: "4612497.02870654"
+  :longitude: "-15.4890406084613"
+  :ellipsoid: Helmert 1906
+- :zone: 17H
+  :latitude: "-36.7445764915712"
+  :easting: "710751.157606417"
+  :northing: "5930849.76011075"
+  :longitude: "-78.6394456850302"
+  :ellipsoid: South American 1969
+- :zone: 10X
+  :latitude: "72.8733459275791"
+  :easting: "517487.891683684"
+  :northing: "8086448.58318298"
+  :longitude: "-122.46795335476"
+  :ellipsoid: Fischer 1968
+- :zone: 11T
+  :latitude: "44.0196798232483"
+  :easting: "431331.056764627"
+  :northing: "4874428.84101119"
+  :longitude: "-117.856778278222"
+  :ellipsoid: Fischer 1968
+- :zone: 22G
+  :latitude: "-43.7030177642338"
+  :easting: "700718.230928293"
+  :northing: "5158079.09345144"
+  :longitude: "-48.5089088709353"
+  :ellipsoid: GRS 1967
+- :zone: 46J
+  :latitude: "-26.8135758426241"
+  :easting: "646997.56360082"
+  :northing: "7033647.16480529"
+  :longitude: "94.4792485550086"
+  :ellipsoid: Bessel 1841
+- :zone: 6U
+  :latitude: "53.9301429854063"
+  :easting: "508492.405700046"
+  :northing: "5975774.51019271"
+  :longitude: "-146.870663259846"
+  :ellipsoid: Hough
+- :zone: 37G
+  :latitude: "-47.8611775619757"
+  :easting: "588511.051331584"
+  :northing: "4698956.34103352"
+  :longitude: "40.1835619792767"
+  :ellipsoid: Everest 1830 India
+- :zone: 43C
+  :latitude: "-73.6648488045976"
+  :easting: "470524.793740196"
+  :northing: "1825093.94174954"
+  :longitude: "74.0610750467826"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 41V
+  :latitude: "61.9610023976897"
+  :easting: "506024.232855557"
+  :northing: "6869865.28922263"
+  :longitude: "63.1148689558553"
+  :ellipsoid: South American 1969
+- :zone: 36T
+  :latitude: "43.4698233958116"
+  :easting: "733664.6411131"
+  :northing: "4817131.52833695"
+  :longitude: "35.8886648568375"
+  :ellipsoid: International
+- :zone: 11E
+  :latitude: "-56.3177692882303"
+  :easting: "608665.108609965"
+  :northing: "3757144.23835995"
+  :longitude: "-115.243132061643"
+  :ellipsoid: Australian National
+- :zone: 53C
+  :latitude: "-73.7207364181313"
+  :easting: "420119.155356025"
+  :northing: "1817398.31465082"
+  :longitude: "132.44630394897"
+  :ellipsoid: WGS 66
+- :zone: 43S
+  :latitude: "32.2233424859976"
+  :easting: "675106.474070044"
+  :northing: "3566769.66690917"
+  :longitude: "76.8582006310517"
+  :ellipsoid: Krassovsky
+- :zone: 41T
+  :latitude: "43.6310874514881"
+  :easting: "641041.885719619"
+  :northing: "4832383.47063849"
+  :longitude: "64.7483362936526"
+  :ellipsoid: Hough
+- :zone: 48E
+  :latitude: "-61.2080880296666"
+  :easting: "363732.126432108"
+  :northing: "3211367.70037112"
+  :longitude: "102.463480846558"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 13N
+  :latitude: "5.10963323934364"
+  :easting: "254841.77882497"
+  :northing: "565206.654431613"
+  :longitude: "-107.211356055709"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 21E
+  :latitude: "-56.2942252885404"
+  :easting: "427782.753677175"
+  :northing: "3760539.49115581"
+  :longitude: "-58.1668315969431"
+  :ellipsoid: South American 1969
+- :zone: 36V
+  :latitude: "61.8742450583816"
+  :easting: "381098.876467544"
+  :northing: "6861555.44452573"
+  :longitude: "30.7385520424077"
+  :ellipsoid: Modified Everest
+- :zone: 59V
+  :latitude: "56.3836532184208"
+  :easting: "503799.017756851"
+  :northing: "6248805.32104046"
+  :longitude: "171.061522099043"
+  :ellipsoid: Hough
+- :zone: 27U
+  :latitude: "52.1044166549965"
+  :easting: "295292.996206518"
+  :northing: "5776867.36485757"
+  :longitude: "-23.9891611068262"
+  :ellipsoid: WGS-84
+- :zone: 10H
+  :latitude: "-34.0592932973628"
+  :easting: "521704.51684377"
+  :northing: "6231557.59718691"
+  :longitude: "-122.764773834357"
+  :ellipsoid: Modified Everest
+- :zone: 2P
+  :latitude: "9.06980525867839"
+  :easting: "349657.78031744"
+  :northing: "1002761.43802815"
+  :longitude: "-172.367930033708"
+  :ellipsoid: Clarke 1880
+- :zone: 51Q
+  :latitude: "18.5919153826264"
+  :easting: "473244.145736401"
+  :northing: "2055700.62775077"
+  :longitude: "122.746400734063"
+  :ellipsoid: GRS 1967
+- :zone: 31E
+  :latitude: "-62.1673774104218"
+  :easting: "611076.958202436"
+  :northing: "3105321.16786896"
+  :longitude: "5.13268599528686"
+  :ellipsoid: GRS 1967
+- :zone: 2H
+  :latitude: "-33.1494050115219"
+  :easting: "634617.121837616"
+  :northing: "6331209.72983344"
+  :longitude: "-169.556576809933"
+  :ellipsoid: South American 1969
+- :zone: 33S
+  :latitude: "39.5210797761432"
+  :easting: "256441.044309833"
+  :northing: "4378450.24836053"
+  :longitude: "12.1665988564939"
+  :ellipsoid: Fischer 1968
+- :zone: 53V
+  :latitude: "60.7885385490899"
+  :easting: "339021.421716668"
+  :northing: "6742246.91430738"
+  :longitude: "132.042267868838"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 39T
+  :latitude: "43.3208155437471"
+  :easting: "576721.455931461"
+  :northing: "4796567.54046122"
+  :longitude: "51.946165210592"
+  :ellipsoid: Clarke 1880
+- :zone: 45J
+  :latitude: "-24.9694098171367"
+  :easting: "293562.493836199"
+  :northing: "7236854.16780551"
+  :longitude: "84.9550430201676"
+  :ellipsoid: Helmert 1906
+- :zone: 4L
+  :latitude: "-9.46161423400288"
+  :easting: "579797.801248827"
+  :northing: "8954028.0301497"
+  :longitude: "-158.273072236867"
+  :ellipsoid: WGS 66
+- :zone: 18T
+  :latitude: "40.5372777346581"
+  :easting: "558608.379282159"
+  :northing: "4487638.64005147"
+  :longitude: "-74.3079451901248"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 25M
+  :latitude: "-2.26356759019897"
+  :easting: "629608.63761131"
+  :northing: "9749751.66495352"
+  :longitude: "-31.8344630054278"
+  :ellipsoid: International
+- :zone: 50C
+  :latitude: "-72.2614528544406"
+  :easting: "586149.146495398"
+  :northing: "1980049.67234961"
+  :longitude: "119.534014068318"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 52X
+  :latitude: "77.5023029466433"
+  :easting: "556759.076725438"
+  :northing: "8603029.63594708"
+  :longitude: "131.350470486375"
+  :ellipsoid: Bessel 1841
+- :zone: 25F
+  :latitude: "-53.4604671533592"
+  :easting: "375451.474968435"
+  :northing: "4075175.39221818"
+  :longitude: "-34.8758926958529"
+  :ellipsoid: Clarke 1880
+- :zone: 55C
+  :latitude: "-79.3397083073356"
+  :easting: "443776.855244779"
+  :northing: "1191757.83070873"
+  :longitude: "144.276180396578"
+  :ellipsoid: Bessel 1841
+- :zone: 45U
+  :latitude: "49.0974326589454"
+  :easting: "668762.430803155"
+  :northing: "5440379.52173242"
+  :longitude: "89.3121608972213"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 56X
+  :latitude: "74.4645700512893"
+  :easting: "518030.289104969"
+  :northing: "8263989.00926495"
+  :longitude: "153.603102135067"
+  :ellipsoid: South American 1969
+- :zone: 16J
+  :latitude: "-27.2120018194124"
+  :easting: "482754.713316899"
+  :northing: "6990277.65594674"
+  :longitude: "-87.1741607137689"
+  :ellipsoid: Airy
+- :zone: 35U
+  :latitude: "48.7117163587868"
+  :easting: "607481.632125278"
+  :northing: "5396534.23448614"
+  :longitude: "28.461064419856"
+  :ellipsoid: Krassovsky
+- :zone: 51T
+  :latitude: "40.7293812995294"
+  :easting: "584701.468512033"
+  :northing: "4509278.51047989"
+  :longitude: "124.00298895184"
+  :ellipsoid: International
+- :zone: 13L
+  :latitude: "-12.7819361861178"
+  :easting: "415765.742233648"
+  :northing: "8586958.79870971"
+  :longitude: "-105.776181287007"
+  :ellipsoid: Modified Everest
+- :zone: 43U
+  :latitude: "55.2391798279743"
+  :easting: "512586.408586539"
+  :northing: "6120791.13320645"
+  :longitude: "75.19796302144"
+  :ellipsoid: Bessel 1841
+- :zone: 14G
+  :latitude: "-46.921566562964"
+  :easting: "306616.86551945"
+  :northing: "4800980.60197698"
+  :longitude: "-101.540332827325"
+  :ellipsoid: Modified Airy
+- :zone: 1Q
+  :latitude: "17.724839026044"
+  :easting: "645612.618441054"
+  :northing: "1960281.89866835"
+  :longitude: "-175.62673930873"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 22Q
+  :latitude: "19.4648592457662"
+  :easting: "766950.542989052"
+  :northing: "2154277.65137338"
+  :longitude: "-48.4572007231992"
+  :ellipsoid: Krassovsky
+- :zone: 15W
+  :latitude: "70.1201574662691"
+  :easting: "604388.919603768"
+  :northing: "7781657.98304426"
+  :longitude: "-90.2486037538632"
+  :ellipsoid: Australian National
+- :zone: 8P
+  :latitude: "14.0892747017256"
+  :easting: "436243.422626902"
+  :northing: "1557521.32159313"
+  :longitude: "-135.590682747916"
+  :ellipsoid: Modified Airy
+- :zone: 39H
+  :latitude: "-33.9370126981898"
+  :easting: "480159.597679272"
+  :northing: "6244787.62457039"
+  :longitude: "50.7853151622091"
+  :ellipsoid: WGS 60
+- :zone: 50X
+  :latitude: "83.329091517088"
+  :easting: "470811.083481606"
+  :northing: "9253799.11086044"
+  :longitude: "114.74883082491"
+  :ellipsoid: South American 1969
+- :zone: 60R
+  :latitude: "27.5894439325656"
+  :easting: "600926.724111736"
+  :northing: "3052195.76719672"
+  :longitude: "178.022588263852"
+  :ellipsoid: Krassovsky
+- :zone: 5V
+  :latitude: "62.6124018645957"
+  :easting: "508045.760930399"
+  :northing: "6942413.18907581"
+  :longitude: "-152.843232504822"
+  :ellipsoid: WGS-72
+- :zone: 2S
+  :latitude: "35.7120520680791"
+  :easting: "383771.361250814"
+  :northing: "3952785.90710229"
+  :longitude: "-172.284906446331"
+  :ellipsoid: GRS 1967
+- :zone: 37X
+  :latitude: "78.1671960802171"
+  :easting: "510407.489927674"
+  :northing: "8676243.87720712"
+  :longitude: "39.4547062231896"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 4Q
+  :latitude: "17.2786654888002"
+  :easting: "619716.648038466"
+  :northing: "1910573.5761343"
+  :longitude: "-157.873566530507"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 23N
+  :latitude: "5.58953543986964"
+  :easting: "373378.432581889"
+  :northing: "617954.984063968"
+  :longitude: "-46.1432397926129"
+  :ellipsoid: WGS 66
+- :zone: 8C
+  :latitude: "-79.1662346627871"
+  :easting: "437797.174989476"
+  :northing: "1209891.22189056"
+  :longitude: "-137.965652323083"
+  :ellipsoid: GRS 1980
+- :zone: 19H
+  :latitude: "-34.3474364886817"
+  :easting: "513249.528092841"
+  :northing: "6199290.12746289"
+  :longitude: "-68.8559373490841"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 53W
+  :latitude: "71.9658915215373"
+  :easting: "599095.601148268"
+  :northing: "7987525.9318378"
+  :longitude: "137.868839943863"
+  :ellipsoid: WGS 60
+- :zone: 56X
+  :latitude: "83.8141975744418"
+  :easting: "508034.599356588"
+  :northing: "9307250.04701179"
+  :longitude: "153.667842733124"
+  :ellipsoid: Clarke 1880
+- :zone: 14L
+  :latitude: "-8.20874367016177"
+  :easting: "666632.616787222"
+  :northing: "9092311.1956724"
+  :longitude: "-97.4872858748408"
+  :ellipsoid: WGS-72
+- :zone: 60N
+  :latitude: "0.7476776507023"
+  :easting: "674278.35336832"
+  :northing: "82672.0696026921"
+  :longitude: "178.566129759528"
+  :ellipsoid: WGS 66
+- :zone: 55C
+  :latitude: "-74.6998716676132"
+  :easting: "495820.469816437"
+  :northing: "1710769.86532762"
+  :longitude: "146.85808008686"
+  :ellipsoid: Modified Everest
+- :zone: 55E
+  :latitude: "-57.9214955961981"
+  :easting: "494797.677468314"
+  :northing: "3580004.80867212"
+  :longitude: "146.912180271276"
+  :ellipsoid: Modified Fischer 1960
+- :zone: 44V
+  :latitude: "61.8225976885022"
+  :easting: "503340.73527673"
+  :northing: "6853698.51960782"
+  :longitude: "81.0634215842767"
+  :ellipsoid: Bessel 1841
+- :zone: 35V
+  :latitude: "59.7798787426991"
+  :easting: "594712.817108638"
+  :northing: "6628217.95518085"
+  :longitude: "28.6869404769118"
+  :ellipsoid: Krassovsky
+- :zone: 14X
+  :latitude: "83.4496014163334"
+  :easting: "497006.475020804"
+  :northing: "9266688.50916806"
+  :longitude: "-99.2350427598224"
+  :ellipsoid: GRS 1967
+- :zone: 46P
+  :latitude: "12.5602816534855"
+  :easting: "196697.59184345"
+  :northing: "1390133.17309262"
+  :longitude: "90.2090266563485"
+  :ellipsoid: International
+- :zone: 5S
+  :latitude: "37.9142141118883"
+  :easting: "409245.41146596"
+  :northing: "4196873.7426866"
+  :longitude: "-154.032450111026"
+  :ellipsoid: Krassovsky
+- :zone: 14F
+  :latitude: "-50.1750238384579"
+  :easting: "374513.843059306"
+  :northing: "4440650.11543203"
+  :longitude: "-100.757339338565"
+  :ellipsoid: Clarke 1866
+- :zone: 19F
+  :latitude: "-52.5636720554095"
+  :easting: "438401.839553792"
+  :northing: "4175857.28953485"
+  :longitude: "-69.9087356110228"
+  :ellipsoid: South American 1969
+- :zone: 39L
+  :latitude: "-10.1255529943583"
+  :easting: "387076.387724463"
+  :northing: "8880523.43704295"
+  :longitude: "49.9692909257087"
+  :ellipsoid: South American 1969
+- :zone: 6S
+  :latitude: "38.0229695182947"
+  :easting: "459023.929864415"
+  :northing: "4208536.18312033"
+  :longitude: "-147.466835551994"
+  :ellipsoid: International
+- :zone: 2N
+  :latitude: "7.45649671111561"
+  :easting: "525789.901661608"
+  :northing: "824152.397620362"
+  :longitude: "-170.766245887299"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 23W
+  :latitude: "66.7109698160545"
+  :easting: "519574.698307027"
+  :northing: "7399256.13255862"
+  :longitude: "-44.5563241730743"
+  :ellipsoid: South American 1969
+- :zone: 43N
+  :latitude: "2.20642294074061"
+  :easting: "224707.851830917"
+  :northing: "244086.229727224"
+  :longitude: "72.5247153742171"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 12J
+  :latitude: "-30.4009216851484"
+  :easting: "775694.664052742"
+  :northing: "6633280.8332553"
+  :longitude: "-108.130503902328"
+  :ellipsoid: South American 1969
+- :zone: 23W
+  :latitude: "70.1803631534128"
+  :easting: "497489.268574147"
+  :northing: "7786195.93234554"
+  :longitude: "-45.06634572005"
+  :ellipsoid: International
+- :zone: 15K
+  :latitude: "-20.5075986329816"
+  :easting: "805689.724207915"
+  :northing: "7729799.39980131"
+  :longitude: "-90.0692123798184"
+  :ellipsoid: Clarke 1880
+- :zone: 57W
+  :latitude: "71.5800330954972"
+  :easting: "516149.540364133"
+  :northing: "7941308.14396297"
+  :longitude: "159.45799695965"
+  :ellipsoid: Modified Everest
+- :zone: 28R
+  :latitude: "31.4126302698542"
+  :easting: "385925.886231874"
+  :northing: "3475714.86048509"
+  :longitude: "-16.2001882154048"
+  :ellipsoid: Airy
+- :zone: 11X
+  :latitude: "79.1507223031669"
+  :easting: "444824.848380571"
+  :northing: "8788190.01866969"
+  :longitude: "-119.6265991257"
+  :ellipsoid: Krassovsky
+- :zone: 32Q
+  :latitude: "23.1356683825182"
+  :easting: "201393.7381288"
+  :northing: "2561524.80997276"
+  :longitude: "6.08419531331421"
+  :ellipsoid: WGS-72
+- :zone: 31X
+  :latitude: "83.3496123997676"
+  :easting: "499006.856909385"
+  :northing: "9254401.38364661"
+  :longitude: "2.92317586567407"
+  :ellipsoid: Everest 1830 India
+- :zone: 16D
+  :latitude: "-69.1444293903902"
+  :easting: "426193.944376015"
+  :northing: "2329234.05388112"
+  :longitude: "-88.8580867731769"
+  :ellipsoid: Bessel 1841
+- :zone: 50M
+  :latitude: "-3.27954852563762"
+  :easting: "404484.090911754"
+  :northing: "9637466.46985707"
+  :longitude: "116.140255987473"
+  :ellipsoid: WGS-72
+- :zone: 5Q
+  :latitude: "16.2024001845186"
+  :easting: "762467.491056604"
+  :northing: "1792881.97694997"
+  :longitude: "-150.545044916175"
+  :ellipsoid: Hough
+- :zone: 38N
+  :latitude: "6.77014511747912"
+  :easting: "228875.517455995"
+  :northing: "749026.351383918"
+  :longitude: "42.5472202537557"
+  :ellipsoid: South American 1969
+- :zone: 27S
+  :latitude: "32.8620310383455"
+  :easting: "688965.393412196"
+  :northing: "3637863.8897583"
+  :longitude: "-18.9805036434028"
+  :ellipsoid: Krassovsky
+- :zone: 18T
+  :latitude: "46.7500350281965"
+  :easting: "588177.121231382"
+  :northing: "5177656.40631951"
+  :longitude: "-73.8454222525877"
+  :ellipsoid: Airy
+- :zone: 26F
+  :latitude: "-55.7958919678941"
+  :easting: "574244.336770508"
+  :northing: "3815893.78703706"
+  :longitude: "-25.8157950281471"
+  :ellipsoid: Krassovsky
+- :zone: 46U
+  :latitude: "52.8768541695847"
+  :easting: "342351.093794555"
+  :northing: "5861162.30316593"
+  :longitude: "90.6573922412181"
+  :ellipsoid: GRS 1967
+- :zone: 27P
+  :latitude: "9.85905715999888"
+  :easting: "776722.586203672"
+  :northing: "1090873.18344845"
+  :longitude: "-18.4769085913153"
+  :ellipsoid: GRS 1980
+- :zone: 31W
+  :latitude: "70.1739880015593"
+  :easting: "554926.104441408"
+  :northing: "7786065.56512699"
+  :longitude: "4.45113750016787"
+  :ellipsoid: Krassovsky
+- :zone: 6N
+  :latitude: "6.69850460694468"
+  :easting: "659809.060345206"
+  :northing: "740657.540771707"
+  :longitude: "-145.554186612166"
+  :ellipsoid: GRS 1967
+- :zone: 25C
+  :latitude: "-78.6539814894128"
+  :easting: "499629.420012918"
+  :northing: "1269594.5506556"
+  :longitude: "-33.0168755701951"
+  :ellipsoid: Bessel 1841
+- :zone: 12J
+  :latitude: "-31.9643829858903"
+  :easting: "739398.381204866"
+  :northing: "6460709.42166475"
+  :longitude: "-108.46683051504"
+  :ellipsoid: GRS 1980
+- :zone: 12M
+  :latitude: "-4.03971995978874"
+  :easting: "233471.018584199"
+  :northing: "9553086.18402409"
+  :longitude: "-113.400443502335"
+  :ellipsoid: "Fischer 1960 Mercury "
+- :zone: 21L
+  :latitude: "-14.6181452765399"
+  :easting: "326520.457923874"
+  :northing: "8383290.86384354"
+  :longitude: "-58.6106396667203"
+  :ellipsoid: WGS 66
+- :zone: 34T
+  :latitude: "42.5236116143582"
+  :easting: "554138.368752377"
+  :northing: "4707714.91001905"
+  :longitude: "21.6592063774399"
+  :ellipsoid: "Bessel 1841 Nambia "
+- :zone: 10E
+  :latitude: "-62.1786021254442"
+  :easting: "452743.780035811"
+  :northing: "3105594.05220819"
+  :longitude: "-123.907566201028"
+  :ellipsoid: WGS-72
+- :zone: 35N
+  :latitude: "2.21324887158521"
+  :easting: "287528.730961752"
+  :northing: "244745.997395303"
+  :longitude: "25.0895475924523"
+  :ellipsoid: Clarke 1880
+- :zone: 21X
+  :latitude: "80.188760347551"
+  :easting: "450139.445261854"
+  :northing: "8903878.26223262"
+  :longitude: "-59.6217698414627"
+  :ellipsoid: Hough
+- :zone: 23G
+  :latitude: "-47.0281479502178"
+  :easting: "382794.217541861"
+  :northing: "4790554.80309277"
+  :longitude: "-46.5424862445039"
+  :ellipsoid: WGS-72
+- :zone: 56X
+  :latitude: "79.731897849524"
+  :easting: "504706.321675731"
+  :northing: "8851702.74539223"
+  :longitude: "153.236500083527"
+  :ellipsoid: South American 1969
+- :zone: 40P
+  :latitude: "15.7447570785022"
+  :easting: "257959.670828063"
+  :northing: "1741999.23736902"
+  :longitude: "54.7411139932626"
+  :ellipsoid: WGS 66
+- :zone: 51W
+  :latitude: "65.649537280093"
+  :easting: "401087.322895615"
+  :northing: "7282538.54147401"
+  :longitude: "120.849790726309"
+  :ellipsoid: GRS 1980

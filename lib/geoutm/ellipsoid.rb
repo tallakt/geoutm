@@ -2,7 +2,6 @@ module GeoUtm
   class Ellipsoid
     attr_reader :name, :radius, :eccentricity
 
-    List = generate_list
 
     def initialize(name, radius, eccentricity)
       @name, @radius, @eccentricity = name, radius, eccentricity
@@ -12,10 +11,22 @@ module GeoUtm
       List[normalize_name name.to_s]
     end
 
+    def Ellipsoid.list_names
+      List.keys.sort.map do |k|
+        List[k].name
+      end
+    end
+
+    def Ellipsoid.each
+      List.keys.sort do |k|
+        yield List[k]
+      end
+    end
+
     private
 
     def Ellipsoid.normalize_name(name)
-      name.gsub(/\s/, '').upcase
+      name.gsub(/[\s\-\(\)]/, '').upcase
     end
 
     def Ellipsoid.generate_list
@@ -50,6 +61,8 @@ module GeoUtm
         result[normalize_name el.name] = el
       end
     end
+
+    List = Ellipsoid::generate_list
   end
 
 end

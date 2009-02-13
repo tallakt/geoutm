@@ -1,4 +1,5 @@
 require 'geoutm/constants'
+require 'geoutm/ellipsoid'
 
 module GeoUtm
   class Utm
@@ -23,8 +24,8 @@ module GeoUtm
       longorigin      = (@zone_number - 1)*6 - 180 + 3
       eccentricity = ellipsoid.eccentricity
       eccPrimeSquared = (eccentricity)/(1-eccentricity)
-      M  = y/k0
-      mu = M/(ellipsoid.radius*(1-eccentricity/4-3*eccentricity*eccentricity/64-5*eccentricity*eccentricity*eccentricity/256))
+      m  = y/k0
+      mu = m/(ellipsoid.radius*(1-eccentricity/4-3*eccentricity*eccentricity/64-5*eccentricity*eccentricity*eccentricity/256))
 
       e1 = (1-Math::sqrt(1-eccentricity))/(1+Math::sqrt(1-eccentricity))
       phi1rad = mu +
@@ -32,22 +33,22 @@ module GeoUtm
         (21*e1*e1/16-55*e1*e1*e1*e1/32)*Math::sin(4*mu) +
         (151*e1*e1*e1/96)*sin(6*mu)
       phi1 = phi1rad * Rad2Deg
-      N1 = ellipsoid.radius/Math::sqrt(1-eccentricity*Math::sin(phi1rad)*Math::sin(phi1rad))
-      T1 = Math::tan(phi1rad)*Math::tan(phi1rad)
-      C1 = eccentricity*Math::cos($phi1rad)*Math::cos($phi1rad)
-      R1 = ellipsoid.radius * (1-eccentricity) / ((1-eccentricity*Math::sin(phi1rad)*Math::sin(phi1rad))**1.5)
-      D = x/(N1*k0)
+      n1 = ellipsoid.radius/Math::sqrt(1-eccentricity*Math::sin(phi1rad)*Math::sin(phi1rad))
+      t1 = Math::tan(phi1rad)*Math::tan(phi1rad)
+      c1 = eccentricity*Math::cos($phi1rad)*Math::cos($phi1rad)
+      r1 = ellipsoid.radius * (1-eccentricity) / ((1-eccentricity*Math::sin(phi1rad)*Math::sin(phi1rad))**1.5)
+      d = x/(n1*k0)
 
-      Latitude = phi1rad-
-        (N1*Math::tan(phi1rad)/R1)*(D*D/2-(5+3*T1+10*C1-4*C1*C1-9*eccPrimeSquared)*D*D*D*D/24+
-                                    (61+90*T1+298*C1+45*T1*T1-252*eccPrimeSquared-3*C1*C1)*D*D*D*D*D*D/720)
-      Latitude = Latitude * Rad2Deg
+      latitude = phi1rad-
+        (n1*Math::tan(phi1rad)/r1)*(d*d/2-(5+3*t1+10*c1-4*c1*c1-9*eccPrimeSquared)*d*d*d*d/24+
+                                    (61+90*t1+298*c1+45*t1*t1-252*eccPrimeSquared-3*c1*c1)*d*d*d*d*d*d/720)
+      latitude = latitude * Rad2Deg
 
-      Longitude = (D-(1+2*T1+C1)*D*D*D/6+
-                   (5-2*C1+28*T1-3*C1*C1+8*eccPrimeSquared+24*T1*T1)*D*D*D*D*D/120)/Math::cos(phi1rad)
-      Longitude = longorigin + Longitude * Rad2Deg;
+      longitude = (d-(1+2*t1+c1)*d*d*d/6+
+                   (5-2*c1+28*t1-3*c1*c1+8*eccPrimeSquared+24*t1*t1)*d*d*d*d*d/120)/Math::cos(phi1rad)
+      longitude = longorigin + longitude * Rad2Deg;
 
-      LatLon.new Latitude, Longitude
+      LatLon.new latitude, longitude
     end
 
     private
@@ -55,6 +56,7 @@ module GeoUtm
     def northern_hemispehere?
       @zone_str.match /[NPQRSTUVWX]/
     end
+
     def valid_zone(zone)
       "CDEFGHJKLMNPQRSTUVWX".member? zone
     end

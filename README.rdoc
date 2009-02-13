@@ -49,29 +49,29 @@ A description of the available ellipsoids and sample usage of the conversion rou
 The Ellipsoids available are as follows:
 
 
-1 Airy
-2 Australian National
-3 Bessel 1841
-4 Bessel 1841 (Nambia)
-5 Clarke 1866
-6 Clarke 1880
-7 Everest
-8 Fischer 1960 (Mercury)
-9 Fischer 1968
-10 GRS 1967
-11 GRS 1980
-12 Helmert 1906
-13 Hough
-14 International
-15 Krassovsky
-16 Modified Airy
-17 Modified Everest
-18 Modified Fischer 1960
-19 South American 1969
-20 WGS 60
-21 WGS 66
-22 WGS-72
-23 WGS-84
+1. Airy
+2. Australian National
+3. Bessel 1841
+4. Bessel 1841 (Nambia)
+5. Clarke 1866
+6. Clarke 1880
+7. Everest
+8. Fischer 1960 (Mercury)
+9. Fischer 1968
+10. GRS 1967
+11. GRS 1980
+12. Helmert 1906
+13. Hough
+14. International
+15. Krassovsky
+16. Modified Airy
+17. Modified Everest
+18. Modified Fischer 1960
+19. South American 1969
+20. WGS 60
+21. WGS 66
+22. WGS-72
+23. WGS-84
 
 
 

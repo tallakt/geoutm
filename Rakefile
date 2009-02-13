@@ -3,7 +3,7 @@ require File.dirname(__FILE__) + '/lib/geoutm'
 
 # Generate all the Rake tasks
 # Run 'rake -T' to see list of generated tasks (from gem root directory)
-$hoe = Hoe.new('geoutm', Geoutm::VERSION) do |p|
+$hoe = Hoe.new('geoutm', GeoUtm::VERSION) do |p|
   p.developer('Tallak Tveide', 'tallak@tveide.net')
   p.changes              = p.paragraphs_of("History.txt", 0..1).join("\n\n")
   p.rubyforge_name       = p.name 

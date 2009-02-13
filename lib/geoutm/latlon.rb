@@ -1,4 +1,5 @@
 require 'geoutm/constants'
+require 'geoutm/ellipsoid'
 
 module GeoUtm
   class LatLon
@@ -43,11 +44,11 @@ module GeoUtm
       longoriginradian = Deg2Rad * longorigin
       eccentprime = ellipsoid.eccentricity/(1.0-eccentricity)
 
-      N = ellipsoid.radius / Math::sqrt(1 - eccentricity * Math::sin(lat_radian)*Math::sin(lat_radian))
-      T = Math::tan(lat_radian) * Math::tan(lat_radian)
-      C = ellipsoid.eccentprime * Math::cos(lat_radian)*Math::cos(lat_radian)
-      A = Math::cos(lat_radian) * (long_radian - longoriginradian)
-      M = ellipsoid.radius * (
+      n = ellipsoid.radius / Math::sqrt(1 - eccentricity * Math::sin(lat_radian)*Math::sin(lat_radian))
+      t = Math::tan(lat_radian) * Math::tan(lat_radian)
+      c = ellipsoid.eccentprime * Math::cos(lat_radian)*Math::cos(lat_radian)
+      a = Math::cos(lat_radian) * (long_radian - longoriginradian)
+      m = ellipsoid.radius * (
         (1 - eccentricity/4 - 3 * eccentricity * eccentricity/64 - 
           5 * eccentricity * eccentricity * eccentricity/256) * lat_radian - 
         (3 * eccentricity/8 + 3 * eccentricity * eccentricity/32 + 
@@ -57,10 +58,10 @@ module GeoUtm
         (35 * eccentricity * eccentricity * eccentricity/3072) * Math::sin(6 * lat_radian)
       )
 
-      utm_easting = k0*N*(A+(1-T+C)*A*A*A/6 + (5-18*T+T*T+72*C-58*ellipsoid.eccentprime*A*A*A*A*A/120) + 500000.0
+      utm_easting = k0*n*(a+(1-t+c)*a*a*a/6 + (5-18*t+t*t+72*c-58*ellipsoid.eccentprime)*a*a*a*a*a/120) + 500000.0
 
-      utm_northing = k0 * ( M + N*Math::tan(lat_radian) * ( A*A/2+(5-T+9*C+4*C*C)*A*A*A*A/24 + 
-                                   (61-58*T+T*T+600*C-330*ellipsoid.eccentprime) * A*A*A*A*A*A/720))
+      utm_northing = k0 * ( m + n*Math::tan(lat_radian) * ( a*a/2+(5-t+9*c+4*c*c)*a*a*a*a/24 + 
+                                   (61-58*t+t*t+600*c-330*ellipsoid.eccentprime) * a*a*a*a*a*a/720))
       utm_northing += 10000000.0 if @lat < 0
  
       UTM.new utm_northing, utm_easting, calc_utm_zone
