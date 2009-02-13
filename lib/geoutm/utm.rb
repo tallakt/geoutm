@@ -20,7 +20,7 @@ module GeoUtm
       y  = @n
 
       # Set hemisphere (1=Northern, 0=Southern)
-      y    -= 10000000.0 unless northern_hemispehere?
+      y    -= 10000000.0 unless northern_hemisphere?
 
       longorigin      = (@zone_number - 1)*6 - 180 + 3
       eccentricity = ellipsoid.eccentricity
@@ -54,7 +54,7 @@ module GeoUtm
 
     private
 
-    def northern_hemispehere?
+    def northern_hemisphere?
       @zone_str.match /[NPQRSTUVWX]/
     end
 
