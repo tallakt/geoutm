@@ -1,5 +1,6 @@
 require 'geoutm/constants'
 require 'geoutm/ellipsoid'
+require 'geoutm/utm'
 
 module GeoUtm
   class LatLon
@@ -11,11 +12,11 @@ module GeoUtm
     end
     
     def to_utm(ellipsoid = Ellipsoid::lookup(:wgs84))
-      long2 = @lon - (($longitude + 180)/360).to_i * 360;
-      zone = (($long2 + 180)/6).to_i + 1;
+      long2 = @lon - ((@lon + 180)/360).to_i * 360;
+      zone = ((long2 + 180)/6).to_i + 1;
 
       lat_radian = Deg2Rad * @lat
-      lon_rad = Deg2Rad * long2
+      long_radian = Deg2Rad * long2
 
       k0 = 0.9996 # scale
 
@@ -46,7 +47,7 @@ module GeoUtm
 
       n = ellipsoid.radius / Math::sqrt(1 - eccentricity * Math::sin(lat_radian)*Math::sin(lat_radian))
       t = Math::tan(lat_radian) * Math::tan(lat_radian)
-      c = ellipsoid.eccentprime * Math::cos(lat_radian)*Math::cos(lat_radian)
+      c = eccentprime * Math::cos(lat_radian)*Math::cos(lat_radian)
       a = Math::cos(lat_radian) * (long_radian - longoriginradian)
       m = ellipsoid.radius * (
         (1 - eccentricity/4 - 3 * eccentricity * eccentricity/64 - 
@@ -58,10 +59,10 @@ module GeoUtm
         (35 * eccentricity * eccentricity * eccentricity/3072) * Math::sin(6 * lat_radian)
       )
 
-      utm_easting = k0*n*(a+(1-t+c)*a*a*a/6 + (5-18*t+t*t+72*c-58*ellipsoid.eccentprime)*a*a*a*a*a/120) + 500000.0
+      utm_easting = k0*n*(a+(1-t+c)*a*a*a/6 + (5-18*t+t*t+72*c-58*eccentprime)*a*a*a*a*a/120) + 500000.0
 
       utm_northing = k0 * ( m + n*Math::tan(lat_radian) * ( a*a/2+(5-t+9*c+4*c*c)*a*a*a*a/24 + 
-                                   (61-58*t+t*t+600*c-330*ellipsoid.eccentprime) * a*a*a*a*a*a/720))
+                                   (61-58*t+t*t+600*c-330*eccentprime) * a*a*a*a*a*a/720))
       utm_northing += 10000000.0 if @lat < 0
  
       UTM.new utm_northing, utm_easting, calc_utm_zone

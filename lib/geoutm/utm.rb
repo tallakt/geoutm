@@ -1,8 +1,9 @@
 require 'geoutm/constants'
 require 'geoutm/ellipsoid'
+require 'geoutm/latlon'
 
 module GeoUtm
-  class Utm
+  class UTM
     attr_reader :n, :e, :zone, :zone_number, :zone_char
 
     def initialize(n, e, zone)
