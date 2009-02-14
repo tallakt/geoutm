@@ -15,7 +15,7 @@ module GeoUtm
     def to_s
       north_south = if @lat >= 0.0 then 'N' else 'S' end
       east_west = if @lon >= 0.0 then 'E' else 'W' end
-      '%0.6f%s %0.6f%s' % [@lat, north_south, @lon, east_west]
+      '%0.6f%s %0.6f%s' % [@lat.abs, north_south, @lon.abs, east_west]
     end
 
     def to_utm(ellipsoid = Ellipsoid::lookup(:wgs84), zone = nil)
@@ -56,7 +56,7 @@ module GeoUtm
                                    (61-58*t+t*t+600*c-330*eccentprime) * a*a*a*a*a*a/720))
       utm_northing += 10000000.0 if @lat < 0
  
-      UTM.new '%d%s' % [zn, zl], utm_easting, utm_northing
+      UTM.new '%d%s' % [zn, zl], utm_easting, utm_northing, ellipsoid
     end
 
     private 

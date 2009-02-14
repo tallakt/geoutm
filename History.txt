@@ -1,4 +1,11 @@
+== 0.0.2
+
+* Distance calculation between two utm points, more tests
+
+== 0.0.1
+
+* First working version with tests for converting to from UTM <-> lat/lon
+
 == 0.0.1 2009-02-12
 
-* 1 major enhancement:
-  * Initial release
+* Initial release

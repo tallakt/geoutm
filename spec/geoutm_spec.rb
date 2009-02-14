@@ -28,8 +28,9 @@ module GeoUtm
 
     it "should convert from UTM to lat/lon" do
       @testdata.each do |sample|
-        utm = UTM.new sample[:zone], sample[:easting].to_f, sample[:northing].to_f
-        latlon = utm.to_lat_lon Ellipsoid::lookup(sample[:ellipsoid])
+        utm = UTM.new sample[:zone], sample[:easting].to_f, sample[:northing].to_f, 
+          Ellipsoid::lookup(sample[:ellipsoid])
+        latlon = utm.to_lat_lon
         latlon.lat.should be_close(sample[:latitude].to_f, 0.01)
         latlon.lon.should be_close(sample[:longitude].to_f, 0.01)
       end
