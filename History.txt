@@ -1,3 +1,7 @@
+== 0.0.4
+
+Publish to gemcutter
+
 == 0.0.2
 
 * Distance calculation between two utm points, more tests
