@@ -474,11 +474,11 @@
   :longitude: "-11.4023259491394"
   :ellipsoid: Australian National
 - :zone: 32V
-  :latitude: "58.8522081830389"
-  :easting: "564252.730916659"
-  :northing: "6524279.99360641"
-  :longitude: "10.1135752098733"
-  :ellipsoid: International
+  :latitude: "59.102298"
+  :easting: "285505.27"
+  :northing: "6557462.78"
+  :longitude: "11.254186"
+  :ellipsoid: WGS-84
 - :zone: 48W
   :latitude: "68.5749166287382"
   :easting: "507579.568049395"

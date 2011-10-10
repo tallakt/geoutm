@@ -9,6 +9,7 @@ module GeoUtm
       @p2 = UTM.new '27E', 646897.012158895, 3049077.01849759, Ellipsoid::lookup(:airy)
       @p3 = UTM.new '37T', 581477.812337138, 5020289.06897684, Ellipsoid::lookup('bessel 1841')
       @p4 = UTM.new '37T', 677938.186800496, 5048262.27080925, Ellipsoid::lookup('bessel 1841')
+      @p5 = UTM.new '32V', 285505.3, 6557462.8
     end
 
     it "should calculate distance between points" do
@@ -23,6 +24,10 @@ module GeoUtm
 
     it "should calculate distance to LatLon coordinate" do
       @p3.distance_to(@p4.to_lat_lon).should be_close(100434.575034537, 0.001)
+    end
+    
+    it "should convert correctly for 32V" do
+      @p5.to_lat_lon.to_s.should == "59.102298N 11.254186E"
     end
 
     it 'should format as string' do

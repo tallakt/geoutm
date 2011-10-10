@@ -7,6 +7,8 @@ module GeoUtm
     include Math
 
     attr_reader :n, :e, :zone, :zone_number, :zone_letter, :ellipsoid
+    
+    @@special_zone_offsets = {"32V" => 6}
 
     def initialize(zone, e, n, ellipsoid = Ellipsoid::lookup(:wgs84))
       @n, @e, @zone, @ellipsoid = n, e, zone, ellipsoid
@@ -25,7 +27,9 @@ module GeoUtm
       # Set hemisphere (1=Northern, 0=Southern)
       y    -= 10000000.0 unless northern_hemisphere?
 
-      longorigin = (@zone_number - 1)*6 - 180 + 3
+      special_zone_offset = @@special_zone_offsets[@zone] || 0
+      longorigin = (@zone_number - 1)*6 - 180 + 3 + special_zone_offset 
+      
       ecc = @ellipsoid.eccentricity
       eccPrimeSquared = (ecc)/(1-ecc)
       m  = y / k0
