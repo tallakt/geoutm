@@ -8,8 +8,23 @@ module GeoUtm
     end
 
     def Ellipsoid.lookup(name)
-      List[normalize_name(name.to_s)]
+      result = List[normalize_name(name.to_s)]
+			raise GeoUtmException, 'Ellipsoid not found: ' + name.to_s unless result
+			result
     end
+
+		def Ellipsoid.[](name)
+			lookup name
+		end
+
+		def Ellipsoid.clean_parameter(ellipsoid_or_name)
+			case ellipsoid_or_name
+			when Ellipsoid
+				ellipsoid_or_name
+			else
+				lookup ellipsoid_or_name.to_s
+			end
+		end
 
     def Ellipsoid.list_names
       List.keys.sort.map do |k|

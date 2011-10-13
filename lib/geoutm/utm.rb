@@ -9,8 +9,8 @@ module GeoUtm
 
     attr_reader :n, :e, :zone, :zone_number, :zone_letter, :ellipsoid
     
-    def initialize(zone, e, n, ellipsoid = Ellipsoid::lookup(:wgs84))
-      @n, @e, @zone, @ellipsoid = n, e, zone, ellipsoid
+    def initialize(zone, e, n, ellipsoid = Ellipsoid[:wgs84])
+      @n, @e, @zone, @ellipsoid = n, e, zone, Ellipsoid::clean_parameter(ellipsoid)
       @zone_number, @zone_letter = UTM::split_zone @zone
     end
 

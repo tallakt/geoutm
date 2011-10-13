@@ -22,5 +22,9 @@ module GeoUtm
 			lambda { LatLon.new(-81.0, 0.0).to_utm }.should raise_error(GeoUtm::GeoUtmException)
 			lambda { LatLon.new( 85.0, 0.0).to_utm }.should raise_error(GeoUtm::GeoUtmException)
 		end
+
+		it 'should accept an ellipsoid name in to_utm initializer' do
+			lambda {@p1.to_utm :wgs84}.should_not raise_error
+		end
   end
 end

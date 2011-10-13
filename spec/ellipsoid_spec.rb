@@ -20,5 +20,9 @@ module GeoUtm
     it 'should lookup with symbol names' do
       Ellipsoid::lookup(:wgs84).should be(@wgs84)
     end
+
+		it 'should rasie an exception on bad ellipsoid names' do
+			lambda { Ellipsoid::lookup :dummy }.should raise_error
+		end
   end
 end

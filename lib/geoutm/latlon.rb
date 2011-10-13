@@ -20,7 +20,9 @@ module GeoUtm
       '%0.6f%s %0.6f%s' % [@lat.abs, north_south, @lon.abs, east_west]
     end
 
-    def to_utm(ellipsoid = Ellipsoid::lookup(:wgs84), zone = nil)
+    def to_utm(ellipsoid = Ellipsoid[:wgs84], zone = nil)
+			ellipsoid_clean = Ellipsoid::clean_parameter ellipsoid
+
       lat_radian = Deg2Rad * @lat
       long_radian = Deg2Rad * long2
 
@@ -33,18 +35,18 @@ module GeoUtm
         zl = calc_utm_zone_letter
       end
 
-      eccentricity = ellipsoid.eccentricity
+      eccentricity = ellipsoid_clean.eccentricity
 
       longorigin = Zone.longorigin(zn, zl)
       
       longoriginradian = Deg2Rad * longorigin
-      eccentprime = ellipsoid.eccentricity/(1.0-eccentricity)
+      eccentprime = ellipsoid_clean.eccentricity/(1.0-eccentricity)
 
-      n = ellipsoid.radius / sqrt(1 - eccentricity * sin(lat_radian)*sin(lat_radian))
+      n = ellipsoid_clean.radius / sqrt(1 - eccentricity * sin(lat_radian)*sin(lat_radian))
       t = tan(lat_radian) * tan(lat_radian)
       c = eccentprime * cos(lat_radian)*cos(lat_radian)
       a = cos(lat_radian) * (long_radian - longoriginradian)
-      m = ellipsoid.radius * (
+      m = ellipsoid_clean.radius * (
         (1 - eccentricity/4 - 3 * eccentricity * eccentricity/64 - 
           5 * eccentricity * eccentricity * eccentricity/256) * lat_radian - 
         (3 * eccentricity/8 + 3 * eccentricity * eccentricity/32 + 
@@ -60,7 +62,7 @@ module GeoUtm
                                    (61-58*t+t*t+600*c-330*eccentprime) * a*a*a*a*a*a/720))
       utm_northing += 10000000.0 if @lat < 0
  
-      UTM.new '%d%s' % [zn, zl], utm_easting, utm_northing, ellipsoid
+      UTM.new '%d%s' % [zn, zl], utm_easting, utm_northing, ellipsoid_clean
     end
 
     private 
