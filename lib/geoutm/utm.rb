@@ -1,13 +1,14 @@
 require 'geoutm/constants'
 require 'geoutm/ellipsoid'
 require 'geoutm/latlon'
+require 'geoutm/zone'
 
 module GeoUtm
   class UTM
     include Math
 
     attr_reader :n, :e, :zone, :zone_number, :zone_letter, :ellipsoid
-
+    
     def initialize(zone, e, n, ellipsoid = Ellipsoid::lookup(:wgs84))
       @n, @e, @zone, @ellipsoid = n, e, zone, ellipsoid
       @zone_number, @zone_letter = UTM::split_zone @zone
@@ -25,7 +26,8 @@ module GeoUtm
       # Set hemisphere (1=Northern, 0=Southern)
       y    -= 10000000.0 unless northern_hemisphere?
 
-      longorigin = (@zone_number - 1)*6 - 180 + 3
+      longorigin = Zone.longorigin(@zone_number, @zone_letter)
+
       ecc = @ellipsoid.eccentricity
       eccPrimeSquared = (ecc)/(1-ecc)
       m  = y / k0

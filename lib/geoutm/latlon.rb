@@ -1,12 +1,13 @@
 require 'geoutm/constants'
 require 'geoutm/ellipsoid'
 require 'geoutm/utm'
+require 'geoutm/zone'
 
 module GeoUtm
   class LatLon
     include Math
     attr_reader :lat, :lon
-
+    
     def initialize(lat, lon)
       throw RuntimeException.new("Invalid longitude #{lon}") unless (-180.0...180.0).member? lon
       @lat, @lon = lat, lon
@@ -32,7 +33,9 @@ module GeoUtm
       end
 
       eccentricity = ellipsoid.eccentricity
-      longorigin = (zn - 1) * 6 - 180 + 3
+
+      longorigin = Zone.longorigin(zn, zl)
+      
       longoriginradian = Deg2Rad * longorigin
       eccentprime = ellipsoid.eccentricity/(1.0-eccentricity)
 
