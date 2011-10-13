@@ -2,6 +2,7 @@ require 'geoutm/constants'
 require 'geoutm/ellipsoid'
 require 'geoutm/utm'
 require 'geoutm/zone'
+require 'geoutm/geo_utm_exception'
 
 module GeoUtm
   class LatLon
@@ -9,7 +10,7 @@ module GeoUtm
     attr_reader :lat, :lon
     
     def initialize(lat, lon)
-      throw RuntimeException.new("Invalid longitude #{lon}") unless (-180.0...180.0).member? lon
+      raise GeoUtmException, "Invalid longitude #{lon}" unless (-180.0...180.0).member? lon
       @lat, @lon = lat, lon
     end
     
@@ -107,7 +108,7 @@ module GeoUtm
         when -80.0..-72.0
           'C'
         else
-          throw RuntimeException.new("Latitude #{@lat} out of UTM range")
+          raise GeoUtmException, "Latitude #{@lat} out of UTM range"
         end
     end
 

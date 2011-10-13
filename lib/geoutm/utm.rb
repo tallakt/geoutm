@@ -61,16 +61,16 @@ module GeoUtm
         other = other.to_utm(@ellipsoid, @zone)
       end
       unless other.zone == @zone
-        throw RuntimeError.new('Cannot calc distance for points in different zones - convert first')
+        raise GeoUtmException, 'Cannot calc distance for points in different zones - convert first'
       end
       sqrt((@n - other.n) ** 2.0 + (@e - other.e) ** 2.0) 
     end
 
     def UTM.split_zone(zone_in)      
       m = zone_in.match /^(\d+)([CDEFGHJKLMNPQRSTUVWX])$/
-      throw RuntimeError.new('Illegal zone: ' + zone_in) unless m
+      raise GeoUtmException, 'Illegal zone: ' + zone_in unless m
       zn, zl = m[1].to_i, m[2]
-      throw RuntimeError.new('Illegal zone: ' + zone_in) unless (1..60).member? zn
+      raise GeoUtmException, 'Illegal zone: ' + zone_in unless (1..60).member? zn
       return zn, zl
     end
 

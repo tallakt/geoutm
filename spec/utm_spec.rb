@@ -13,9 +13,9 @@ module GeoUtm
     end
 
     it "should calculate distance between points" do
-      @p3.distance_to(@p4).should be_close(100434.575034537, 0.0001)
-      @p4.distance_to(@p3).should be_close(100434.575034537, 0.0001)
-      @p4.distance_to(@p4).should be_close(0.0, 0.0001)
+      @p3.distance_to(@p4).should be_within(0.0001).of(100434.575034537)
+      @p4.distance_to(@p3).should be_within(0.0001).of(100434.575034537)
+      @p4.distance_to(@p4).should be_within(0.0001).of(0.0)
     end
     
     it "should not calculate distances between different zones" do
@@ -23,7 +23,7 @@ module GeoUtm
     end
 
     it "should calculate distance to LatLon coordinate" do
-      @p3.distance_to(@p4.to_lat_lon).should be_close(100434.575034537, 0.001)
+      @p3.distance_to(@p4.to_lat_lon).should be_within(0.001).of(100434.575034537)
     end
     
     it "should convert correctly for 32V" do
