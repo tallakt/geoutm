@@ -7,12 +7,31 @@ module GeoUtm
   class UTM
     include Math
 
-    attr_reader :n, :e, :zone, :zone_number, :zone_letter, :ellipsoid
+    attr_reader :n, :e, :zone, :ellipsoid
+
+		SPECIAL_ZONES = {
+			'31V' => {:lat => (56.0..64.0), :lon => (0.0..3.0)}, 
+			'32V' => {:lat => (56.0..64.0), :lon => (3.0..12.0)}, 
+			'31X' => {:lat => (72.0..84.0), :lon => (0.0..9.0)}, 
+			'33X' => {:lat => (72.0..84.0), :lon => (9.0..21.0)}, 
+			'35X' => {:lat => (72.0..84.0), :lon => (21.0..33.0)}, 
+			'37X' => {:lat => (72.0..84.0), :lon => (33.0..42.0)}
+		}
     
     def initialize(zone, e, n, ellipsoid = Ellipsoid[:wgs84])
       @n, @e, @zone, @ellipsoid = n, e, zone, Ellipsoid::clean_parameter(ellipsoid)
-      @zone_number, @zone_letter = UTM::split_zone @zone
     end
+
+		def zone_letter
+      @zone_number, @zone_letter = UTM::split_zone @zone
+			@zone_letter
+		end
+
+		def zone_number
+      @zone_number, @zone_letter = UTM::split_zone @zone
+			@zone_number
+		end
+
 
     def to_s
       '%s %.2f %.2f' % [zone, e, n]
@@ -41,7 +60,7 @@ module GeoUtm
       n1 = @ellipsoid.radius / sqrt(1 - ecc * sin(phi1rad) ** 2)
       t1 = tan(phi1rad) ** 2
       c1 = ecc * cos(phi1rad)**2
-      r1 = @ellipsoid.radius * (1 - ecc) / ((1 - ecc * sin(phi1rad) ** 2) ** 1.5)
+      r1(3.0..12.0) = @ellipsoid.radius * (1 - ecc) / ((1 - ecc * sin(phi1rad) ** 2) ** 1.5)
       d = x / (n1 * k0)
       latitude = phi1rad-
         (n1 * tan(phi1rad) / r1) * (d * d / 2 - 
@@ -84,5 +103,8 @@ module GeoUtm
     def northern_hemisphere?
       @zone_letter.match /[NPQRSTUVWX]/
     end
+
+		def lon_origin_for_zone(zone) 
+		end
   end
 end

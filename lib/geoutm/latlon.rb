@@ -31,8 +31,7 @@ module GeoUtm
       if zone
         zn, zl = UTM::split_zone zone
       else
-        zn = calc_utm_zone_number
-        zl = calc_utm_zone_letter
+				zl, zn = calc_utm_zone_letter_and_number
       end
 
       eccentricity = ellipsoid_clean.eccentricity
@@ -67,7 +66,42 @@ module GeoUtm
 
     private 
 
-    def calc_utm_zone_letter
+		def calc_utm_zone_letter_and_number
+			letter = calc_utm_zone_initial_letter
+      number = calc_utm_zone_initial_number
+
+			# Exceptions
+			# http://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#Exceptions
+
+			# Zone 32V - Norway
+      if letter == 'V' and (3.0..12.0).member?(long2)
+        zone = 32
+      end
+
+			# Zone 31X, 33X, 35X, 37X - Svalbard
+      if letter == 'X'
+        number = case long2
+           when 0.0..9.0
+             31
+           when 9.0..21.0
+             33
+           when 21.0..33.0
+             35
+           when 33.0..42.0
+             37
+					 else
+						 number
+         end
+      end
+
+      return letter, number
+		end
+
+		def calc_utm_zone_initial_number
+      ((long2 + 180)/6).to_i + 1;
+		end
+
+		def calc_utm_zone_initial_letter
       case @lat
         when 72.0..84.0
           'X'
@@ -112,31 +146,10 @@ module GeoUtm
         else
           raise GeoUtmException, "Latitude #{@lat} out of UTM range"
         end
-    end
+		end
 
     def long2
       @lon - ((@lon + 180)/360).to_i * 360
-    end
-
-    def calc_utm_zone_number
-      zone = ((long2 + 180)/6).to_i + 1;
-      if (56.0..64.0).member?(@lat) && (3.0..12.0).member?(long2)
-        zone = 32
-      end
-
-      if (72.0..84.0).member? @lat
-        case long2
-           when 0.0..9.0
-             zone = 31
-           when 9.0..21.0
-             zone = 33
-           when 21.0..33.0
-             zone = 35
-           when 33.0..42.0
-             zone = 37
-         end
-      end
-      zone
     end
   end
 end
