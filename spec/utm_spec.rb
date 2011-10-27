@@ -12,6 +12,23 @@ module GeoUtm
       @p5 = UTM.new '32V', 285505.3, 6557462.8
     end
 
+    it "should report zone number" do
+      @p1.zone_number.should == 60
+      @p2.zone_number.should == 27
+      @p3.zone_number.should == 37
+      @p4.zone_number.should == 37
+      @p5.zone_number.should == 32
+    end
+
+
+    it 'should report zone bands' do
+      @p1.zone_band.should == 'J'
+      @p2.zone_band.should == 'E'
+      @p3.zone_band.should == 'T'
+      @p4.zone_band.should == 'T'
+      @p5.zone_band.should == 'V'
+    end
+
     it "should calculate distance between points" do
       @p3.distance_to(@p4).should be_within(0.0001).of(100434.575034537)
       @p4.distance_to(@p3).should be_within(0.0001).of(100434.575034537)
@@ -35,19 +52,19 @@ module GeoUtm
     end
 
     it 'should not accept invalid zone letters' do
-      lambda {UTM::split_zone '56Y'}.should raise_error
-      lambda {UTM::split_zone '56I'}.should raise_error
-      lambda {UTM::split_zone '56O'}.should raise_error
-      lambda {UTM::split_zone '56A'}.should raise_error
+      lambda {UTMZones::split_zone '56Y'}.should raise_error
+      lambda {UTMZones::split_zone '56I'}.should raise_error
+      lambda {UTMZones::split_zone '56O'}.should raise_error
+      lambda {UTMZones::split_zone '56A'}.should raise_error
     end
 
     it 'should not accept invalid zone numbers' do 
-      lambda {UTM::split_zone '00C'}.should raise_error
-      lambda {UTM::split_zone '61C'}.should raise_error
+      lambda {UTMZones::split_zone '00C'}.should raise_error
+      lambda {UTMZones::split_zone '61C'}.should raise_error
     end
 
     it 'should accept valid UTM zones' do
-      lambda {UTM::split_zone '51C'}.should_not raise_error
+      lambda {UTMZones::split_zone '51C'}.should_not raise_error
     end
   end
 end

@@ -24,7 +24,8 @@ module GeoUtm
 		end
 
 		it 'should accept an ellipsoid name in to_utm initializer' do
-			lambda {@p1.to_utm :wgs84}.should_not raise_error
+			@p1.to_utm :ellipsoid => :wgs84
+			lambda {@p1.to_utm :ellipsoid => :wgs84}.should_not raise_error
 		end
   end
 end

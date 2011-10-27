@@ -85,6 +85,7 @@ module GeoUtm
     end
 
     List = Ellipsoid::generate_list
+    WGS84 = Ellipsoid[:wgs84]
   end
 
 end
