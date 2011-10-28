@@ -1,7 +1,9 @@
 require 'geoutm/geo_utm_exception'
 
 module GeoUtm
-  module UTMZones # :nodoc:
+  # This module is used by the UTM class and is generally never used directly
+  module UTMZones 
+    # :nodoc:
 		SPECIAL_ZONES = {
 			'31V' => {:lat => (56.0..64.0), :lon => (0.0..3.0), :lon_origin => 3.0}, 
 			'32V' => {:lat => (56.0..64.0), :lon => (3.0..12.0), :lon_origin => 15.0}, 

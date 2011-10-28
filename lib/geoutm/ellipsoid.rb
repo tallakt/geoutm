@@ -1,52 +1,8 @@
 module GeoUtm
+  # This class represents the ellipsoid used to convert from latitude/longitude into UTM coordinates. All
+  # operations default to using WGS-84. 
   class Ellipsoid
-    attr_reader :name, :radius, :eccentricity
-
-
-    def initialize(name, radius, eccentricity)
-      @name, @radius, @eccentricity = name, radius, eccentricity
-    end
-
-    def Ellipsoid.lookup(name)
-      result = List[normalize_name(name.to_s)]
-			raise GeoUtmException, 'Ellipsoid not found: ' + name.to_s unless result
-			result
-    end
-
-		def Ellipsoid.[](name)
-			lookup name
-		end
-
-		def Ellipsoid.clean_parameter(ellipsoid_or_name)
-			case ellipsoid_or_name
-			when Ellipsoid
-				ellipsoid_or_name
-			else
-				lookup ellipsoid_or_name.to_s
-			end
-		end
-
-    def Ellipsoid.list_names
-      List.keys.sort.map do |k|
-        List[k].name
-      end
-    end
-
-    def Ellipsoid.each
-      List.keys.sort do |k|
-        yield List[k]
-      end
-    end
-
-    private
-
-    def Ellipsoid.normalize_name(name)
-      name.gsub(/[\s\-\(\)]/, '').upcase
-    end
-
-    def Ellipsoid.generate_list
-      result = {}
-      data = [
+      ELLIPSOID_DATA = [
         [ "Airy", 6377563, 0.00667054],
         [ "Australian National", 6378160, 0.006694542],
         [ "Bessel 1841", 6377397, 0.006674372],
@@ -77,7 +33,64 @@ module GeoUtm
         [ "Everest Pakistan", 6377296, 0.006637534],
         [ "Indonesian 1974", 6378160, 0.006694609],
       ]
-      data.each do |item|
+    attr_reader :name, :radius, :eccentricity
+
+
+    def initialize(name, radius, eccentricity)
+      @name, @radius, @eccentricity = name, radius, eccentricity
+    end
+
+    # Find a preconfigured ellipsoid
+    # @param [String] the name of the ellipsoid. Spaces, case and `-` are ignored
+    # @return [Ellipsoid]
+    def Ellipsoid.lookup(name)
+      result = List[normalize_name(name.to_s)]
+			raise GeoUtmException, 'Ellipsoid not found: ' + name.to_s unless result
+			result
+    end
+
+
+    # @see #lookup
+		def Ellipsoid.[](name)
+			lookup name
+		end
+
+    # Use this method when you get an ellipsoid-like as a parameter to convert to an ellipsoid
+    # @param [Ellipsoid, String, Symbol]
+    # @return [Ellipsoid]
+		def Ellipsoid.clean_parameter(ellipsoid_or_name)
+			case ellipsoid_or_name
+			when Ellipsoid
+				ellipsoid_or_name
+			else
+				lookup ellipsoid_or_name.to_s
+			end
+		end
+
+    # @return [Array<String>] A list of all the available ellipsoid names
+    def Ellipsoid.list_names
+      List.keys.sort.map do |k|
+        List[k].name
+      end
+    end
+
+    # Iterate over the ellipsoid names
+    def Ellipsoid.each
+      List.keys.sort do |k|
+        yield List[k]
+      end
+    end
+
+
+    # :nodoc:
+    def Ellipsoid.normalize_name(name)
+      name.gsub(/[\s\-\(\)]/, '').upcase
+    end
+
+    # :nodoc:
+    def Ellipsoid.generate_list
+      result = {}
+      ELLIPSOID_DATA.each do |item|
         el = Ellipsoid.new *item
         result[normalize_name(el.name)] = el
       end

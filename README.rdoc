@@ -6,51 +6,22 @@ GeoUtm
 
   require 'geoutm'
 
-  coordinate = LatLon.new 100.0 100.0
-  utm_coord = coordinate.to_utm
-  reverse = utm_coord.to_lat_lon
+  coordinate = GeoUtm::LatLon.new 100.0, 100.0
+  to_utm = coordinate.to_utm
+  and_back = utm_coord.to_lat_lon
 
 =INSTALL
 
-  sudo gem sources -a http://gems.github.com
-  sudo gem install tallakt-geoutm
+  gem install geoutm
 
 
 =DESCRIPTION
 
-This module will translate latitude longitude coordinates to Universal Transverse Mercator(UTM) coordinates and vice versa.
+This gem translates between latitude and longitude coordinates to Universal Transverse Mercator(UTM) coordinates.
+The first kind is generally reported by GPS units, while the second is useful as they are represented in meters,
+thus making distance calculations easier.
 
-This is a shameless port of the Perl library Geo::Coordinates::UTM written by Graham Crookham. Most text is copied directly from this library, adapted to ruby syntax.
-
-
-== Mercator Projection
-
-The Mercator projection was first invented to help mariners. They needed to be able to take a course and know the distance traveled, and draw a line on the map which showed the day's journey. In order to do this, Mercator invented a projection which preserved length, by projecting the earth's surface onto a cylinder, sharing the same axis as the earth itself.
-This caused all Latitude and Longitude lines to intersect at a 90 degree angle, thereby negating the problem that longitude lines get closer together at the poles.
-
-== Transverse Mercator Projection
-
-A Transverse Mercator projection takes the cylinder and turns it on its side. Now the cylinder's axis passes through the equator, and it can be rotated to line up with the area of interest. Many countries use Transverse Mercator for their grid systems.
-
-== Universal Transverse Mercator
-
-The Universal Transverse Mercator(UTM) system sets up a universal world wide system for mapping. The Transverse Mercator projection is used, with the cylinder in 60 positions. This creates 60 zones around the world.
-Positions are measured using Eastings and Northings, measured in meters, instead of Latitude and Longitude. Eastings start at 500,000 on the centre line of each zone.
-In the Northern Hemisphere, Northings are zero at the equator and increase northward. In the Southern Hemisphere, Northings start at 10 million at the equator, and decrease southward. You must know which hemisphere and zone you are in to interpret your location globally. 
-Distortion of scale, distance, direction and area increase away from the central meridian.
-
-UTM projection is used to define horizontal positions world-wide by dividing the surface of the Earth into 6 degree zones, each mapped by the Transverse Mercator projection with a central meridian in the center of the zone. 
-UTM zone numbers designate 6 degree longitudinal strips extending from 80 degrees South latitude to 84 degrees North latitude. UTM zone characters designate 8 degree zones extending north and south from the equator. Eastings are measured from the central meridian (with a 500 km false easting to insure positive coordinates). Northings are measured from the equator (with a 10,000 km false northing for positions south of the equator).
-
-UTM is applied separately to the Northern and Southern Hemisphere, thus within a single UTM zone, a single X / Y pair of values will occur in both the Northern and Southern Hemisphere. 
-To eliminate this confusion, and to speed location of points, a UTM zone is sometimes subdivided into 20 zones of Latitude. These grids can be further subdivided into 100,000 meter grid squares with double-letter designations. This subdivision by Latitude and further division into grid squares is generally referred to as the Military Grid Reference System (MGRS).
-The unit of measurement of UTM is always meters and the zones are numbered from 1 to 60 eastward, beginning at the 180th meridian.
-The scale distortion in a north-south direction parallel to the central meridian (CM) is constant However, the scale distortion increases either direction away from the CM. To equalize the distortion of the map across the UTM zone, a scale factor of 0.9996 is applied to all distance measurements within the zone. The distortion at the zone boundary, 3 degrees away from the CM is approximately 1%.
-
-== Datums and Ellipsoids
-
-Unlike local surveys, which treat the Earth as a plane, the precise determination of the latitude and longitude of points over a broad area must take into account the actual shape of the Earth. To achieve the precision necessary for accurate location, the Earth cannot be assumed to be a sphere. Rather, the Earth's shape more closely approximates an ellipsoid (oblate spheroid): flattened at the poles and bulging at the Equator. Thus the Earth's shape, when cut through its polar axis, approximates an ellipse.
-A "Datum" is a standard representation of shape and offset for coordinates, which includes an ellipsoid and an origin. You must consider the Datum when working with geospatial data, since data with two different Datum will not line up. The difference can be as much as a kilometer!
+For more information please refer to http://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system
 
 = EXAMPLES
 
@@ -58,8 +29,7 @@ A description of the available ellipsoids and sample usage of the conversion rou
 
 == Ellipsoids
 
-The Ellipsoids available are as follows:
-
+Ellipsoids describe the shape of the earth used to calculate the UTM grid. As a default, WGS-84 is selected, but any of the following ellipses may be used:
 
 1. Airy
 2. Australian National
@@ -91,23 +61,8 @@ The Ellipsoids available are as follows:
 28. WGS-72
 29. WGS-84
 
-
-== ellipsoid_names
-
-The ellipsoids can be accessed using
-
-     GeoUtm::Ellipsoid::list_names
-
-Alternatively
-
-  GeouUtm::Ellipsoid::each {|ellipsoid| ... }
-
-When converting to and from UTM coordinates, the ellipsoid
-is specified as a parameter which defaults to WGS-84. To use another
-ellipsoid, use
-
-  coord.to_utm Ellipsoid::lookup :wgs60
-
+When specifying the ellipsoid as a parameter, you may use an instance of the GeoUtm::Ellipsoid class, 
+a string containing the name above, or alternatively just a symbol (eg. :wgs84).
 The name is not case sensitive and symbols are allowed. Spaces and - 
 are ignored.
 
@@ -131,13 +86,14 @@ returns
      utm.n     = 6409932.13416127
 
 
-== AUTHOR
+= AUTHOR
 
+This gem is heavily inspired and to a large extent also copied directly from by the Perl library Geo::Coordinates::UTM written by Graham Crookham.
 Graham Crookham, grahamc@cpan.org
 
-Ruby port by Tallak Tveide 2009
+Ruby port by Tallak Tveide 2009/2011
 
-== COPYRIGHT
+= COPYRIGHT
 
 Copyright (c) 2000,2002,2004 by Graham Crookham.  All rights reserved.
     

@@ -6,12 +6,24 @@ require 'geoutm/utm_zones'
 
 module GeoUtm
   class UTM
-    attr_reader :n, :e, :zone, :ellipsoid
+    # Northing
+    attr_reader :n
+    # Easting
+    attr_reader :e
+    attr_reader :zone
+    attr_reader :ellipsoid
     
+    # Creates a new UTM coorrdinate
+    # 
+    # @param [String] The UTM zone to use, eg. `32H`
+    # @param [Float] The easting component of the coordinate
+    # @param [Float] The northing component of the coordinate
+    # @param [String,Symbol,Ellipsoid] The ellipsoid to use
     def initialize(zone, e, n, ellipsoid = Ellipsoid::WGS84)
       @n, @e, @zone, @ellipsoid = n, e, zone, Ellipsoid::clean_parameter(ellipsoid)
     end
 
+    #:nodoc:
     def UTM.latlon_to_utm(latlon, options = {})
 			ellipsoid = (options[:ellipsoid] && Ellipsoid::clean_parameter(options[:ellipsoid])) || Ellipsoid::WGS84
 
@@ -42,12 +54,14 @@ module GeoUtm
       UTM.new zone, utm_easting, utm_northing, ellipsoid
     end
 
+    # Returns the band letter portion of the zone, eg `H` for `32H`
 		def zone_letter
       UTMZones::split_zone(@zone).last
 		end
 
     alias :zone_band :zone_letter
 
+    # Returns the number portion of the zone, eg `32` for `32H`
 		def zone_number
       UTMZones::split_zone(@zone).first.to_i
 		end
@@ -57,6 +71,8 @@ module GeoUtm
       '%s %.2f %.2f' % [zone, e, n]
     end
 
+    # Converts this position into the latitude/longitude coordinate system
+    # @return [LatLon]
     def to_lat_lon
       k0 = 0.9996
       x  = @e - 500000 # Remove Longitude offset
@@ -92,6 +108,9 @@ module GeoUtm
       LatLon.new latitude_deg, longitude_deg
     end
 
+    # The euclidian distance between two points (ie. `sqrt(dx * dx + dy * dy)`)
+    # @param [LatLon,UTM] The other coordinate. Should be in close proximity to avoid large errors
+    # @return [Float]
     def distance_to(other)
       if other.class == LatLon
         other = UTM::latlon_to_utm other, :ellipsoid => @ellipsoid, :zone => @zone
@@ -101,6 +120,5 @@ module GeoUtm
       end
       Math::sqrt((@n - other.n) ** 2.0 + (@e - other.e) ** 2.0) 
     end
-
   end
 end
