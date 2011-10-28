@@ -19,7 +19,7 @@ module GeoUtm
     it "should convert from lat/lon to UTM" do
       @testdata.each do |sample|
         latlon = LatLon.new sample[:latitude].to_f, sample[:longitude].to_f
-        utm = latlon.to_utm Ellipsoid::lookup(sample[:ellipsoid])
+        utm = latlon.to_utm :ellipsoid => sample[:ellipsoid]
         utm.n.should be_within(0.01).of(sample[:northing].to_f)
         utm.e.should be_within(0.01).of(sample[:easting].to_f)
         utm.zone.should == sample[:zone]
@@ -28,8 +28,7 @@ module GeoUtm
 
     it "should convert from UTM to lat/lon" do
       @testdata.each do |sample|
-        utm = UTM.new sample[:zone], sample[:easting].to_f, sample[:northing].to_f, 
-          Ellipsoid::lookup(sample[:ellipsoid])
+        utm = UTM.new sample[:zone], sample[:easting].to_f, sample[:northing].to_f, sample[:ellipsoid]
         latlon = utm.to_lat_lon
         latlon.lat.should be_within(0.01).of(sample[:latitude].to_f)
         latlon.lon.should be_within(0.01).of(sample[:longitude].to_f)

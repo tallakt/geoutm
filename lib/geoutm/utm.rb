@@ -84,11 +84,11 @@ module GeoUtm
                                     (5 + 3 * t1 + 10 * c1 - 4 * c1 * c1 - 9 * eccPrimeSquared) * d ** 4 / 24 +
                                     (61 + 90 * t1 + 298 * c1 + 45 * t1 * t1 - 
                                      252 * eccPrimeSquared - 3 * c1 * c1) * d ** 6 / 720)
-      latitude_deg = latitude_rad * 180.0 * Math::PI
+      latitude_deg = latitude_rad * 180.0 / Math::PI
       lon_tmp = (d - (1 + 2 * t1 + c1) * d ** 3 / 6 +
                    (5 - 2 * c1 + 28 * t1 - 3 * c1 * c1 + 8 * eccPrimeSquared +
                     24 * t1 * t1) * d ** 5 / 120) / Math::cos(phi1rad)
-      longitude_deg = UTMZones::lon_origin(@zone) + lon_tmp * 180.0 * Math::PI
+      longitude_deg = UTMZones::lon_origin(@zone) + lon_tmp * 180.0 / Math::PI
       LatLon.new latitude_deg, longitude_deg
     end
 

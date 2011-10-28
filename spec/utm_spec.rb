@@ -66,5 +66,14 @@ module GeoUtm
     it 'should accept valid UTM zones' do
       lambda {UTMZones::split_zone '51C'}.should_not raise_error
     end
+
+    it 'should calculate correct longitude origin' do
+      UTMZones::lon_origin('32U').should == 9
+      UTMZones::lon_origin('32R').should == 9
+      UTMZones::lon_origin('32W').should == 9
+      UTMZones::lon_origin('32V').should == 15
+      UTMZones::lon_origin('32X').should == 9
+      UTMZones::lon_origin('40H').should == 57
+    end
   end
 end

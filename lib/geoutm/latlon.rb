@@ -18,7 +18,7 @@ module GeoUtm
       '%0.6f%s %0.6f%s' % [@lat.abs, north_south, @lon.abs, east_west]
     end
 
-    def to_utm(ellipsoid = Ellipsoid::WGS84, options = {})
+    def to_utm(options = {})
       UTM::latlon_to_utm self, options
     end
   end

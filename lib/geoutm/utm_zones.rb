@@ -3,15 +3,15 @@ require 'geoutm/geo_utm_exception'
 module GeoUtm
   module UTMZones # :nodoc:
 		SPECIAL_ZONES = {
-			'31V' => {:lat => (56.0..64.0), :lon => (0.0..3.0)}, 
-			'32V' => {:lat => (56.0..64.0), :lon => (3.0..12.0)}, 
-			'31X' => {:lat => (72.0..84.0), :lon => (0.0..9.0)}, 
-			'33X' => {:lat => (72.0..84.0), :lon => (9.0..21.0)}, 
-			'35X' => {:lat => (72.0..84.0), :lon => (21.0..33.0)}, 
-			'37X' => {:lat => (72.0..84.0), :lon => (33.0..42.0)}
+			'31V' => {:lat => (56.0..64.0), :lon => (0.0..3.0), :lon_origin => 3.0}, 
+			'32V' => {:lat => (56.0..64.0), :lon => (3.0..12.0), :lon_origin => 15.0}, 
+			'31X' => {:lat => (72.0..84.0), :lon => (0.0..9.0), :lon_origin => 3.0}, 
+			'33X' => {:lat => (72.0..84.0), :lon => (9.0..21.0), :lon_origin => 15.0}, 
+			'35X' => {:lat => (72.0..84.0), :lon => (21.0..33.0), :lon_origin => 27.0}, 
+			'37X' => {:lat => (72.0..84.0), :lon => (33.0..42.0), :lon_origin => 39.0}
 		}
 
-    REGULAR_BANDS = {
+    BANDS = {
         'X' => 72.0..84.0,
         'W' => 64.0..72.0,
         'V' => 56.0..64.0,
@@ -47,23 +47,18 @@ module GeoUtm
 
     # :nodoc:
 		def UTMZones.calc_utm_default_zone(lat, lon)
-      '%02d%s' % [((clean_longitude(lon) + 180)/6).to_i + 1, calc_utm_default_letter(lat)]
+      '%d%s' % [((clean_longitude(lon) + 180)/6).to_i + 1, calc_utm_default_letter(lat)]
 		end
 
     # :nodoc:
     def UTMZones.lon_origin(zone)
-      info = SPECIAL_ZONES[zone]
-      if info
-        range = info[:lon]
-        0.5 * (range.min + range.max)
-      else
-        (zone_number_from_zone(zone) - 1) * 6 - 180 + 3
-      end
+      sp = SPECIAL_ZONES[zone]
+      (sp && sp[:lon_origin]) || (zone_number_from_zone(zone) - 1) * 6 - 180 + 3
     end
 
     # :nodoc:
 		def UTMZones.calc_utm_default_letter(lat)
-      result = REGULAR_BANDS.find {|letter, lats| lats.member?(lat) }
+      result = BANDS.find {|letter, lats| lats.member?(lat) }
       raise GeoUtmException, "Latitude #{lat} out of UTM range" unless result
       result.first
 		end
@@ -90,7 +85,7 @@ module GeoUtm
 
     # :nodoc:
     def UTMZones.northern_hemisphere?(zone)
-      zone.match /..[NPQRSTUVWX]/
+      zone.match /[NPQRSTUVWX]$/
     end
 
     # :nodoc:
