@@ -1,3 +1,11 @@
+== 1.0.0
+
+* RDoc comments
+* Changed the way options are specified
+* Use of throw was replaced by raise and GeoUtm::GeoUtmException
+* Refactoring
+* Better support for zone 32V
+
 == 0.0.4
 
 Publish to gemcutter

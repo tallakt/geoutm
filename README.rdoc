@@ -91,7 +91,8 @@ returns
 This gem is heavily inspired and to a large extent also copied directly from by the Perl library Geo::Coordinates::UTM written by Graham Crookham.
 Graham Crookham, grahamc@cpan.org
 
-Ruby port by Tallak Tveide 2009/2011
+Ruby port by Tallak Tveide, Erling Linde 2009/2011
+
 
 = COPYRIGHT
 
