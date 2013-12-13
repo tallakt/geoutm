@@ -1,4 +1,4 @@
 module GeoUtm
-	class GeoUtmException < Exception
+	class GeoUtmException < StandardError
 	end
 end
