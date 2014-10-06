@@ -72,7 +72,7 @@ module GeoUtm
 
     # :nodoc:
     def UTMZones.split_zone(zone_in)      
-      m = zone_in.match /^(\d+)([CDEFGHJKLMNPQRSTUVWX])$/
+      m = zone_in.match /^(\d+)([CDEFGHJKLMNPQRSTUVWX\-\+])$/
       raise GeoUtmException, 'Illegal zone: ' + zone_in unless m
       zn, zl = m[1].to_i, m[2]
       raise GeoUtmException, 'Illegal zone: ' + zone_in unless (1..60).member? zn
@@ -87,7 +87,7 @@ module GeoUtm
 
     # :nodoc:
     def UTMZones.northern_hemisphere?(zone)
-      zone.match /[NPQRSTUVWX]$/
+      zone.match /[NPQRSTUVWX\+]$/
     end
 
     # :nodoc:
