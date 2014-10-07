@@ -163,8 +163,8 @@
   :ellipsoid: South American 1969
 - :zone: 6J
   :latitude: "-28.5721039983461"
-  :easting: "529707.632536775"
-  :northing: "6839556.76681453"
+  :easting: "529707.6343998088"
+  :northing: "6839556.568611888"
   :longitude: "-146.696242503652"
   :ellipsoid: Clarke 1866
 - :zone: 9D
@@ -211,8 +211,8 @@
   :ellipsoid: WGS 60
 - :zone: 53X
   :latitude: "74.9153423507582"
-  :easting: "501836.223148577"
-  :northing: "8314007.12896517"
+  :easting: "501836.22326373163"
+  :northing: "8314007.650366147"
   :longitude: "135.063206941098"
   :ellipsoid: Clarke 1866
 - :zone: 17T
@@ -1207,8 +1207,8 @@
   :ellipsoid: Modified Everest
 - :zone: 9E
   :latitude: "-57.4541680123041"
-  :easting: "413409.006486901"
-  :northing: "3631349.13135726"
+  :easting: "413409.0010564808"
+  :northing: "3631348.7319564978"
   :longitude: "-130.443050722577"
   :ellipsoid: Clarke 1866
 - :zone: 8U
@@ -1273,8 +1273,8 @@
   :ellipsoid: Clarke 1880
 - :zone: 11L
   :latitude: "-14.7744885399655"
-  :easting: "796009.593505733"
-  :northing: "8364904.53788469"
+  :easting: "796009.6120695914"
+  :northing: "8364904.435342033"
   :longitude: "-114.250436293483"
   :ellipsoid: Clarke 1866
 - :zone: 21G
@@ -1417,8 +1417,8 @@
   :ellipsoid: "Bessel 1841 Nambia "
 - :zone: 59J
   :latitude: "-31.9234244312324"
-  :easting: "700325.993533926"
-  :northing: "6466280.42986774"
+  :easting: "700326.0060970515"
+  :northing: "6466280.2082556095"
   :longitude: "173.118835166358"
   :ellipsoid: Clarke 1866
 - :zone: 12U
@@ -1531,8 +1531,8 @@
   :ellipsoid: Krassovsky
 - :zone: 51E
   :latitude: "-59.8494395740546"
-  :easting: "485595.275245875"
-  :northing: "3365535.55903271"
+  :easting: "485595.27434249537"
+  :northing: "3365535.1429618346"
   :longitude: "122.742924285467"
   :ellipsoid: Clarke 1866
 - :zone: 44V
@@ -1789,14 +1789,14 @@
   :ellipsoid: Modified Everest
 - :zone: 36U
   :latitude: "51.7115957509787"
-  :easting: "293606.036207907"
-  :northing: "5732968.3699442"
+  :easting: "293606.0232642074"
+  :northing: "5732968.7294790605"
   :longitude: "30.0125031658341"
   :ellipsoid: Clarke 1866
 - :zone: 54J
   :latitude: "-31.2837122315436"
-  :easting: "566470.367076028"
-  :northing: "6538929.79048126"
+  :easting: "566470.371244619"
+  :northing: "6538929.573425223"
   :longitude: "141.698325749239"
   :ellipsoid: Clarke 1866
 - :zone: 25D
@@ -1993,8 +1993,8 @@
   :ellipsoid: Bessel 1841
 - :zone: 9E
   :latitude: "-58.0712332189186"
-  :easting: "504532.86963763"
-  :northing: "3563567.52626988"
+  :easting: "504532.8699219162"
+  :northing: "3563567.122618298"
   :longitude: "-128.923163882043"
   :ellipsoid: Clarke 1866
 - :zone: 17M
@@ -2185,8 +2185,8 @@
   :ellipsoid: WGS-84
 - :zone: 25D
   :latitude: "-64.9008826045014"
-  :easting: "503464.573780328"
-  :northing: "2802783.62794413"
+  :easting: "503464.57399760606"
+  :northing: "2802783.1765810745"
   :longitude: "-32.92680469008"
   :ellipsoid: Clarke 1866
 - :zone: 35R
@@ -2245,8 +2245,8 @@
   :ellipsoid: WGS-84
 - :zone: 38F
   :latitude: "-52.967305136132"
-  :easting: "428076.026893311"
-  :northing: "4131047.67230072"
+  :easting: "428076.02238270035"
+  :northing: "4131047.304237823"
   :longitude: "43.9291021422245"
   :ellipsoid: Clarke 1866
 - :zone: 2V
@@ -2275,8 +2275,8 @@
   :ellipsoid: Clarke 1880
 - :zone: 42U
   :latitude: "52.4742698058643"
-  :easting: "525110.734980984"
-  :northing: "5813636.07518162"
+  :easting: "525110.7365557675"
+  :northing: "5813636.439775431"
   :longitude: "69.3696838032176"
   :ellipsoid: Clarke 1866
 - :zone: 43K
@@ -2605,8 +2605,8 @@
   :ellipsoid: Hough
 - :zone: 55M
   :latitude: "-3.51982081628771"
-  :easting: "325007.172697524"
-  :northing: "9610826.23688903"
+  :easting: "325007.1617230437"
+  :northing: "9610826.212482555"
   :longitude: "145.424646996725"
   :ellipsoid: Clarke 1866
 - :zone: 10K
@@ -2893,8 +2893,8 @@
   :ellipsoid: Everest 1830 India
 - :zone: 40P
   :latitude: "15.6240798902831"
-  :easting: "747791.520925822"
-  :northing: "1728594.63392776"
+  :easting: "747791.5364657063"
+  :northing: "1728594.7423340888"
   :longitude: "59.311147466294"
   :ellipsoid: Clarke 1866
 - :zone: 32K
@@ -3025,8 +3025,8 @@
   :ellipsoid: "Fischer 1960 Mercury "
 - :zone: 22S
   :latitude: "36.7997248327861"
-  :easting: "494703.094148861"
-  :northing: "4072454.30487608"
+  :easting: "494703.09381667234"
+  :northing: "4072454.560274184"
   :longitude: "-51.059375001078"
   :ellipsoid: Clarke 1866
 - :zone: 42K
@@ -3115,8 +3115,8 @@
   :ellipsoid: Airy
 - :zone: 26T
   :latitude: "44.3979462093858"
-  :easting: "516793.95405029"
-  :northing: "4915878.09328516"
+  :easting: "516793.95510349557"
+  :northing: "4915878.401577382"
   :longitude: "-26.7891229771826"
   :ellipsoid: Clarke 1866
 - :zone: 57X
@@ -3265,8 +3265,8 @@
   :ellipsoid: WGS 66
 - :zone: 19P
   :latitude: "8.0321337552283"
-  :easting: "501776.502019669"
-  :northing: "887794.182782833"
+  :easting: "501776.5021310826"
+  :northing: "887794.2384595659"
   :longitude: "-68.9838780945176"
   :ellipsoid: Clarke 1866
 - :zone: 6P
@@ -3457,8 +3457,8 @@
   :ellipsoid: WGS 66
 - :zone: 43S
   :latitude: "32.4208060286875"
-  :easting: "682152.58038389"
-  :northing: "3588542.34630273"
+  :easting: "682152.5918073228"
+  :northing: "3588542.5713529997"
   :longitude: "76.937152446372"
   :ellipsoid: Clarke 1866
 - :zone: 8M
@@ -3493,8 +3493,8 @@
   :ellipsoid: Modified Fischer 1960
 - :zone: 20D
   :latitude: "-67.8367517890222"
-  :easting: "604160.609910702"
-  :northing: "2473436.6769716"
+  :easting: "604160.6164429858"
+  :northing: "2473436.2049540253"
   :longitude: "-60.5253825205291"
   :ellipsoid: Clarke 1866
 - :zone: 16X
@@ -3517,8 +3517,8 @@
   :ellipsoid: WGS-84
 - :zone: 48V
   :latitude: "56.369203542617"
-  :easting: "374094.712380892"
-  :northing: "6248823.41196407"
+  :easting: "374094.70448492025"
+  :northing: "6248823.803850022"
   :longitude: "102.961680938191"
   :ellipsoid: Clarke 1866
 - :zone: 27C
@@ -3703,8 +3703,8 @@
   :ellipsoid: Helmert 1906
 - :zone: 47L
   :latitude: "-8.50075525742962"
-  :easting: "229233.860609575"
-  :northing: "9059542.10157434"
+  :easting: "229233.84362887114"
+  :northing: "9059542.04259488"
   :longitude: "96.5405996471208"
   :ellipsoid: Clarke 1866
 - :zone: 41F
@@ -3769,8 +3769,8 @@
   :ellipsoid: GRS 1980
 - :zone: 47N
   :latitude: "1.11371231230186"
-  :easting: "199796.526934701"
-  :northing: "123228.381607099"
+  :easting: "199796.50810787454"
+  :northing: "123228.38933518977"
   :longitude: "96.3026729934599"
   :ellipsoid: Clarke 1866
 - :zone: 55G
@@ -4003,8 +4003,8 @@
   :ellipsoid: Everest 1830 India
 - :zone: 38H
   :latitude: "-38.7067894493418"
-  :easting: "652304.815741446"
-  :northing: "5714512.01631406"
+  :easting: "652304.8252930212"
+  :northing: "5714511.747555855"
   :longitude: "46.7515724688266"
   :ellipsoid: Clarke 1866
 - :zone: 57P
@@ -4297,8 +4297,8 @@
   :ellipsoid: WGS 60
 - :zone: 20X
   :latitude: "82.4805136982259"
-  :easting: "508635.699332399"
-  :northing: "9158394.05091295"
+  :easting: "508635.6998739741"
+  :northing: "9158394.625268437"
   :longitude: "-62.4089350226835"
   :ellipsoid: Clarke 1866
 - :zone: 8H
@@ -4375,8 +4375,8 @@
   :ellipsoid: Modified Everest
 - :zone: 30G
   :latitude: "-45.4011399935517"
-  :easting: "447545.516270955"
-  :northing: "4972485.85287706"
+  :easting: "447545.51298134815"
+  :northing: "4972485.537583755"
   :longitude: "-3.67021028390411"
   :ellipsoid: Clarke 1866
 - :zone: 31X
@@ -4399,8 +4399,8 @@
   :ellipsoid: Everest 1830 India
 - :zone: 56Q
   :latitude: "19.2910014942622"
-  :easting: "690276.747249775"
-  :northing: "2133892.54323373"
+  :easting: "690276.7591826789"
+  :northing: "2133892.677057729"
   :longitude: "154.810764141391"
   :ellipsoid: Clarke 1866
 - :zone: 15X
@@ -4465,8 +4465,8 @@
   :ellipsoid: Modified Fischer 1960
 - :zone: 9Q
   :latitude: "18.7930904926345"
-  :easting: "507463.842398304"
-  :northing: "2077810.33628841"
+  :easting: "507463.84286638093"
+  :northing: "2077810.4665952849"
   :longitude: "-128.929172698011"
   :ellipsoid: Clarke 1866
 - :zone: 21L
@@ -4477,8 +4477,8 @@
   :ellipsoid: Fischer 1968
 - :zone: 19L
   :latitude: "-13.7107859557436"
-  :easting: "691181.534772492"
-  :northing: "8483653.45773915"
+  :easting: "691181.5467621721"
+  :northing: "8483653.362643663"
   :longitude: "-67.232111870136"
   :ellipsoid: Clarke 1866
 - :zone: 31F
@@ -4495,8 +4495,8 @@
   :ellipsoid: GRS 1967
 - :zone: 55V
   :latitude: "61.840701739178"
-  :easting: "530257.9494396"
-  :northing: "6856365.59613915"
+  :easting: "530257.9513371878"
+  :northing: "6856366.026126238"
   :longitude: "147.574676316599"
   :ellipsoid: Clarke 1866
 - :zone: 5T
@@ -4609,8 +4609,8 @@
   :ellipsoid: Hough
 - :zone: 46N
   :latitude: "4.79877261774084"
-  :easting: "378072.152176982"
-  :northing: "530485.083953134"
+  :easting: "378072.14453044895"
+  :northing: "530485.1172217425"
   :longitude: "91.9005157035924"
   :ellipsoid: Clarke 1866
 - :zone: 55N
@@ -4813,8 +4813,8 @@
   :ellipsoid: Clarke 1880
 - :zone: 51K
   :latitude: "-20.6503905163223"
-  :easting: "585092.321577382"
-  :northing: "7716465.20011188"
+  :easting: "585092.3269137971"
+  :northing: "7716465.056903281"
   :longitude: "123.816835293962"
   :ellipsoid: Clarke 1866
 - :zone: 44Q
@@ -5107,8 +5107,8 @@
   :ellipsoid: Clarke 1880
 - :zone: 23C
   :latitude: "-75.4375274575894"
-  :easting: "458996.170076484"
-  :northing: "1627222.40308494"
+  :easting: "458996.167504987"
+  :northing: "1627221.8779982598"
   :longitude: "-46.4610180060382"
   :ellipsoid: Clarke 1866
 - :zone: 16G
@@ -5155,8 +5155,8 @@
   :ellipsoid: Modified Everest
 - :zone: 17F
   :latitude: "-49.6225623898587"
-  :easting: "384992.288174722"
-  :northing: "4502334.93622299"
+  :easting: "384992.280962178"
+  :northing: "4502334.591444855"
   :longitude: "-82.5922994799865"
   :ellipsoid: Clarke 1866
 - :zone: 40C
@@ -5227,8 +5227,8 @@
   :ellipsoid: Fischer 1968
 - :zone: 23J
   :latitude: "-30.5073958458502"
-  :easting: "395395.675865987"
-  :northing: "6624665.94069665"
+  :easting: "395395.6693058794"
+  :northing: "6624665.7290174365"
   :longitude: "-46.0901047080719"
   :ellipsoid: Clarke 1866
 - :zone: 37E
@@ -5239,8 +5239,8 @@
   :ellipsoid: Modified Fischer 1960
 - :zone: 11M
   :latitude: "-1.61003780386984"
-  :easting: "496141.951029954"
-  :northing: "9822053.3213996"
+  :easting: "496141.95078796445"
+  :northing: "9822053.310239937"
   :longitude: "-117.034684535432"
   :ellipsoid: Clarke 1866
 - :zone: 19Q
@@ -5767,8 +5767,8 @@
   :ellipsoid: Krassovsky
 - :zone: 14F
   :latitude: "-50.1750238384579"
-  :easting: "374513.843059306"
-  :northing: "4440650.11543203"
+  :easting: "374513.83518962085"
+  :northing: "4440649.766785414"
   :longitude: "-100.757339338565"
   :ellipsoid: Clarke 1866
 - :zone: 19F
