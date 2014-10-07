@@ -6038,24 +6038,24 @@
 - :zone: 31X
   :latitude: "72.1"
   :easting: "702110.649763668"
-  :nothing: "8009999.539684474"
+  :northing: "8009999.539684474"
   :longitude: "8.9"
   :ellipsoid: WGS-84
 - :zone: 33X
   :latitude: "72.1"
   :easting: "297889.35023633204"
-  :nothing: "8009999.539684474"
+  :northing: "8009999.539684474"
   :longitude: "9.1"
   :ellipsoid: WGS-84
 - :zone: 33X
   :latitude: "72.1"
   :easting: "702110.6497636678"
-  :nothing: "8009999.539684474"
+  :northing: "8009999.539684474"
   :longitude: "20.9"
   :ellipsoid: WGS-84
 - :zone: 35X
   :latitude: "72.1"
   :easting: "294815.3685242636"
-  :nothing: "8010304.150393808"
+  :northing: "8010304.150393808"
   :longitude: "21.01"
   :ellipsoid: WGS-84
