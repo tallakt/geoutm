@@ -50,7 +50,7 @@ module GeoUtm
       utm_easting = k0*n*(a+(1-t+c)*a*a*a/6 + (5-18*t+t*t+72*c-58*eccentprime)*a*a*a*a*a/120) + 500000.0
       utm_northing = k0 * ( m + n*Math::tan(lat_rad) * ( a*a/2+(5-t+9*c+4*c*c)*a*a*a*a/24 + 
                                    (61-58*t+t*t+600*c-330*eccentprime) * a*a*a*a*a*a/720))
-      utm_northing += 10000000.0 if latlon.lat < 0
+      utm_northing += 10000000.0 if !UTMZones::northern_hemisphere?(zone)
       UTM.new zone, utm_easting, utm_northing, ellipsoid
     end
 
