@@ -25,6 +25,13 @@ module GeoUtm
         utm.zone.should == sample[:zone]
       end
     end
+    
+    it "should use the zone to determine if within the northern or southern emisphere" do
+      latlon = LatLon.new(-0.001, -51.081063)
+      utm = latlon.to_utm zone: '22N'
+      utm.n.should be_within(1).of(-111)
+      utm.zone.should == "22N"
+    end
 
     it "should convert from UTM to lat/lon" do
       @testdata.each do |sample|
