@@ -5,12 +5,12 @@ module GeoUtm
   module UTMZones 
     # :nodoc:
 		SPECIAL_ZONES = {
-			'31V' => {:lat => (56.0..64.0), :lon => (0.0..3.0), :lon_origin => 3.0}, 
-			'32V' => {:lat => (56.0..64.0), :lon => (3.0..12.0), :lon_origin => 15.0}, 
-			'31X' => {:lat => (72.0..84.0), :lon => (0.0..9.0), :lon_origin => 3.0}, 
-			'33X' => {:lat => (72.0..84.0), :lon => (9.0..21.0), :lon_origin => 15.0}, 
-			'35X' => {:lat => (72.0..84.0), :lon => (21.0..33.0), :lon_origin => 27.0}, 
-			'37X' => {:lat => (72.0..84.0), :lon => (33.0..42.0), :lon_origin => 39.0}
+			'31V' => {:lat => (56.0..64.0), :lon => (0.0..3.0)}, 
+			'32V' => {:lat => (56.0..64.0), :lon => (3.0..12.0)}, 
+			'31X' => {:lat => (72.0..84.0), :lon => (0.0..9.0)}, 
+			'33X' => {:lat => (72.0..84.0), :lon => (9.0..21.0)}, 
+			'35X' => {:lat => (72.0..84.0), :lon => (21.0..33.0)}, 
+			'37X' => {:lat => (72.0..84.0), :lon => (33.0..42.0)}
 		}
 
     BANDS = {
@@ -54,8 +54,7 @@ module GeoUtm
 
     # :nodoc:
     def UTMZones.lon_origin(zone)
-      sp = SPECIAL_ZONES[zone]
-      (sp && sp[:lon_origin]) || (zone_number_from_zone(zone) - 1) * 6 - 180 + 3
+      (zone_number_from_zone(zone) - 1) * 6 - 180 + 3
     end
 
     # :nodoc:
@@ -72,7 +71,7 @@ module GeoUtm
 
     # :nodoc:
     def UTMZones.split_zone(zone_in)      
-      m = zone_in.match /^(\d+)([CDEFGHJKLMNPQRSTUVWX])$/
+      m = zone_in.match /^(\d+)([CDEFGHJKLMNPQRSTUVWX\-\+])$/
       raise GeoUtmException, 'Illegal zone: ' + zone_in unless m
       zn, zl = m[1].to_i, m[2]
       raise GeoUtmException, 'Illegal zone: ' + zone_in unless (1..60).member? zn
@@ -87,7 +86,7 @@ module GeoUtm
 
     # :nodoc:
     def UTMZones.northern_hemisphere?(zone)
-      zone.match /[NPQRSTUVWX]$/
+      zone.match /[NPQRSTUVWX\+]$/
     end
 
     # :nodoc:

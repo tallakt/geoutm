@@ -44,7 +44,8 @@ module GeoUtm
     end
     
     it "should convert correctly for 32V" do
-      @p5.to_lat_lon.to_s.should == "59.102298N 11.254186E"
+      @p5.to_lat_lon.to_s.should == "59.102298N 5.254186E"
+      LatLon.new(57, 4).to_utm.to_s.should == "32V 196417.61 6328506.46"
     end
 
     it 'should format as string' do
@@ -71,7 +72,7 @@ module GeoUtm
       UTMZones::lon_origin('32U').should == 9
       UTMZones::lon_origin('32R').should == 9
       UTMZones::lon_origin('32W').should == 9
-      UTMZones::lon_origin('32V').should == 15
+      UTMZones::lon_origin('32V').should == 9
       UTMZones::lon_origin('32X').should == 9
       UTMZones::lon_origin('40H').should == 57
     end

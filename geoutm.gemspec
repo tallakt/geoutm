@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.has_rdoc = true
   s.homepage = %q{http://www.github.com/tallakt/geoutm}
   s.rdoc_options = ["--main", "README.rdoc"]
-  s.require_path = ["lib"]
+  s.require_path = "lib"
   s.description = %q{Conversion between latitude and longitude coordinates and UTM coordiantes}
   s.summary = "Converting map coordinates"
 	s.files = Dir.glob("{spec,lib}/**/*") + %w(LICENCE README.rdoc History.txt)
